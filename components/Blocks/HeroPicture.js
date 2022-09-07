@@ -4,7 +4,7 @@ import {Row, Col, Container } from "react-bootstrap"
 import HeroForm from './HeroForm'
 import styled from 'styled-components'
 import Image from 'next/image'
-import background from '../../images/stimply-background.png'
+import background from '../../images/stimply-background.jpeg'
 
   const HeroLong = ({ className }) => {
 
