@@ -5,8 +5,8 @@ import { TitleBlock } from '../components/common';
 import Layout from '../components/layout'
 import Breadcrumbs from '../components/Blocks/Breadcrumbs'
 import Image from 'next/image'
-import stimplyabout2 from '../images/stimply-about2.png'
-import stimplyabout1 from '../images/stimply-about1.png'
+import stimplyabout2 from '../images/stimply-about2.jpeg'
+import stimplyabout1 from '../images/stimply-about1.jpeg'
 
 function AboutUs(props) {
  

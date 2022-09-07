@@ -1,10 +1,10 @@
 import React from 'react';
 import {Container, Row, Col} from "react-bootstrap"
 import Image from 'next/image'
-import forWho1 from '../../images/forWho1.png'
-import forWho2 from '../../images/forWho2.png'
-import forWho3 from '../../images/forWho3.png'
-import forWho4 from '../../images/forWho4.png'
+import forWho1 from '../../images/forWho1.jpeg'
+import forWho2 from '../../images/forWho2.jpeg'
+import forWho3 from '../../images/forWho3.jpeg'
+import forWho4 from '../../images/forWho4.jpeg'
 
 const ForWho = (props) => {
 

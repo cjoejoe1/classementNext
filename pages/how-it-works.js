@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 import Breadcrumbs from '../components/Blocks/Breadcrumbs'
 import answer from '../images/stimply-answer.png'
 import stimplybuild from '../images/stimply-build3.png'
-import stimplywebsite from '../images/stimply-website2.png'
+import stimplywebsite from '../images/stimply-website2.jpeg'
 function HowItWorks(props) {
 
   return (
