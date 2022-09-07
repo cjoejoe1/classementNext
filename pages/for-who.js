@@ -1,0 +1,195 @@
+import React from 'react'
+import {Container, Row, Col, Card} from "react-bootstrap"
+import Seo from '../components/seo';
+import { TitleBlock } from '../components/common';
+import Layout from '../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Image from 'next/image'
+import architects from '../images/stimply-architects.png'
+import builders from '../images/stimply-builders.png'
+import cleaners from '../images/stimply-cleaners.png'
+import consultants from '../images/stimply-consultants.png'
+import decorators from '../images/stimply-decorators.png'
+import dogwalkers from '../images/stimply-dog-walkers.png'
+import electricians from '../images/stimply-electricians.png'
+import locksmiths from '../images/stimply-locksmiths.png'
+import pestcontrol from '../images/stimply-pest-control.png'
+import plumbers from '../images/stimply-plumbers.png'
+import therapists from '../images/stimply-therapists.png'
+import movers from '../images/stimply-movers.png'
+
+
+function AboutUs(props) {
+
+              return (
+                <Layout path={props.path}>
+              <Seo title="Is Stimply really for you?"/>
+        
+              <Breadcrumbs link='/for-who/' text='Who is Stimply for?'/>
+              <Container fluid style={{marginTop: 174}}>
+              <TitleBlock><h1>We Build Websites For</h1></TitleBlock>
+              <p className="lead" style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, 
+    letterSpacing: -0.66, lineHeight: '38px', textAlign: 'center', marginBottom: 70}}>over 100 industries, including:</p>
+              <Row id='forWhoMobile' style={{maxWidth: 1280}}>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+ 
+<Image src={architects}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Architects</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+      
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+   
+<Image src={builders}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Builders</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+            
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+   
+<Image src={cleaners}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Cleaners</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+          
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              </Row>
+
+              <Row id='forWhoMobile' style={{maxWidth: 1280}}>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+      
+<Image src={consultants}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Consultants</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+              
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+      
+<Image src={decorators}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Decorators</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+   
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover'className='cardMobile'>
+   
+<Image src={dogwalkers}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Dog Walkers</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+            
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              </Row>
+
+              <Row id='forWhoMobile' style={{maxWidth: 1280}}>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+      
+<Image src={electricians}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Electricians</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+                
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+      
+<Image src={locksmiths}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Locksmiths</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover'className='cardMobile'>
+
+<Image src={pestcontrol}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Pest Control</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+                
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              </Row>
+
+              <Row id='forWhoMobile' style={{maxWidth: 1280, margin: 'auto', marginBottom: 50}}>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+  
+<Image src={movers}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Removal Companies</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+                
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover' className='cardMobile'>
+
+<Image src={plumbers}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Plumbers</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={4}>
+                <Card id='forWhoHover'className='cardMobile'>
+
+<Image src={therapists}/>
+                  <Card.Body>
+                    <Card.Title style={{fontSize: 24}}><b>Therapists</b></Card.Title>
+                    <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
+                
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              </Row>
+   
+              </Container>
+      
+              </Layout>
+  )
+}
+
+export default AboutUs

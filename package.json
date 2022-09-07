@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "firebase": "^9.9.4",
     "next": "12.2.5",
+    "polished": "^4.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "eslint": "8.23.0",
