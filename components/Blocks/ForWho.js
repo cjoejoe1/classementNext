@@ -20,18 +20,18 @@ const ForWho = (props) => {
         <Col style={{maxWidth: 270, marginRight: -15}}>
         <div data-aos="zoom-in" data-aos-duration="400">
 
-<Image src={forWho1} />
+<Image src={forWho1} style={{borderRadius: 10}}/>
               </div>
               <div data-aos="zoom-in" data-aos-duration="400" style={{marginTop: 20}}>
-              <Image src={forWho2} />
+              <Image src={forWho2} style={{borderRadius: 10}}/>
               </div>
               </Col>
           <Col style={{maxWidth: 270}}>
             <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="500">
-            <Image src={forWho3} />
+            <Image src={forWho3} style={{borderRadius: 10}}/>
             </div>
             <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="750" style={{marginTop: 20}}>
-            <Image src={forWho4} />
+            <Image src={forWho4}style={{borderRadius: 10}}/>
               </div>
               </Col>
               </Row>
