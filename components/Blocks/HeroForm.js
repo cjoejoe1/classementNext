@@ -56,7 +56,7 @@ const HeroForm = (props) => {
                
                 {/* <p className="heroLine2" style={{textAlign: 'left', marginTop: 20, marginBottom: 10, color: 'white', fontSize: 30, position: 'relative', zIndex: 10}} id='notMobile hand'>Get WAAAS (Web Agency As A Service)</p> */}
                 <Link href="/start/" passHref>
-                  <Button id='buttonHover' className="btn-lg btn" type="submit" style={{fontWeight: 700, marginTop:30, paddingTop: 14, height: 60, minWidth: 300, position: 'relative', zIndex: 10}}>{`Start Now `} <span style={{fontSize: 18}}><FaArrowRight /></span>
+                <Button id='buttonHover' className="btn-lg btn btn btn-primary" style={{fontWeight: 700, marginTop: 30, paddingTop: 12, height: 60, minWidth: 250}}>Start Now <span style={{fontSize: 18}}><FaArrowRight /></span>
                   </Button>
         
                   </Link>
