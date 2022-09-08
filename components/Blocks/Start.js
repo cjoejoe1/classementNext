@@ -20,7 +20,7 @@ const Start = (props) => {
               </Col>
           <Col sm={3} style={{minWidth: 350}} >
               
-              <Link href={'/pricing/'}><Button id='buttonHover' className="btn-lg btn btn btn-primary" style={{fontWeight: 700, marginTop: 50, paddingTop: 10, height: 60, minWidth: 250}}>Start Now <span style={{fontSize: 18}}><FaArrowRight /></span></Button></Link>
+              <Link href={'/start/'}><Button id='buttonHover' className="btn-lg btn btn btn-primary" style={{fontWeight: 700, marginTop: 50, paddingTop: 10, height: 60, minWidth: 250}}>Start Now <span style={{fontSize: 18}}><FaArrowRight /></span></Button></Link>
               </Col>
             
             </Row>

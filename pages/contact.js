@@ -53,6 +53,9 @@ function Contact(props) {
                      </Row>
 
                      <Row style={{maxWidth: 600, margin: 'auto', marginTop: 100}}>
+                     <div>
+                <h2 style={{color: 'black', marginTop: 10, marginBottom: 50, font: 'bold 2em / 1.2 Montserrat, sans-serif', textAlign: 'center'}}>or, send us a message <span role="img" aria-label="free" id='notMobile'>👋</span></h2>
+              </div>
                      <FormContact boxBgColor={boxBgColor} formFontColor={formFontColor}/>
                      </Row>
                     
