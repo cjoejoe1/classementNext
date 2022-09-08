@@ -70,8 +70,8 @@ const Menu = (props) => {
           <div style={{borderLeft: '1px solid white', height: 40, marginLeft: 50, zIndex: 10}}></div>
         
         </div>
-        <Link href={'/start/'} passHref >
-          <Button style={{marginTop: 1, marginBottom: 10, background: '#0d6efd', borderColor: '#0d6efd', color: 'white', marginLeft: -1, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Build My Website <FaArrowRight /></Button>
+        <Link href={'/start'} passHref >
+          <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#0d6efd', borderColor: '#0d6efd', color: 'white', marginLeft: -1, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Build My Website <FaArrowRight /></Button>
         </Link>
             <MenuStyle
               className="navbar-nav d-none d-lg-flex"
