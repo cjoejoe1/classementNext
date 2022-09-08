@@ -31,7 +31,7 @@ const Menu = (props) => {
       return (
         <div style={{display: 'flex'}}>
            <div style={{display: 'flex',  justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}}>
-          <img src={logoBlack} alt="" style={{height: 50}}/>
+          <Image src={logoBlack} alt="" style={{height: 50}}/>
 
           </div>
      
