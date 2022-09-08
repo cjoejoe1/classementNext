@@ -6,8 +6,10 @@ import Link from "next/link";
 import GlobalContext from "../../context/GlobalContext";
 import Image from 'next/image'
 import logoBlack from '../../images/stimply-logo-white.png'
+import flag from '../../images/flag.png'
 import phone from "../../images/phone.png";
 import { useRouter } from 'next/router'
+import {FaArrowRight} from 'react-icons/fa'
 
 const Menu = (props) => {
   const router = useRouter()
@@ -30,11 +32,9 @@ const Menu = (props) => {
         <div style={{display: 'flex'}}>
            <div style={{display: 'flex',  justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}}>
           <img src={logoBlack} alt="" style={{height: 50}}/>
+
           </div>
-        <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
-          <div style={{borderLeft: '1px solid black', height: 40, marginLeft: 10}}></div>
-        
-        </div>
+     
         <div style={{ justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}}  id='mobileLogo'>
           <span style={{fontSize: 22, fontWeight: 100, fontFamily: 'Roboto', color: 'black', marginLeft: 20, textTransform: 'uppercase'}}>{props.activity}</span>
         </div>
@@ -54,21 +54,32 @@ const Menu = (props) => {
     <Container id='menu' style={{maxWidth: 1280, paddingtop:3}}>
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
-    <div className="brand-logo">
+    <div className="brand-logo" style={{display: 'flex'}}>
         <Link href={'/'} style={{textDecoration: 'none'}}>
 
                   <Image src={logoBlack} alt="logo" id='smallLogo' width='160px' height='51px' style={{cursor: 'pointer'}}/>
-         
+           
         </Link>
-  
+        <div style={{marginTop: 14 }}>
+        <Image src={flag} alt="" width='30px' height='21px'/>
+        </div>
         </div>
         <div className="collapse navbar-collapse">
           <div className="navbar-nav ml-lg-auto mr-3" style={{paddingBottom: 0}}>
+          <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
+          <div style={{borderLeft: '1px solid white', height: 40, marginLeft: 50, zIndex: 10}}></div>
+        
+        </div>
+        <Link href={'/start/'} passHref >
+          <Button style={{marginTop: 1, marginBottom: 10, background: '#0d6efd', borderColor: '#0d6efd', color: 'white', marginLeft: -1, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Build My Website <FaArrowRight /></Button>
+        </Link>
             <MenuStyle
               className="navbar-nav d-none d-lg-flex"
               dark={0}
+              style={{marginLeft: 30, marginTop: 12}}
       
             >
+                  
               {props.menuItems.map(
                 (
                   { label, isExternal = false, url, items, ...rest },

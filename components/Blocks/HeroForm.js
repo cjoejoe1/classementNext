@@ -50,7 +50,7 @@ const HeroForm = (props) => {
                 <h3 id="h3Hero" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -10, textAlign: 'left', position: 'relative', zIndex: 10}}><span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}></span> (*you sit back and relax)</h3>
                 {/* <h1 id="h1Hero" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -20, textAlign: 'left', position: 'relative', zIndex: 10}}>Get More Sales!</h1> */}
                
-                <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -50, textAlign: 'left', position: 'relative', zIndex: 10}}>We Build Your <span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}>Website!</span></h1>
+                <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -50, textAlign: 'left', position: 'relative', zIndex: 10}}>We Build Your <span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}>Website*</span></h1>
                 <h3 id="h1HeroMobUnder" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -0, textAlign: 'left', position: 'relative', zIndex: 10, fontSize: 56}}><span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}></span>*you sit back and relax</h3>
                 {/* <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -20, textAlign: 'left', position: 'relative', zIndex: 10}}>More Sales!</h1> */}
                

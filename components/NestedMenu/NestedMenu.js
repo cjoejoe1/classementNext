@@ -163,7 +163,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems, headerCta, leadUrl, design }
   return (
     <NestedMenuContainer>
       <ListGroup variant="flush">
-      <Link href={'/pricing/'} passHref >
+      <Link href={'/start/'} passHref >
           <Button onClick={() => {
                 if (gContext.visibleOffCanvas) {
                   gContext.toggleOffCanvas();
