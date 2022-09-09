@@ -55,7 +55,7 @@ const Menu = (props) => {
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
     <div className="brand-logo" style={{display: 'flex'}}>
-        <Link href={'/'} style={{textDecoration: 'none'}}>
+        <Link href={props.path === '/build-my-website' ? '#' : '/'} style={{textDecoration: 'none'}}>
 
                   <Image src={logoBlack} alt="logo" id='smallLogo' width='160px' height='51px' style={{cursor: 'pointer'}}/>
            
@@ -70,7 +70,7 @@ const Menu = (props) => {
           <div style={{borderLeft: '1px solid white', height: 40, marginLeft: 50, zIndex: 10}}></div>
         
         </div>
-        <Link href={'/start'} passHref >
+        <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
           <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#0d6efd', borderColor: '#0d6efd', color: 'white', marginLeft: -1, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Build My Website <FaArrowRight /></Button>
         </Link>
             <MenuStyle

@@ -10,7 +10,8 @@ import "aos/dist/aos.css"
 
 const Layout = ({ children, path }) => {
 
-  
+ 
+
 
   useEffect(()=> {
     Aos.init({});
@@ -26,7 +27,7 @@ const Layout = ({ children, path }) => {
 
     
           <main style={{marginTop: -98}}>{children}</main>
-     <Start/>
+     <Start path={path}/>
     <Footer/>
  
     </>

@@ -11,7 +11,7 @@ const FAQ = (props) => {
               <h2 className="display-4" style={{textAlign: 'center', margin: 'auto', marginBottom: 100, fontWeight: 700, fontSize: 60, maxWidth: 600}} data-aos="fade-up" data-aos-duration="250">Frequently asked questions</h2>
             <Row style={{maxWidth: 900, margin: 'auto'}} data-aos="fade-up" data-aos-duration="250">
               <Col sm> <h3 className="display-4" style={{textAlign: 'left', marginBottom: 40, fontWeight: 800, fontSize: 25}}>How much does Stimply cost?</h3>
-            <p className="lead" style={{textAlign: 'left', margin: 'auto', marginBottom: 50}}>You can be billed annually at £39/month (+ VAT) or monthly at £49/month (+ VAT). This includes your website, domain name and professional email.</p></Col>
+            <p className="lead" style={{textAlign: 'left', margin: 'auto', marginBottom: 50}}>You can be billed annually at £29/month (+ VAT) or monthly at £39/month (+ VAT). This includes your website, domain name and professional email.</p></Col>
               <Col sm><h3 className="display-4" style={{textAlign: 'left', marginBottom: 40, fontWeight: 800, fontSize: 25}}>Do I have to pay setup fees?</h3>
             <p className="lead" style={{textAlign: 'left', margin: 'auto', marginBottom: 50}}>No. Setup is completely free.</p></Col>
             </Row>

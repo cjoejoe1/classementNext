@@ -6,10 +6,10 @@ const Tabs = (props) => {
 
 
         return (
-
-          <Container fluid style={{paddingTop: 130, paddingBottom: 130, marginBottom: 130, position: 'relative', zIndex: 5, background: '#f7f7fb'}}>
+     
+          <Container fluid style={{paddingTop: 130, paddingBottom: 130, marginBottom: 130, position: 'relative', zIndex: 5, background: '#f7f7fb'}} id='#tabs'>
           <h2 className="display-4" style={{textAlign: 'center', marginBottom: 40, fontWeight: 700, fontSize: 60}} data-aos="fade-up" data-aos-duration="750">It's all included.</h2>
-          <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}} data-aos="fade-up" data-aos-duration="750">We will do this for all your clients!</p>
+          <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}} data-aos="fade-up" data-aos-duration="750">We will do all of this for you!</p>
            
       
             <Row style={{ maxWidth: 1280, margin: 'auto'}} data-aos="fade-up" data-aos-duration="750">

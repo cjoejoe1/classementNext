@@ -6,7 +6,6 @@ import {FaArrowRight} from 'react-icons/fa'
 
 const Start = (props) => {
 
-
         return (
 
           <Container fluid style={{background: '#223151', marginTop: 80, marginBottom: -150, paddingTop: 130, paddingBottom: 130}} id='start'>
@@ -20,7 +19,7 @@ const Start = (props) => {
               </Col>
           <Col sm={3} style={{minWidth: 350}} >
               
-              <Link href={'/start/'}>
+              <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
                 <Button id='buttonHover' className="btn-lg btn btn btn-primary" style={{fontWeight: 700, marginTop: 50, paddingTop: 10, height: 60, minWidth: 250}}>Start Now <span style={{fontSize: 18}}><FaArrowRight /></span></Button></Link>
               </Col>
             
