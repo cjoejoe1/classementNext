@@ -92,18 +92,18 @@ const Header = (props) => {
 
   const menuItemsLanding = [
     {
-      url: `${props.path}/#tabs`,
-      name: 'how-it-works/',
+      url: `${props.path}/#tabsAnchor`,
+      name: `${props.path}/#tabsAnchor`,
       label: "What's included?",
     },
     {
       url: `${props.path}/#forWhoAnchor`,
-      name: 'for-who/',
+      name: `${props.path}/#forWhoAnchor`,
       label: 'Is this for you?',
     },
     {
       url: `${props.path}/#pricingAnchor`,
-      name: 'pricing/',
+      name:  `${props.path}/#pricingAnchor`,
       label: 'Pricing',
     }
 
@@ -150,7 +150,8 @@ const Header = (props) => {
         
 
       
-        <Menu path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'} menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} showReveal={showReveal} logo={'stimply-logo-white'} />
+        <Menu path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
+        menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} showReveal={showReveal} logo={'stimply-logo-white'} />
         {/* </div> */}
       </SiteHeader>
       
@@ -158,7 +159,7 @@ const Header = (props) => {
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
-        <NestedMenu menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} headerCta={'start now'} />
+        <NestedMenu menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} headerCta={'start now'} path={props.path} />
       </Offcanvas>
   
     </>

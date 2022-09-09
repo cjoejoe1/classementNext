@@ -36,7 +36,7 @@ function Pricing(props) {
              </div>
               </Container>
            
-              <section style={{marginBottom: -130, paddingTop: 230, marginTop: -130}}>
+              <section style={{marginBottom: -130, paddingTop: 130, marginTop: 0}} id='tabsAnchor'>
               <Tabs/>
           
               </section>

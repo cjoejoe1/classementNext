@@ -158,12 +158,12 @@ const MenuItem = ({
   );
 };
 
-const NestedMenu = ({ menuItems = defaultMenuItems, headerCta, leadUrl, design }) => {
+const NestedMenu = ({ menuItems = defaultMenuItems, headerCta, leadUrl, design, path }) => {
   const gContext = useContext(GlobalContext);
   return (
     <NestedMenuContainer>
       <ListGroup variant="flush">
-      <Link href={'/start/'} passHref >
+      <Link href={path === '/build-my-website' ? '#' : '/start/'} passHref >
           <Button onClick={() => {
                 if (gContext.visibleOffCanvas) {
                   gContext.toggleOffCanvas();
