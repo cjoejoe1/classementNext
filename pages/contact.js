@@ -22,7 +22,7 @@ function Contact(props) {
               <TitleBlock><h1>Get in touch</h1></TitleBlock>
               <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 70}}>We'd love to chat! Don't hesitate to contact us if you need anything.</p>
               <Row id='mobileSpace' style={{marginTop: 50, maxWidth: 1000, margin: 'auto'}}>
-                <Col sm={6}><h2 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaEnvelope /> Email</h2>
+                <Col sm={6}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaEnvelope /> Email</h3>
                 <Row>
                 <Col><b>General Enquiries</b></Col>
                 <Col  sm={7}>{<a href={`mailto: hello@stimply.com`}>hello@stimply.com</a>}</Col>
@@ -39,11 +39,11 @@ function Contact(props) {
                 <Col><b>Press</b></Col>
                 <Col  sm={7}>{<a href={`mailto:press@stimply.com`}>press@stimply.com</a>}</Col>
                 </Row></Col>
-                <Col sm={3}><h2 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaMapMarkerAlt /> Address</h2>
+                <Col sm={3}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaMapMarkerAlt /> Address</h3>
                 <p><b>Stimply @ Kohdao Ltd.</b><br></br>
                 7 Clapham Park Terrace<br></br>London, SW2 5EA<br></br>United Kingdom
                   </p></Col>
-                <Col sm={3}><h2 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaPhoneAlt /> Telephone</h2>
+                <Col sm={3}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaPhoneAlt /> Telephone</h3>
                 <p>
                   <b>UK</b> -  0203 287 1064<br></br>
                   <b>International</b> -  +44 (0) 203 287 1064</p></Col>

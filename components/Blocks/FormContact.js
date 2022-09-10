@@ -86,20 +86,27 @@ const ContactBox = (props) => {
                 </Bs.Row>
 
                 <Bs.Dropdown onSelect={handleWhat}>
-                <Bs.Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" style={{width: '100%', textAlign: 'left', height: 60}}>What do you do?
+                <Bs.Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" style={{width: '100%', textAlign: 'left', height: 60}}>{values.what || `What do you do?`}
                 </Bs.Dropdown.Toggle>
                 <Bs.Dropdown.Menu>
-                  <Bs.Dropdown.Item eventKey='trade'>Trade</Bs.Dropdown.Item>
-                  <Bs.Dropdown.Item eventKey='localshop' active={false}>Local shop</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Charity' active={false}>Charity</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Local business / shop' active={false}>Local business / shop</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Beauty & Healthcare' active={false}>Beauty & Healthcare</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Other' active={false}>Other</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Public or political entity' active={false}>Public or political entity</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Services and consulting' active={false}>Services and consulting</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Tourism' active={false}>Tourism</Bs.Dropdown.Item>
+                  <Bs.Dropdown.Item eventKey='Tradesman / Tradeswoman'>Tradesman / Tradeswoman</Bs.Dropdown.Item>
+
                 </Bs.Dropdown.Menu>
                 </Bs.Dropdown>
      
               <Bs.Dropdown onSelect={handleWebsite} style={{marginTop: 10}}>
-                            <Bs.Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" style={{width: '100%', textAlign: 'left', height: 60}}>Do you already have a website?
+                            <Bs.Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" style={{width: '100%', textAlign: 'left', height: 60}}>{values.website || `Do you already have a website?`}
                             </Bs.Dropdown.Toggle>
                             <Bs.Dropdown.Menu>
-                              <Bs.Dropdown.Item eventKey='yes'>Yes</Bs.Dropdown.Item>
-                              <Bs.Dropdown.Item eventKey='no' active={false}>No</Bs.Dropdown.Item>
+                              <Bs.Dropdown.Item eventKey='I have a website'>Yes</Bs.Dropdown.Item>
+                              <Bs.Dropdown.Item eventKey="I don't have a website" active={false}>No</Bs.Dropdown.Item>
                             </Bs.Dropdown.Menu>
                             </Bs.Dropdown>
 
