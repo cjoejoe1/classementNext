@@ -5,6 +5,14 @@ import { TitleBlock, TextBlock } from '../components/common';
 import Layout from '../components/layout'
 import Breadcrumbs from '../components/Blocks/Breadcrumbs'
 function PrivacyPolicy(props) {
+
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq('track', 'Lead');
+      console.log('i am tracking Lead')
+    }
+  }
+
   return (
 
     <Layout>
