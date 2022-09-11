@@ -16,7 +16,7 @@ import background from '../../images/stimply-background.jpeg'
  <div className='heroPic' style={{height: '100vh', maxHeight: 950, minHeight: 617, justifyContent: 'center',  alignItems: 'center', position: 'relative', opacity: 0.9}}>
 
      
-     <Image src={background} alt='stimply background'/>
+     <Image src={background} alt='stimply background' priority={true}/>
   
 
 
