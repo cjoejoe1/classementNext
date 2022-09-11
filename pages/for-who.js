@@ -34,7 +34,7 @@ function AboutUs(props) {
               <Col sm={4}>
                 <Card id='forWhoHover' className='cardMobile'>
  
-<Image src={architects} style={{borderRadius: 5}}/>
+<Image src={architects} style={{borderRadius: 5}} placeholder="blur" priority={true}/>
                   <Card.Body>
                     <Card.Title style={{fontSize: 24}}><b>Architects</b></Card.Title>
                     <Card.Text style={{margin: 'auto', marginTop: 10, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px', textAlign: 'justify', marginBottom: 10}}>
