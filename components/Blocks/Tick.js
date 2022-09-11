@@ -18,7 +18,7 @@ const Tick = () => {
               </Col>
               <Col lg={3} >
               <h3 style={{color: '#212529', fontSize: 28, fontWeight: 700, letterSpacing: -0.66, lineHeight: '28px', textAlign: 'left'}} id='tickh3'> <span style={{fontSize: 28}}><FaCheck /></span> 100% stress free</h3>
-              <p style={{textAlign: 'left', fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>Simply answer 2 questions and we do the rest!</p>
+              <p style={{textAlign: 'left', fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>Simply answer a few questions and we do the rest!</p>
               </Col>
               <Col lg={3} >
               <h3 style={{color: '#212529', fontSize: 28, fontWeight: 700, letterSpacing: -0.66, lineHeight: '28px', textAlign: 'left'}} id='tickh3'> <span style={{fontSize: 28}}><FaCheck /></span> Human support</h3>

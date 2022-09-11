@@ -87,7 +87,34 @@ const Header = (props) => {
       name: 'pricing/',
       label: 'Pricing',
     }
+  ]
 
+  const menuItemsMobile = [
+    {
+      url: 'how-it-works/',
+      name: 'how-it-works/',
+      label: 'How it works',
+    },
+    {
+      url: 'for-who/',
+      name: 'for-who/',
+      label: 'For who?',
+    },
+    {
+      url: 'pricing/',
+      name: 'pricing/',
+      label: 'Pricing',
+    },
+    {
+      url: 'about-us/',
+      name: 'about-us/',
+      label: 'About us',
+    },
+    {
+      url: '/contact',
+      name: '/contact',
+      label: 'Contact',
+    }
   ]
 
   const menuItemsLanding = [
@@ -159,7 +186,7 @@ const Header = (props) => {
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
-        <NestedMenu menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} headerCta={'start now'} path={props.path} />
+        <NestedMenu menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItemsMobile} headerCta={'start now'} path={props.path} />
       </Offcanvas>
   
     </>

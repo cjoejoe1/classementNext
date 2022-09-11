@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Button} from "react-bootstrap"
+import {Container, Button, Row, Col} from "react-bootstrap"
 import Seo from '../components/seo';
 import { TitleBlock } from '../components/common';
 import FormContact from '../components/Blocks/FormContact';
@@ -28,12 +28,17 @@ function Pricing(props) {
               <TitleBlock><h1>Answer 6 simple questions. <br></br> And we will <span style={{textDecoration: 'underline'}}>build your website</span>!</h1></TitleBlock>
               {/* <p className="lead" style={{margin: 'auto', marginTop: -20, fontSize: 28, fontWeight: 300, 
     letterSpacing: -0.66, lineHeight: '38px', textAlign: 'center', marginBottom: 70, maxWidth: 800}}>Fill in the following form to schedule a call back with your UK based dedicated advisor.</p> */}
-               <div style={{ maxWidth: 800, margin: 'auto', marginTop: 30}}>
+               <Row>
+                  <Col sm={6} style={{minWidth: 400, maxWidth: 800, margin: 'auto'}}> <div style={{ margin: 'auto', marginTop: 20}}>
                 <Template/>
               </div>
-            <div style={{maxWidth: 600, margin: 'auto', marginTop: 30}}>
+              </Col>
+              <Col sm={6} style={{minWidth: 450, maxWidth: 600, margin: 'auto'}}>
+            <div style={{margin: 'auto', marginTop: 30}}>
              <FormContact path={router.pathname}/>
              </div>
+             </Col>
+                </Row>
               </Container>
            
               <section style={{marginBottom: -130, paddingTop: 130, marginTop: 0}} id='tabsAnchor'>
