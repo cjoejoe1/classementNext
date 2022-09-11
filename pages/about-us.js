@@ -30,10 +30,10 @@ function AboutUs(props) {
               <Row id='mobileSpace' style={{marginTop: 50, maxWidth: 1280, margin: 'auto'}}>
               <Col sm={4}>
 
-          <Image src={stimplyabout2} width="350px" height="515px" style={{borderRadius: 5}}/>
+          <Image src={stimplyabout2} width="350px" height="515px" style={{borderRadius: 5}} placeholder="blur" priority={true}/>
                 </Col>
               <Col sm={8} id='about'>
-              <Image src={stimplyabout1} style={{borderRadius: 10}}/>
+              <Image src={stimplyabout1} style={{borderRadius: 10}} placeholder="blur" priority={true}/>
     
                 </Col>
               </Row>

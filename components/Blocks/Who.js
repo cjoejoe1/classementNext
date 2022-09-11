@@ -23,13 +23,13 @@ const Who = (props) => {
         
               <div id='whoImage1' data-aos="fade-right" data-aos-duration="400" style={{borderRadius: 10}}>
        
-              <Image src={who} alt='who is stimply' style={{borderRadius: 10}}/>
+              <Image src={who} alt='who is stimply' style={{borderRadius: 10}} placeholder="blur" priority={true}/>
                </div>
        
               <div id='notMobile'  >
                 <div style={{borderRadius: 10, marginTop: -350, marginLeft: 273, marginBottom: 118}} data-aos="zoom-in" data-aos-duration="400" data-aos-delay="500">
        
-              <Image src={established} alt='established 2007'/>
+              <Image src={established} alt='established 2007' placeholder="blur" priority={true}/>
               </div>
 
                 </div>

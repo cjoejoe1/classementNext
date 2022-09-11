@@ -40,7 +40,7 @@ function HowItWorks(props) {
 
           
 
-                <Image src={answer} width="350px" height="350px"/>
+                <Image src={answer} width="350px" height="350px" placeholder="blur" priority={true}/>
 
             
                 </Col>
@@ -62,7 +62,7 @@ function HowItWorks(props) {
               </div>
               <Col sm={6}>
              
-            <Image src={stimplybuild} width="350px" height="350px"/>
+            <Image src={stimplybuild} width="350px" height="350px" placeholder="blur" priority={true}/>
               </Col>
               </Row>
 
@@ -82,7 +82,7 @@ function HowItWorks(props) {
               <Col sm={6} >
  
 
-<Image src={stimplywebsite} width="350px" height="350px"/>
+<Image src={stimplywebsite} width="350px" height="350px" placeholder="blur" priority={true}/>
 
 
                                 </Col>
