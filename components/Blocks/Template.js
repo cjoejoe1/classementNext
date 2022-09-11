@@ -5,7 +5,7 @@ import template from '../../images/template-website.png'
 const Template = () => {
   return (
 
-<Image src={template} priority={true}/>
+<Image src={template} placeholder="blur" priority={true}/>
   )
 }
 
