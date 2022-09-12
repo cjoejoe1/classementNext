@@ -24,7 +24,7 @@ function Pricing(props) {
                 <Col sm={6} style={{minWidth: 400, maxWidth: 800, margin: 'auto'}}> <div style={{ margin: 'auto', marginTop: 20}}>
                 <Template/>
               </div></Col>
-              <Col sm={6} style={{minWidth: 450, maxWidth: 600, margin: 'auto'}}> <div style={{margin: 'auto', marginTop: 30}}>
+              <Col sm={6} style={{maxWidth: 600, margin: 'auto'}}> <div style={{margin: 'auto', marginTop: 30}}>
              <FormContact/>
              </div>
         </Col>

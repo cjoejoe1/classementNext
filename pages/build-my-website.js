@@ -33,7 +33,7 @@ function Pricing(props) {
                 <Template/>
               </div>
               </Col>
-              <Col sm={6} style={{minWidth: 450, maxWidth: 600, margin: 'auto'}}>
+              <Col sm={6} style={{maxWidth: 600, margin: 'auto'}}>
             <div style={{margin: 'auto', marginTop: 30}}>
              <FormContact path={router.pathname}/>
              </div>
