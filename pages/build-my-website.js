@@ -22,7 +22,7 @@ function Pricing(props) {
               return (
                 <Layout path={router.pathname}>
       
-              <Seo title="Get started!"/>
+              <Seo title="Please build my website - Stimply.com"/>
               {/* <Breadcrumbs link='/start/' text='Start' path={router.pathname}/> */}
               <Container style={{ maxWidth: 1240, marginTop: 174}}>
               <TitleBlock><h1>Answer 6 simple questions. <br></br> And we will <span style={{textDecoration: 'underline'}}>build your website</span>!</h1></TitleBlock>
