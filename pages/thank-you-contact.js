@@ -13,6 +13,14 @@ function PrivacyPolicy(props) {
     }
   }
 
+      if (typeof window !== "undefined") {
+      if (window.fbq != null) {
+        fbq('track', 'Lead');
+        console.log('i am tracking Lead')
+      }
+    }
+
+
   return (
 
     <Layout>
