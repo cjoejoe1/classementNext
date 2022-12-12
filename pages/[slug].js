@@ -6,6 +6,7 @@ import { TitleBlock } from '../components/common';
 import {createClient} from 'contentful'
 import Link from 'next/link'
 import Image from 'next/image'
+import { BLOCKS } from '@contentful/rich-text-types';
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 
 const client = createClient({
@@ -49,7 +50,36 @@ export default function Idee({article}) {
 
   console.log('article is', article)
 
+  
+
   const {title, description, slug, heroImage, richText} = article.fields
+
+  const options = {
+    renderNode: {
+      [BLOCKS.EMBEDDED_ENTRY]: (node) => {
+        const { title, description } = node.data.target.fields;
+        console.log('title entry', node.data.target.fields.text)
+
+        
+        return (
+          <>
+          <div
+              // className={styles.body}
+              style={{fontFamily: 'Garamond', fontSize: 22, color: 'rgb(29, 45, 53)'}}
+              dangerouslySetInnerHTML={{
+                __html: node.data.target.fields.text
+                
+            
+              }}
+            />
+
+  
+          </>
+
+        )
+      }
+    }
+  };
 
   const getBreadLink = () => {
     if(article.fields.tags.includes('idées business')) return '/idees-business/'
@@ -77,7 +107,7 @@ export default function Idee({article}) {
           style={{ borderRadius: 5}}/>
    </div>
    <div style={{maxWidth: 800, margin: 'auto', marginTop:50}}>
-    {documentToReactComponents(richText)}
+    {documentToReactComponents(richText, options)}
     </div>
 
     </Container>

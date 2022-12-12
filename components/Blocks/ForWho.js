@@ -1,10 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from "react-bootstrap"
-import Image from 'next/image'
-import forWho1 from '../../images/forWho1.jpeg'
-import forWho2 from '../../images/forWho2.jpeg'
-import forWho3 from '../../images/forWho3.jpeg'
-import forWho4 from '../../images/forWho4.jpeg'
+
+import {Button} from 'react-bootstrap'
 
 const ForWho = (props) => {
 
@@ -13,43 +10,45 @@ const ForWho = (props) => {
     <>
 
       <Container style={{maxWidth: 1140, paddingTop: 200, marginTop: -200}} id="forWhoAnchor">
-
+      <h2 className="display-4" style={{marginBottom: 40, fontWeight: 700, fontSize: 60, textAlign: 'center'}} id="forWho">
+            L'email Createur.com, c'est quoi?          
+              </h2>
+              <p className="lead" style={{maxWidth: 1000, textAlign: 'center', margin: 'auto', fontFamily: 'unset', fontSize: 24, marginTop: -30, marginBottom: 80}} > {"Votre inspiration business par email"}</p>
         <Row className="align-items-center">
           <Col>
             <Row>
-        <Col style={{maxWidth: 270, marginRight: -15}}>
-        <div data-aos="zoom-in" data-aos-duration="400">
+            <Col lg="6" md={9}>
+            <div>
 
-<Image src={forWho1} style={{borderRadius: 10}}/>
-              </div>
-              <div data-aos="zoom-in" data-aos-duration="400" style={{marginTop: 20}}>
-              <Image src={forWho2} style={{borderRadius: 10}}/>
-              </div>
-              </Col>
-          <Col style={{maxWidth: 270}}>
-            <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="500">
-            <Image src={forWho3} style={{borderRadius: 10}}/>
+              <p className="lead" style={{textAlign: 'left', margin: 'auto', marginTop: 10, marginBottom: 20, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>
+              Toutes les semaines vous allez recevoir 7 idées business. 7 idées que vous allez pouvoir lancer, adapter, copier, ou simplement utiliser comme une source d’inspiration pour vos projets existants.
+                </p>
+                <p className="lead" style={{textAlign: 'left', margin: 'auto', marginTop: 10, marginBottom: 20, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>
+                Mais d'où viennent ces idées? Notre équipe passe son temps à croiser des signaux (twitter, instagram, facebook), à faire de la veille sur les sites étrangers, à écouter et analyser des podcasts.
+              </p>
+            
             </div>
-            <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="750" style={{marginTop: 20}}>
-            <Image src={forWho4}style={{borderRadius: 10}}/>
+          </Col>
+        <Col style={{marginRight: -15}}>
+        <div style={{marginTop: 20}}>
+          <p style={{textAlign: 'center'}}>
+          <Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Bundling / Unbundling</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Marketplace de niche</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Framework à idées</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Version française de</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Aidez à vendre</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Import / Export</Button>
+<Button className="btn-lg" variant="dark"  style={{marginRight: 15, marginBottom: 15}}>Simplifiez ce problème</Button>
+<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Extension chrome de</Button>
+          </p>
+
+
               </div>
               </Col>
               </Row>
               </Col>
           
-          <Col lg="6" md={9}>
-            <div>
-            <h2 className="display-4" style={{marginBottom: 40, fontWeight: 700, fontSize: 60}} id="forWho">
-                Is this for you?               
-              </h2>
-              <p className="lead" style={{textAlign: 'left', margin: 'auto', marginTop: 10, marginBottom: 20, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>
-              Builders, cleaners, architects, estate agents… our clients are real local businesses. They want to grow online but they also have their own day to day to deal with.
-                </p>
-                <p className="lead" style={{textAlign: 'left', margin: 'auto', marginTop: 10, marginBottom: 20, fontSize: 21, fontWeight: 300, letterSpacing: -0.66, lineHeight: '38px'}}>
-                We help by providing your very own website and a step by step guide to be seen online.
-              </p>
-            </div>
-          </Col>
+        
         </Row>
       </Container>
 

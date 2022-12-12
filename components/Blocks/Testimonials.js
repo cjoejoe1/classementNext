@@ -4,66 +4,66 @@ const Testimonials = (props) => {
 
         return (
 
-          <section style={{marginBottom: 80, maxWidth: 1000, margin: 'auto', marginTop: 80}}>
-          <h2 className="display-4" style={{textAlign: 'center', marginBottom: 20, fontWeight: 700, fontSize: 60}} data-aos="fade-up" data-aos-duration="250">Reviews</h2>
-          <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}  data-aos="fade-up" data-aos-duration="250">Find out how Stimply worked for them!</p>
-          <div className="card-columns" id='testimonials'  data-aos="fade-up" data-aos-duration="250">
+          <section style={{marginBottom: 80, maxWidth: 1000, margin: 'auto', marginTop: 100}}>
+          <h2 className="display-4" style={{textAlign: 'center', marginBottom: 20, fontWeight: 700, fontSize: 60}} >Témoignages</h2>
+          <p className="lead" style={{maxWidth: 1000, textAlign: 'center', margin: 'auto', fontFamily: 'unset', fontSize: 24, marginTop: -30, marginBottom: 80}} >Ils sont inscrits à Createur.com, et ils adorent !</p>
+          <div className="card-columns" id='testimonials'  >
           <div className="card p-3">
               <blockquote className="blockquote card-body">
-                <p>I’m a tree surgeon and I’m often unavailable while my clients try and get in touch. Stimply stores the requests for me and I get to quoting when I’m free.</p>
+                <p>Chaque email me donne au moins 1 idée à appliquer à mon business.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Alan H. <cite title="Source Title">Tree Surgeon</cite>
+                  Anthony <cite title="Source Title">Lyon</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div className="card p-3">
               <blockquote className="blockquote card-body">
-                <p>I can’t believe it took just 3 minutes to set up. I didn’t even have to make any changes to the default text.</p>
+                <p>J’adore les idées mais j’adore aussi la partie framework qui m’aide à développer ma propre créativité.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Garbiel S. <cite title="Source Title">Consultant</cite>
+                  Julie <cite title="Source Title">Dax</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div className="card p-3">
               <blockquote className="blockquote card-body">
-                <p>My website is faster than any of my competition.</p>
+                <p>J’économise des heures de recherches toutes les semaines. Et en plus c’est drôle :-) Merci !</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Alex W. <cite title="Source Title">Plumber</cite>
+                  Alexis. <cite title="Source Title">Lille</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div className="card p-3" style={{marginTop: 10}}>
               <blockquote className="blockquote mb-0 card-body">
-                <p>Brilliant support on the phone. I’m old school, I needed to talk to somebody. It was really relaxing to get straight up answers.</p>
+                <p>Createur.com est de loin ma newsletter préférée ! Je lis chaque mot, chaque semaine.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Julia Y. <cite title="Source Title">Architect</cite>
+                  Romain <cite title="Source Title">Paris</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
-                <p>Stimply doesn’t just let you do everything yourself. You just follow the steps 1 by 1 and it works.</p>
-                <footer className="blockquote-footer">
+                <p>Createur.com, c’est comme un mélange d’actu business que je peux vraiment utiliser et appliquer dans mes propres projets.</p>
+                <footer className="blockquote-footer" style={{marginTop: 10}}>
                   <small className="text-muted">
-                  Steve R. <cite title="Source Title">Builder</cite>
+                 Benjamin <cite title="Source Title">Le Havre</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
-                <p>I just launched my pest control business and needed a website fast. This was easy, cheap and it looks great.</p>
+                <p>Chaque email est comme un shot d’inspiration et d’excitation. Non seulement j’ai des nouvelles idées, mais mon niveau d'énergie est décuplée.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Jonathan R. <cite title="Source Title">Pest Control</cite>
+                  Sarah<cite title="Source Title">Niort</cite>
                   </small>
                 </footer>
               </blockquote>
@@ -71,36 +71,16 @@ const Testimonials = (props) => {
 
             <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
-                <p>I just launched my pest control business and needed a website fast. This was easy, cheap and it looks great.</p>
+                <p>J’utilise l’email comme un exercice hebdomadaire de brainstorming avec mon équipe.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
-                  Jonathan R. <cite title="Source Title">Pest Control</cite>
+                  Laura<cite title="Source Title">Montpellier</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
 
-            <div className="card p-3">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>I just launched my pest control business and needed a website fast. This was easy, cheap and it looks great.</p>
-                <footer className="blockquote-footer">
-                  <small className="text-muted">
-                  Jonathan R. <cite title="Source Title">Pest Control</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-
-            <div className="card p-3">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>I just launched my pest control business and needed a website fast. This was easy, cheap and it looks great.</p>
-                <footer className="blockquote-footer">
-                  <small className="text-muted">
-                  Jonathan R. <cite title="Source Title">Pest Control</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
+            
             
           </div>
           </section>

@@ -6,6 +6,7 @@ import Tick from '../components/Blocks/Tick'
 import What from '../components/Blocks/What'
 import Tabs from '../components/Blocks/Tabs'
 import ForWho from '../components/Blocks/ForWho'
+import ForWhoReverse from '../components/Blocks/ForWhoReverse'
 import Testimonials from '../components/Blocks/Testimonials'
 import Who from '../components/Blocks/Who'
 import Faq from '../components/Blocks/FAQ'
@@ -17,15 +18,16 @@ const Index = props => {
   return (
     <Layout >
       
-      <Seo title="Stunning Websites For Real Businesses" description="Sit back and relax while we will build your website for you."/>
+      <Seo title="Idées business à lancer en 2023 - Createur.com" description="La newsletter des idées business"/>
       
       <Hero/>
-      <Tick/>
+      {/* <Tick/> */}
       <What/>
-      <Tabs/>
+      {/* <Tabs/> */}
       <ForWho/>
+      <ForWhoReverse/>
       <Testimonials/>
-      <Who/>
+      {/* <Who/> */}
       <Faq/>
     </Layout>
   )
