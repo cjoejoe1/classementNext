@@ -27,14 +27,14 @@ const SiteHeader = styled.header`
       transform: translateY(0%);
       box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
-      background: #223151;
+      background: #0f222e;
     }
 
  `
 
 
 const Header = (props) => {
-  console.log('path header', props.path)
+  
 
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
@@ -73,19 +73,19 @@ const Header = (props) => {
 
   const menuItems = [
     {
-      url: 'how-it-works/',
-      name: 'how-it-works/',
-      label: 'How it works',
+      url: 'idees-business/',
+      name: 'idees-business/',
+      label: '💡 Idées business',
     },
     {
-      url: 'for-who/',
-      name: 'for-who/',
-      label: 'For who?',
+      url: 'je-me-lance/',
+      name: 'je-me-lance/',
+      label: '🧑‍🚀 Je me lance',
     },
     {
-      url: 'pricing/',
-      name: 'pricing/',
-      label: 'Pricing',
+      url: 'trouver-mes-clients/',
+      name: 'trouver-mes-clients/',
+      label: '🚀 Trouver mes clients',
     }
   ]
 
@@ -111,8 +111,8 @@ const Header = (props) => {
       label: 'About us',
     },
     {
-      url: '/contact',
-      name: '/contact',
+      url: 'contact/',
+      name: 'contact/',
       label: 'Contact',
     }
   ]

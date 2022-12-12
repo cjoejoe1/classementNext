@@ -46,17 +46,17 @@ const HeroForm = (props) => {
   
               <div >
           
-                <h1 id="h1Hero" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: 10, textAlign: 'left', position: 'relative', zIndex: 10}} >We Build Your <span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}>Website*</span></h1>
-                <h3 id="h3Hero" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -10, textAlign: 'left', position: 'relative', zIndex: 10}}><span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}></span> (*you sit back and relax)</h3>
+                <h1 id="h1Hero" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: 10, textAlign: 'left', position: 'relative', zIndex: 10}} >10 Idées Business <span style={{textDecoration: 'underline', textDecorationColor: '#f00057'}}>Par Jour*</span></h1>
+                <p id="h3Hero" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -10, textAlign: 'left', position: 'relative', zIndex: 10}}><span style={{textDecoration: 'underline', textDecorationColor: '#f00057'}}></span> (*directement par email)</p>
                 {/* <h1 id="h1Hero" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -20, textAlign: 'left', position: 'relative', zIndex: 10}}>Get More Sales!</h1> */}
                
-                <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -50, textAlign: 'left', position: 'relative', zIndex: 10}}>We Build Your <span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}>Website*</span></h1>
-                <h3 id="h1HeroMobUnder" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -0, textAlign: 'left', position: 'relative', zIndex: 10, fontSize: 56}}><span style={{textDecoration: 'underline', textDecorationColor: '#085ed7'}}></span>*you sit back and relax</h3>
+                <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -50, textAlign: 'left', position: 'relative', zIndex: 10}}>10 Idées Business <span style={{textDecoration: 'underline', textDecorationColor: '#f00057'}}>Par Jour*</span></h1>
+                <p id="h1HeroMobUnder" style={{color: 'white', fontWeight: 300, letterSpacing: -5, marginTop: -0, textAlign: 'left', position: 'relative', zIndex: 10, fontSize: 56}}><span style={{textDecoration: 'underline', textDecorationColor: '#f00057'}}></span>*directement par emails</p>
                 {/* <h1 id="h1HeroMob" style={{color: 'white', fontWeight: 800, letterSpacing: -5, marginTop: -20, textAlign: 'left', position: 'relative', zIndex: 10}}>More Sales!</h1> */}
                
                 {/* <p className="heroLine2" style={{textAlign: 'left', marginTop: 20, marginBottom: 10, color: 'white', fontSize: 30, position: 'relative', zIndex: 10}} id='notMobile hand'>Get WAAAS (Web Agency As A Service)</p> */}
                 <Link href="/start/" passHref>
-                <Button id='buttonHover' className="btn-lg btn btn btn-primary" style={{fontWeight: 700, marginTop: 30, paddingTop: 12, height: 60, minWidth: 250}}>Start Now <span style={{fontSize: 18}}><FaArrowRight /></span>
+                <Button id='buttonHover' className="btn-lg btn" style={{fontWeight: 700, marginTop: 30, paddingTop: 12, height: 60, minWidth: 250, background: '#f00057', borderColor: '#f00057'}}>Je m'inscris <span style={{fontSize: 18}}><FaArrowRight /></span>
                   </Button>
         
                   </Link>
