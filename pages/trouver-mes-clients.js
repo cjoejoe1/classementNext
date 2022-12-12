@@ -28,7 +28,7 @@ export default function IdeesBusiness ({articles}) {
 
     <Layout >
     
-    <Seo title="Trouver mes clients"/>
+    <Seo title="Trouver mes clients | Createur.com"/>
     <Breadcrumbs text='Trouver mes clients'/>
       <Container style={{ maxWidth: 800, marginTop: 174}}>
       <TitleBlock><h1>Trouver mes clients</h1></TitleBlock>

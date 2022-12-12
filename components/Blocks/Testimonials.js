@@ -21,7 +21,7 @@ const Testimonials = (props) => {
             <div className="card p-3">
               <blockquote className="blockquote card-body">
                 <p>J’adore les idées mais j’adore aussi la partie framework qui m’aide à développer ma propre créativité.</p>
-                <footer className="blockquote-footer">
+                <footer className="blockquote-footer" style={{marginTop: 30}}>
                   <small className="text-muted">
                   Julie <cite title="Source Title">Dax</cite>
                   </small>
@@ -40,7 +40,7 @@ const Testimonials = (props) => {
             </div>
             <div className="card p-3" style={{marginTop: 10}}>
               <blockquote className="blockquote mb-0 card-body">
-                <p>Createur.com est de loin ma newsletter préférée ! Je lis chaque mot, chaque semaine.</p>
+                <p>Createur.com est de loin ma newsletter préférée ! <div style={{marginTop: 10}}>Je lis chaque mot, chaque semaine.</div></p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
                   Romain <cite title="Source Title">Paris</cite>
@@ -48,7 +48,7 @@ const Testimonials = (props) => {
                 </footer>
               </blockquote>
             </div>
-            <div className="card p-3">
+            {/* <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>Createur.com, c’est comme un mélange d’actu business que je peux vraiment utiliser et appliquer dans mes propres projets.</p>
                 <footer className="blockquote-footer" style={{marginTop: 10}}>
@@ -57,7 +57,7 @@ const Testimonials = (props) => {
                   </small>
                 </footer>
               </blockquote>
-            </div>
+            </div> */}
             <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>Chaque email est comme un shot d’inspiration et d’excitation. Non seulement j’ai des nouvelles idées, mais mon niveau d'énergie est décuplée.</p>

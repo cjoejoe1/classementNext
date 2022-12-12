@@ -9,7 +9,7 @@ function TermsConditions(props) {
 
 
     <Layout path={props.path}>
-      <Seo title="Mentions légales - Createur.com"/>
+      <Seo title="Mentions légales | Createur.com"/>
       <Breadcrumbs text='Mentions légales'/>
       <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
           <TitleBlock><h1>    Mentions Légales</h1></TitleBlock>

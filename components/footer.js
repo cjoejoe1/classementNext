@@ -21,7 +21,7 @@ const Footer = (props) => {
                 <ul>
                 <li><Link href={'/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Accueil </a></Link></li>
                 <li><Link href={'/membre/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Espace membre </a></Link></li>
-                <li><Link href={'/je-minscris/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Je m'inscris </a></Link></li>
+                <li><Link href={'/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Je m'inscris </a></Link></li>
                 <li><Link href={'/idees-business/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Idées business </a></Link></li>
                 <li><Link href={'/je-me-lance/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Je me lance </a></Link></li>
                 <li><Link href={'/trouver-mes-clients/'} passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Trouver mes clients </a></Link></li>

@@ -125,7 +125,7 @@ const Menu = (props) => {
             </MenuStyle>
           </div>
         </div>
-        <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
+        <Link href={'/'}>
           <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#f00057', borderColor: '#f00057', color: 'white', marginLeft: 0}}>Je m'inscris <FaArrowRight /></Button>
         </Link>
         {/* <div className="header-btns ms-auto ms-lg-0 d-none d-md-block" style={{marginRight: 10}}>

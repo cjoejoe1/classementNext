@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from "react-bootstrap"
 import {FaTiktok, FaInstagram, FaGoogle, FaTwitter, FaRedditAlien, FaFacebookF, FaAmazon, FaSpotify, FaYoutube, FaSlack, FaShopify, FaSnapchatGhost } from 'react-icons/fa'
-
+import Link from 'next/link'
 import {Button} from 'react-bootstrap'
 
 const ForWho = (props) => {
@@ -21,18 +21,18 @@ const ForWho = (props) => {
             <Col sm={6} style={{maxWidth: 500}}>
   
   <p style={{textAlign: 'center', marginBottom: 20}} >
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaTiktok /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaInstagram /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaGoogle /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaTwitter /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaRedditAlien /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}} ><FaFacebookF /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaAmazon /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaSpotify /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaYoutube /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaSlack /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaShopify /></Button>
-  <Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaSnapchatGhost /></Button>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaTiktok /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaInstagram /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaGoogle /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaTwitter /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaRedditAlien /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}} ><FaFacebookF /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaAmazon /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaSpotify /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaYoutube /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaSlack /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10,  fontFamily: 'unset', fontSize: 40}}  ><FaShopify /></Button></Link>
+  <Link href={'/'}><Button variant="outline-dark" className="btn-lg" style={{margin: 10, fontFamily: 'unset', fontSize: 40}}  ><FaSnapchatGhost /></Button></Link>
   </p>
 
 </Col>

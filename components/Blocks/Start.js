@@ -18,7 +18,7 @@ lance leur business avec Createur.com </h2>
     
         
               <div style={{maxWidth: 250, margin: 'auto'}}>
-              <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
+              <Link href={'/'}>
                 <Button id='buttonHover' className="btn-lg" style={{fontWeight: 700, marginTop: 50, paddingTop: 10, height: 60, maxWidth: 250, margin: 'auto', background: '#f00057', borderColor: '#f00057', }}>Je m'inscris <span style={{fontSize: 18}}><FaArrowRight /></span></Button>
               </Link>
               </div>

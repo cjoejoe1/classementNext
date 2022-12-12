@@ -16,8 +16,8 @@ function Contact(props) {
 
     <Layout path={props.path}>
 
-              <Seo title="We'd love to talk"/>
-              <Breadcrumbs text='Contact us'/>
+              <Seo title="Contactez-nous | Createur.com"/>
+              <Breadcrumbs text='Contactez-nous'/>
               <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
               <TitleBlock><h1>Contactez-nous</h1></TitleBlock>
               <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 70}}>Nous sommes ouverts du Lundi au Vendredi (9h - 19h).</p>

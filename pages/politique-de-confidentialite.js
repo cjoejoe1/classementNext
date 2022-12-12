@@ -11,7 +11,7 @@ function PrivacyPolicy(props) {
 
     <Layout path={props.path}>
 
-        <Seo title="Politique de confidentialité"/>
+        <Seo title="Politique de confidentialité | Createur.com"/>
         <Breadcrumbs text='Politique de confidentialité'/>
         <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
         <TitleBlock><h1>Politique de confidentialité</h1></TitleBlock>

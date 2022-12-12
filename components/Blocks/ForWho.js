@@ -2,7 +2,7 @@ import React from 'react';
 import {Container, Row, Col} from "react-bootstrap"
 
 import {Button} from 'react-bootstrap'
-
+import Link from 'next/link'
 const ForWho = (props) => {
 
   return (
@@ -32,14 +32,14 @@ const ForWho = (props) => {
         <Col style={{marginRight: -15}}>
         <div style={{marginTop: 20}}>
           <p style={{textAlign: 'center'}}>
-          <Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Bundling / Unbundling</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Marketplace de niche</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Framework à idées</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Version française de</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Aidez à vendre</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Import / Export</Button>
-<Button className="btn-lg" variant="dark"  style={{marginRight: 15, marginBottom: 15}}>Simplifiez ce problème</Button>
-<Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Extension chrome de</Button>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Bundling / Unbundling</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Marketplace de niche</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Framework à idées</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Version française de</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Aidez à vendre</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Import / Export</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark"  style={{marginRight: 15, marginBottom: 15}}>Simplifiez ce problème</Button></Link>
+          <Link href={'/'}><Button className="btn-lg" variant="dark" style={{marginRight: 15, marginBottom: 15}}>Extension chrome de</Button></Link>
           </p>
 
 
