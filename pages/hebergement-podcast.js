@@ -15,7 +15,10 @@ function HebergementPodcast(props) {
   const [storage, setStorage] = useState(0);
   const [multiplier, setMultiplier] = useState(1)
 
-  
+  var d = new Date();
+var month = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
+var n = month[d.getMonth()];
+var y = d.getFullYear();
 
     return (
       <Layout >
@@ -31,7 +34,7 @@ function HebergementPodcast(props) {
     
       {/* </Row> */}
 
-          <h1 id='compareh1'>Comparatif Des Hébergements Podcast</h1>
+      <h1 id='compareh1'>Meilleur hébergement podcast de {y}</h1>
           <p id='compareh2' style={{marginLeft: 2, marginBottom: 25, fontWeight: 300, fontSize: 24}}>Quel est le meilleur hébergement pour votre podcast?</p>
           
           {/* <FilterForm/> */}

@@ -27,7 +27,7 @@ var y = d.getFullYear();
           <Container style={{maxWidth: 1280}}>
  
 
-          <h1 id='compareh1'>Créateur de site web : comparaison</h1>
+          <h1 id='compareh1'>Meilleur créateur de site web de {y}</h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24}}>Trouver le meilleur créateur de site web pour votre business (mise à jour {n} {y})</p>
        <Disclosure/>
 
