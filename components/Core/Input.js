@@ -16,7 +16,7 @@ const InputSolid = styled.input`
   display: block;
   padding: 1.275rem 1.75rem;
   background-clip: padding-box;
-  border: ${({ theme }) => `1px solid ${theme.colors.border}`};
+  border: ${({ theme }) => `1px solid grey`};
   border-radius: 10px;
   ${color};
   ${space};
@@ -27,7 +27,7 @@ const InputSolid = styled.input`
   &:focus,
   &:active,
   &.active {
-    border-color: ${({ theme, focusColor }) => theme.colors[focusColor]};
+    border-color: ${({ theme, focusColor }) => 'grey'};
     outline: 0;
     box-shadow: none;
   }

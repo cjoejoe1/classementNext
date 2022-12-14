@@ -1,0 +1,24 @@
+table.tableAngel {
+    font-size: 13px;
+  }
+  
+  table.tableAngel td, table.tableAngel th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+  
+  
+  table.tableAngel tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table.tableAngel tr:hover {background-color: #ddd;}
+  
+  table.tableAngel th, tfoot.tableAngel td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fff;
+    color: black;
+  }

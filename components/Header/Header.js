@@ -34,7 +34,8 @@ const SiteHeader = styled.header`
 
 
 const Header = (props) => {
-  
+
+  console.log('email header', props.email)
 
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
@@ -72,21 +73,21 @@ const Header = (props) => {
   // })
 
   const menuItems = [
-    {
-      url: 'idees-business/',
-      name: 'idees-business/',
-      label: '💡 Idées business',
-    },
-    {
-      url: 'je-me-lance/',
-      name: 'je-me-lance/',
-      label: '🧑‍🚀 Je me lance',
-    },
-    {
-      url: 'trouver-mes-clients/',
-      name: 'trouver-mes-clients/',
-      label: '🚀 Trouver mes clients',
-    }
+    // {
+    //   url: 'idees-business/',
+    //   name: 'idees-business/',
+    //   label: '💡 Idées business',
+    // },
+    // {
+    //   url: 'je-me-lance/',
+    //   name: 'je-me-lance/',
+    //   label: '🧑‍🚀 Je me lance',
+    // },
+    // {
+    //   url: 'trouver-mes-clients/',
+    //   name: 'trouver-mes-clients/',
+    //   label: '🚀 Trouver mes clients',
+    // }
   ]
 
   const menuItemsMobile = [
@@ -178,7 +179,7 @@ const Header = (props) => {
 
       
         <Menu path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
-        menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} showReveal={showReveal} logo={'stimply-logo-white'} />
+        menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
         {/* </div> */}
       </SiteHeader>
       

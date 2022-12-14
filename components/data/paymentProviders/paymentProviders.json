@@ -1,0 +1,58 @@
+[
+  {
+    "Payment Providers": "Stripe, ,https://stripe.com/gb",
+    "Website": "Stripe, ,https://stripe.com/gb",
+    "Monthly Fee": "Gratuit",
+    "UK Cards": "1.4% + 20c",
+    "Non UK Cards": "2.9% + 20c"
+  },
+  {
+    "Payment Providers": "Paypal, ,https://www.paypal.com/uk/business/accept-payments",
+    "Website": "Paypal, ,https://www.paypal.com/uk/business/accept-payments",
+    "Monthly Fee": "Gratuit",
+    "UK Cards": "2.90% + 30c",
+    "Non UK Cards": "2.90% + 30c"
+  },
+  {
+    "Payment Providers": "Clearhaus, ,https://www.clearhaus.com/",
+    "Website": "Clearhaus, ,https://www.clearhaus.com/",
+    "Monthly Fee": "Gratuit",
+    "UK Cards": "1.45% + 20c",
+    "Non UK Cards": "2.75% + 40c"
+  },
+  {
+    "Payment Providers": "Klarna, ,https://www.klarna.com/uk/business/products/checkout/",
+    "Website": "Klarna, ,https://www.klarna.com/uk/business/products/checkout/",
+    "Monthly Fee": "Gratuit",
+    "UK Cards": "2.49% + 20c",
+    "Non UK Cards": "2.49% + 20c"
+  },
+  {
+    "Payment Providers": "Handepay, ,https://www.handepay.co.uk/online-payments/",
+    "Website": "Handepay, ,https://www.handepay.co.uk/online-payments/",
+    "Monthly Fee": "devis gratuit",
+    "UK Cards": "devis gratuit",
+    "Non UK Cards": "devis gratuit"
+  },
+  {
+    "Payment Providers": "Payzone, ,https://www.payzone.co.uk/",
+    "Website": "Payzone, ,https://www.payzone.co.uk/",
+    "Monthly Fee": "devis gratuit",
+    "UK Cards": "devis gratuit",
+    "Non UK Cards": "devis gratuit"
+  },
+  {
+    "Payment Providers": "Pay360, ,https://www.pay360.com/solutions/online-payments",
+    "Website": "Pay360, ,https://www.pay360.com/solutions/online-payments",
+    "Monthly Fee": "devis gratuit",
+    "UK Cards": "devis gratuit",
+    "Non UK Cards": "devis gratuit"
+  },
+  {
+    "Payment Providers": "Paymentsense, ,https://www.paymentsense.com/",
+    "Website": "Paymentsense, ,https://www.paymentsense.com/",
+    "Monthly Fee": "devis gratuit",
+    "UK Cards": "devis gratuit",
+    "Non UK Cards": "devis gratuit"
+  }
+]

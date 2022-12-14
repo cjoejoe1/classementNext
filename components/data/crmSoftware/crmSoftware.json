@@ -1,0 +1,179 @@
+[
+  {
+    "CRM SoftwareFR": "Pipedrive,Essential,https://www.pipedrive.com/",
+    "PackFR": "Pipedrive,Essential,https://www.pipedrive.com/",
+    "WebsiteFR": "Pipedrive,Essential,https://www.pipedrive.com/",
+    "Free trial": "14 days",
+    "PriceFR": 18,
+    "PriceFRYearly": 12.5
+  },
+  {
+    "CRM SoftwareFR": "Pipedrive,Advanced,https://www.pipedrive.com/",
+    "PackFR": "Pipedrive,Advanced,https://www.pipedrive.com/",
+    "WebsiteFR": "Pipedrive,Advanced,https://www.pipedrive.com/",
+    "Free trial": "14 days",
+    "PriceFR": 33,
+    "PriceFRYearly": 24.9
+  },
+  {
+    "CRM SoftwareFR": "Pipedrive,Professional,https://www.pipedrive.com/",
+    "PackFR": "Pipedrive,Professional,https://www.pipedrive.com/",
+    "WebsiteFR": "Pipedrive,Professional,https://www.pipedrive.com/",
+    "Free trial": "14 days",
+    "PriceFR": 59,
+    "PriceFRYearly": 49.9
+  },
+  {
+    "CRM SoftwareFR": "Pipedrive,Enterprise,https://www.pipedrive.com/",
+    "PackFR": "Pipedrive,Enterprise,https://www.pipedrive.com/",
+    "WebsiteFR": "Pipedrive,Enterprise,https://www.pipedrive.com/",
+    "Free trial": "14 days",
+    "PriceFR": 99,
+    "PriceFRYearly": 99
+  },
+  {
+    "CRM SoftwareFR": "Zoho CRM,Standard,https://www.zoho.com/crm/lp/crm-software.html",
+    "PackFR": "Zoho CRM,Standard,https://www.zoho.com/crm/lp/crm-software.html",
+    "WebsiteFR": "Zoho CRM,Standard,https://www.zoho.com/crm/lp/crm-software.html",
+    "Free trial": "15 days",
+    "PriceFR": 20,
+    "PriceFRYearly": 14
+  },
+  {
+    "CRM SoftwareFR": "Zoho CRM,Professional,https://www.zoho.com/crm/lp/crm-software.html",
+    "PackFR": "Zoho CRM,Professional,https://www.zoho.com/crm/lp/crm-software.html",
+    "WebsiteFR": "Zoho CRM,Professional,https://www.zoho.com/crm/lp/crm-software.html",
+    "Free trial": "15 days",
+    "PriceFR": 35,
+    "PriceFRYearly": 23
+  },
+  {
+    "CRM SoftwareFR": "Zoho CRM,Enterprise,https://www.zoho.com/crm/lp/crm-software.html",
+    "PackFR": "Zoho CRM,Enterprise,https://www.zoho.com/crm/lp/crm-software.html",
+    "WebsiteFR": "Zoho CRM,Enterprise,https://www.zoho.com/crm/lp/crm-software.html",
+    "Free trial": "15 days",
+    "PriceFR": 50,
+    "PriceFRYearly": 40
+  },
+  {
+    "CRM SoftwareFR": "Zoho CRM,Ultimate,https://www.zoho.com/crm/lp/crm-software.html",
+    "PackFR": "Zoho CRM,Ultimate,https://www.zoho.com/crm/lp/crm-software.html",
+    "WebsiteFR": "Zoho CRM,Ultimate,https://www.zoho.com/crm/lp/crm-software.html",
+    "Free trial": "15 days",
+    "PriceFR": 65,
+    "PriceFRYearly": 52
+  },
+
+  {
+    "CRM SoftwareFR": "Freshsales,Growth,https://www.freshworks.com/freshsales-crm/",
+    "PackFR": "Freshsales,Growth,https://www.freshworks.com/freshsales-crm/",
+    "WebsiteFR": "Freshsales,Growth,https://www.freshworks.com/freshsales-crm/",
+    "Free trial": "22 days",
+    "PriceFR": 17.55,
+    "PriceFRYearly": 14.04
+  },
+  {
+    "CRM SoftwareFR": "Freshsales,Professional,https://www.freshworks.com/freshsales-crm/",
+    "PackFR": "Freshsales,Professional,https://www.freshworks.com/freshsales-crm/",
+    "WebsiteFR": "Freshsales,Professional,https://www.freshworks.com/freshsales-crm/",
+    "Free trial": "23 days",
+    "PriceFR": 40.95,
+    "PriceFRYearly": 33.93
+  },
+  {
+    "CRM SoftwareFR": "Freshsales,Enterprise,https://www.freshworks.com/freshsales-crm/",
+    "PackFR": "Freshsales,Enterprise,https://www.freshworks.com/freshsales-crm/",
+    "WebsiteFR": "Freshsales,Enterprise,https://www.freshworks.com/freshsales-crm/",
+    "Free trial": "24 days",
+    "PriceFR": 77.22,
+    "PriceFRYearly": 64.35
+  },
+  {
+    "CRM SoftwareFR": "Insightly,Plus,https://www.insightly.com/",
+    "PackFR": "Insightly,Plus,https://www.insightly.com/",
+    "WebsiteFR": "Insightly,Plus,https://www.insightly.com/",
+    "Free trial": "Yes",
+    "PriceFR": "not available",
+    "PriceFRYearly": 24.65
+  },
+  {
+    "CRM SoftwareFR": "Insightly,Professional,https://www.insightly.com/",
+    "PackFR": "Insightly,Professional,https://www.insightly.com/",
+    "WebsiteFR": "Insightly,Professional,https://www.insightly.com/",
+    "Free trial": "Yes",
+    "PriceFR": "not available",
+    "PriceFRYearly": 41.65
+  },
+  {
+    "CRM SoftwareFR": "Insightly,Enterprise,https://www.insightly.com/",
+    "PackFR": "Insightly,Enterprise,https://www.insightly.com/",
+    "WebsiteFR": "Insightly,Enterprise,https://www.insightly.com/",
+    "Free trial": "Yes",
+    "PriceFR": "not available",
+    "PriceFRYearly": 84.15
+  },
+  {
+    "CRM SoftwareFR": "Zendesk Sell,Team,https://www.zendesk.co.uk/sell/",
+    "PackFR": "Zendesk Sell,Team,https://www.zendesk.co.uk/sell/",
+    "WebsiteFR": "Zendesk Sell,Team,https://www.zendesk.co.uk/sell/",
+    "Free trial": "14 days",
+    "PriceFR": "not available",
+    "PriceFRYearly": 19
+  },
+  {
+    "CRM SoftwareFR": "Zendesk Sell,Professional,https://www.zendesk.co.uk/sell/",
+    "PackFR": "Zendesk Sell,Professional,https://www.zendesk.co.uk/sell/",
+    "WebsiteFR": "Zendesk Sell,Professional,https://www.zendesk.co.uk/sell/",
+    "Free trial": "14 days",
+    "PriceFR": "not available",
+    "PriceFRYearly": 49
+  },
+  {
+    "CRM SoftwareFR": "Zendesk Sell,Enterprise,https://www.zendesk.co.uk/sell/",
+    "PackFR": "Zendesk Sell,Enterprise,https://www.zendesk.co.uk/sell/",
+    "WebsiteFR": "Zendesk Sell,Enterprise,https://www.zendesk.co.uk/sell/",
+    "Free trial": "14 days",
+    "PriceFR": "not available",
+    "PriceFRYearly": 99
+  },
+  {
+    "CRM SoftwareFR": "Hubspot Sales,Starter,https://www.hubspot.com/products/sales",
+    "PackFR": "Hubspot Sales,Starter,https://www.hubspot.com/products/sales",
+    "WebsiteFR": "Hubspot Sales,Starter,https://www.hubspot.com/products/sales",
+    "Free trial": "No",
+    "PriceFR": 46,
+    "PriceFRYearly": 41
+  },
+  {
+    "CRM SoftwareFR": "Hubspot Sales,Professional,https://www.hubspot.com/products/sales",
+    "PackFR": "Hubspot Sales,Professional,https://www.hubspot.com/products/sales",
+    "WebsiteFR": "Hubspot Sales,Professional,https://www.hubspot.com/products/sales",
+    "Free trial": "No",
+    "PriceFR": 823,
+    "PriceFRYearly": 740
+  },
+  {
+    "CRM SoftwareFR": "Hubspot Sales,Enterprise,https://www.hubspot.com/products/sales",
+    "PackFR": "Hubspot Sales,Enterprise,https://www.hubspot.com/products/sales",
+    "WebsiteFR": "Hubspot Sales,Enterprise,https://www.hubspot.com/products/sales",
+    "Free trial": "No",
+    "PriceFR": 2944,
+    "PriceFRYearly": 2944
+  },
+  {
+    "CRM SoftwareFR": "Nutshell,Starter,https://www.nutshell.com/",
+    "PackFR": "Nutshell,Starter,https://www.nutshell.com/",
+    "WebsiteFR": "Nutshell,Starter,https://www.nutshell.com/",
+    "Free trial": "14 days",
+    "PriceFR": 18.7,
+    "PriceFRYearly": 16.15
+  },
+  {
+    "CRM SoftwareFR": "Nutshell,Pro,https://www.nutshell.com/",
+    "PackFR": "Nutshell,Pro,https://www.nutshell.com/",
+    "WebsiteFR": "Nutshell,Pro,https://www.nutshell.com/",
+    "Free trial": "14 days",
+    "PriceFR": 33.15,
+    "PriceFRYearly": 29.75
+  }
+]

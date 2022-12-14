@@ -10,7 +10,7 @@ import background from '../../images/stimply-background.jpeg'
 
     return (
 
-      <Container fluid style={{background: 'rgb(34, 49, 81)', marginTop: 0, paddingLeft: 0, paddingRight: 0, position: 'relative'}}>
+      <Container fluid style={{background: 'rgb(15 34 46)', marginTop: 0, paddingLeft: 0, paddingRight: 0, position: 'relative'}}>
 
 
  <div className='heroPic' style={{height: '100vh', maxHeight: 950, minHeight: 617, justifyContent: 'center',  alignItems: 'center', position: 'relative', opacity: 0.9}}>

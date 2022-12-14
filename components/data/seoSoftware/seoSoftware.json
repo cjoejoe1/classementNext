@@ -1,0 +1,90 @@
+[
+  {
+    "SEO SoftwareFR": "Ahrefs,,https://ahrefs.com/",
+    "WebsiteFR": "Ahrefs,,https://ahrefs.com/",
+    "Free trial": "No",
+    "UK Market": "Yes",
+    "Paid monthly": 76,
+    "Paid yearly": 63,
+    "Projects": 5,
+    "Tracked keywords": 500,
+    "Pages to crawl": 10000
+  },
+  {
+    "SEO SoftwareFR": "Semrush,,https://www.semrush.com/",
+    "WebsiteFR": "Semrush,,https://www.semrush.com/",
+    "Free trial": 7,
+    "UK Market": "Yes",
+    "Paid monthly": 77,
+    "Paid yearly": 77,
+    "Projects": 5,
+    "Tracked keywords": 500,
+    "Pages to crawl": 100000
+  },
+  {
+    "SEO SoftwareFR": "SpyFu,,https://www-uk.spyfu.com/",
+    "WebsiteFR": "SpyFu,,https://www-uk.spyfu.com/",
+    "Free trial": "No",
+    "UK Market": "Yes",
+    "Paid monthly": 30,
+    "Paid yearly": 25,
+    "Projects": 10,
+    "Tracked keywords": 5000,
+    "Pages to crawl": "Unknown"
+  },
+  {
+    "SEO SoftwareFR": "KWFinder,,https://kwfinder.com/",
+    "WebsiteFR": "KWFinder,,https://kwfinder.com/",
+    "Free trial": 10,
+    "UK Market": "Yes",
+    "Paid monthly": 42,
+    "Paid yearly": 26,
+    "Projects": 1,
+    "Tracked keywords": 1400,
+    "Pages to crawl": "Unknown"
+  },
+  {
+    "SEO SoftwareFR": "Moz,,https://moz.com/",
+    "WebsiteFR": "Moz,,https://moz.com/",
+    "Free trial": 30,
+    "UK Market": "Unkown",
+    "Paid monthly": 76,
+    "Paid yearly": 76,
+    "Projects": "Unknown",
+    "Tracked keywords": 300,
+    "Pages to crawl": "Unknown"
+  },
+  {
+    "SEO SoftwareFR": "Ranking Coach,,https://www.rankingcoach.com/en-gb",
+    "WebsiteFR": "Ranking Coach,,https://www.rankingcoach.com/en-gb",
+    "Free trial": 10,
+    "UK Market": "Yes",
+    "Paid monthly": 19.95,
+    "Paid yearly": 19.95,
+    "Projects": 1,
+    "Tracked keywords": 35,
+    "Pages to crawl": "Unknown"
+  },
+  {
+    "SEO SoftwareFR": "Webceo,,https://www.webceo.com/",
+    "WebsiteFR": "Webceo,,https://www.webceo.com/",
+    "Free trial": "No",
+    "UK Market": "Yes",
+    "Paid monthly": 30,
+    "Paid yearly": 22,
+    "Projects": 1,
+    "Tracked keywords": 50,
+    "Pages to crawl": 1000
+  },
+  {
+    "SEO SoftwareFR": "SERanking,,https://seranking.com/",
+    "WebsiteFR": "SERanking,,https://seranking.com/",
+    "Free trial": 14,
+    "UK Market": "Yes",
+    "Paid monthly": 23,
+    "Paid yearly": 23,
+    "Projects": 10,
+    "Tracked keywords": 250,
+    "Pages to crawl": 25000
+  }
+]

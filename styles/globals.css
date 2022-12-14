@@ -285,6 +285,24 @@ padding-bottom: 10px;
   #h1HeroMob{
     display: none;
   }
+  #dataTableMobile{
+    display: none;
+  }
+  #noDesktop{
+    display: none !important;
+  }
+
+  #newsletter{
+    display: flex;
+    /* max-width: 710px; */
+    /* margin: auto; */
+  }
+
+  #comparateurButton{
+    width: 310px;
+    margin-left: 10px;
+  }
+
 
   #h1HeroMobUnder{
     display: none;
@@ -326,7 +344,21 @@ padding-bottom: 10px;
   #logoMenu{
     margin-left: 0px;
   }
+  #dataTableDesktop{
+    display: none;
+  }
+  #noMobile{
+    display: none !important;
+  }
 
+  #newsletter{
+    display: block;
+    max-width: 100%;
+  }
+  #comparateurButton{
+    margin-top: 10px;
+    width: 100%;
+  }
   #h1Hero{
     display: none;
     
@@ -337,12 +369,12 @@ padding-bottom: 10px;
       }
 
   #h1HeroMob{
-    font-size: 70px !important;
+    font-size: 50px !important;
     margin-left: 18px;
   }
 
   #h1HeroMobUnder{
-    font-size: 52px !important;
+    font-size: 42px !important;
     margin-left: 18px;
   }
 
@@ -998,3 +1030,4 @@ padding-bottom: 10px;
   box-shadow: 0 52px 54px rgb(65 62 101 / 18%);
 
 }
+

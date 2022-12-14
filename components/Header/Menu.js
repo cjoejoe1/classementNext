@@ -10,12 +10,13 @@ import flag from '../../images/flag.png'
 import phone from "../../images/phone.png";
 import { useRouter } from 'next/router'
 import {FaArrowRight} from 'react-icons/fa'
-
+import { firestore, firebase } from "../../utils/firebaseData"
 const Menu = (props) => {
   const router = useRouter()
 
   const gContext = useContext(GlobalContext);
 
+  console.log('props.email menu', props.email)
   const background = () => {
     if (router.pathname && router.pathname !== '/') return '#0f222e'
     // else return 'red'
@@ -24,6 +25,46 @@ const Menu = (props) => {
   const linkColor = () => {
     if(props.design.theme === 'dark' || props.design.theme === 'transparent') return 'white'
     else return 'black'
+  }
+
+  const logout = () => {
+    firebase.auth().signOut();
+    window.location='/';
+  };
+  
+  const getLogin = () => {
+    if(!props.email){
+      return (
+        <>
+      <div id="noMobile">
+      {/* <Link href={'/'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Find Investors <FaAngleDoubleRight/></Button></Link> */}
+      <Link href={'/membre/'}><Button variant="outline-light" style={{marginRight: 10, marginTop: -9}}>Connexion</Button></Link>
+      </div>
+      {/* <div id="noMobile">
+      <Link href={'/'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Find Investors <FaAngleDoubleRight/></Button></Link>
+      <Link href={'/connexion/'}><Button variant="outline-light" style={{marginLeft: 10, marginTop: 5}}>Connexion</Button></Link>
+      </div> */}
+      </>
+      )
+    }
+    if(props.email && props.email){
+      return (
+        <>
+       <div id="noMobile">
+        {/* <Link href={'#'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Dashboard</Button></Link> */}
+        <Button variant="outline-light" style={{marginRight: 10, marginTop: -9}} onClick={logout}>Sign Out</Button>
+        </div>
+        <div style={{marginRight: -120}} id="noDesktop">
+        {/* <Link href={'#'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Dashboard</Button></Link> */}
+        {/* <Button variant="outline-dark" style={{marginLeft: 10, marginTop: 5}} onClick={props.logout}>Sign Out</Button> */}
+      </div>
+        </>
+      )
+     
+    } 
+
+ 
+
   }
 
   const logoMaker = () => {
@@ -125,6 +166,7 @@ const Menu = (props) => {
             </MenuStyle>
           </div>
         </div>
+        { getLogin()}
         <Link href={'/'}>
           <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#f00057', borderColor: '#f00057', color: 'white', marginLeft: 0}}>Je m'inscris <FaArrowRight /></Button>
         </Link>
@@ -143,7 +185,7 @@ const Menu = (props) => {
       
        */}
     
-
+{/* 
         <ToggleButton
           className={`navbar-toggler btn-close-off-canvas ml-3 ${
             gContext.visibleOffCanvas ? "collapsed" : ""
@@ -152,7 +194,7 @@ const Menu = (props) => {
         >
           
           <i className="icon icon-menu-34 icon-burger d-block" style={{color: 'white', fontSize: 30, fontWeight: 800}}></i>
-        </ToggleButton>
+        </ToggleButton> */}
       </nav>
     </Container>
     </DivStyle>

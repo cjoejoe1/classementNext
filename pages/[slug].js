@@ -1,3 +1,4 @@
+import {useState, useEffect} from 'react'
 import Breadcrumbs from '../components/Blocks/Breadcrumbs'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
@@ -7,7 +8,8 @@ import {createClient} from 'contentful'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BLOCKS } from '@contentful/rich-text-types';
-import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+import {documentToReactComponents} from '@contentful/rich-text-react-renderer';
+import { richTextFromMarkdown } from '@contentful/rich-text-from-markdown';
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID, 
@@ -46,40 +48,66 @@ export async function getStaticProps({params}){
   
 }
 
+
+const options = {
+  renderNode: {
+    [BLOCKS.EMBEDDED_ENTRY]: (node, children) => {
+      const { title, description } = node.data.target.fields;
+
+  
+
+      // const [data, updateData] = useState();
+
+
+      //   const getData = async (text) => {
+      //     const doc = await richTextFromMarkdown(text)
+      //     updateData(doc) 
+      //   }
+        
+
+
+
+
+      // if(node.data.target.fields.title === 'E-commerce'){
+      //   const text = node.data.target.fields.text
+
+
+      //   console.log('title entry', text)
+
+      //   return (
+      //     <>
+      //     {data && <h2>hello</h2>}
+        
+      //   </>
+      //   )
+      // }
+     
+
+   
+     
+        return (
+          <pre>
+           <code>{node.data.target.fields.text}</code>
+           {/* {documentToReactComponents(node.data.target.fields.text)} */}
+          </pre>
+
+        )
+
+
+   
+    }
+  }
+};
+
 export default function Idee({article}) {
 
-  console.log('article is', article)
+  // console.log('article is', article)
 
   
 
   const {title, description, slug, heroImage, richText} = article.fields
 
-  const options = {
-    renderNode: {
-      [BLOCKS.EMBEDDED_ENTRY]: (node) => {
-        const { title, description } = node.data.target.fields;
-        console.log('title entry', node.data.target.fields.text)
-
-        
-        return (
-          <>
-          <div
-              // className={styles.body}
-              style={{fontFamily: 'Garamond', fontSize: 22, color: 'rgb(29, 45, 53)'}}
-              dangerouslySetInnerHTML={{
-                __html: node.data.target.fields.text
-                
-            
-              }}
-            />
-
-  
-          </>
-
-        )
-      }
-    }
-  };
+ 
 
   const getBreadLink = () => {
     if(article.fields.tags.includes('idées business')) return '/idees-business/'

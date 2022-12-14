@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-const ArticleCard = ({article, tag}) => {
+export default function ArticleCard ({article, tag}) {
 
   const {title, description, slug, heroImage} = article.fields
 
@@ -29,5 +29,3 @@ const ArticleCard = ({article, tag}) => {
     </Link></Col>
   )
 }
-
-export default ArticleCard

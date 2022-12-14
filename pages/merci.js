@@ -24,11 +24,11 @@ function PrivacyPolicy(props) {
   return (
 
     <Layout>
-        <Seo title="Thank You"/>
-        <Breadcrumbs link='/thank-you-contact/' text='Thank You'/>
+        <Seo title="Merci"/>
+        <Breadcrumbs text='Merci'/>
         <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174, minHeight: 600}}>
-        <TitleBlock><h1>Thank You</h1></TitleBlock>
-        <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>We will contact you shortly.</p>
+        <TitleBlock><h1>Merci</h1></TitleBlock>
+        <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Votre premier email idées business arrivera dans moins de 10 minutes.</p>
           <TextBlock>
          
           </TextBlock>

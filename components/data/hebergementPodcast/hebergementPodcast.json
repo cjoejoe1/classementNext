@@ -1,0 +1,330 @@
+[
+  {
+    "Podcast HostingFR": "Transistor,Starter,https://transistor.fm/",
+    "WebsiteFR": "Transistor,Starter,https://transistor.fm/",
+    "Downloads/Listens": "15000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 16.15,
+    "PriceFRYearly": 13.46
+  },
+  {
+    "Podcast HostingFR": "Transistor,Professional,https://transistor.fm/",
+    "WebsiteFR": "Transistor,Professional,https://transistor.fm/",
+    "Downloads/Listens": "75000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 41.65,
+    "PriceFRYearly": 34.71
+  },
+  {
+    "Podcast HostingFR": "Transistor,Business,https://transistor.fm/",
+    "WebsiteFR": "Transistor,Business,https://transistor.fm/",
+    "Downloads/Listens": "200000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 84.15,
+    "PriceFRYearly": 70.13
+  },
+  {
+    "Podcast HostingFR": "Podbean,Basic,https://www.podbean.com/",
+    "WebsiteFR": "Podbean,Basic,https://www.podbean.com/",
+    "Downloads/Listens": "100 GB",
+    "Storage": "5 heures",
+    "PriceFR": 0,
+    "PriceFRYearly": 0
+  },
+  {
+    "Podcast HostingFR": "Podbean,Unlimited Audio,https://www.podbean.com/",
+    "WebsiteFR": "Podbean,Unlimited Audio,https://www.podbean.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 11.9,
+    "PriceFRYearly": 7.65
+  },
+  {
+    "Podcast HostingFR": "Podbean,Unlimited Plus,https://www.podbean.com/",
+    "WebsiteFR": "Podbean,Unlimited Plus,https://www.podbean.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 33.15,
+    "PriceFRYearly": 24.65
+  },
+  {
+    "Podcast HostingFR": "Podbean,Business,https://www.podbean.com/",
+    "WebsiteFR": "Podbean,Business,https://www.podbean.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 109.65,
+    "PriceFRYearly": 84.15
+  },
+  {
+    "Podcast HostingFR": "Captivate,Personal,https://www.captivate.fm/",
+    "WebsiteFR": "Captivate,Personal,https://www.captivate.fm/",
+    "Downloads/Listens": "12000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 22.23,
+    "PriceFRYearly": 19.89
+  },
+  {
+    "Podcast HostingFR": "Captivate,Professional,https://www.captivate.fm/",
+    "WebsiteFR": "Captivate,Professional,https://www.captivate.fm/",
+    "Downloads/Listens": "60000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 52.65,
+    "PriceFRYearly": 47.97
+  },
+  {
+    "Podcast HostingFR": "Captivate,Business,https://www.captivate.fm/",
+    "WebsiteFR": "Captivate,Business,https://www.captivate.fm/",
+    "Downloads/Listens": "150000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 111.15,
+    "PriceFRYearly": 101.79
+  },
+  {
+    "Podcast HostingFR": "Podspace,Mini 1,https://pod.space/",
+    "WebsiteFR": "Podspace,Mini 1,https://pod.space/",
+    "Downloads/Listens": "1000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 1.9,
+    "PriceFRYearly": 1.9
+  },
+  {
+    "Podcast HostingFR": "Podspace,Mini 2,https://pod.space/",
+    "WebsiteFR": "Podspace,Mini 2,https://pod.space/",
+    "Downloads/Listens": "5000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 7.9,
+    "PriceFRYearly": 7.9
+  },
+  {
+    "Podcast HostingFR": "Podspace,Pro 1,https://pod.space/",
+    "WebsiteFR": "Podspace,Pro 1,https://pod.space/",
+    "Downloads/Listens": "10000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 14.9,
+    "PriceFRYearly": 14.9
+  },
+  {
+    "Podcast HostingFR": "Podspace,Pro 2,https://pod.space/",
+    "WebsiteFR": "Podspace,Pro 2,https://pod.space/",
+    "Downloads/Listens": "50000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 24.9,
+    "PriceFRYearly": 24.9
+  },
+  {
+    "Podcast HostingFR": "Podspace,Pro 3,https://pod.space/",
+    "WebsiteFR": "Podspace,Pro 3,https://pod.space/",
+    "Downloads/Listens": "250000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 99.9,
+    "PriceFRYearly": 99.9
+  },
+  {
+    "Podcast HostingFR": "Buzzsprout,Pack 1,https://www.buzzsprout.com/",
+    "WebsiteFR": "Buzzsprout,Pack 1,https://www.buzzsprout.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "2 heures",
+    "PriceFR": 0,
+    "PriceFRYearly": 0
+  },
+  {
+    "Podcast HostingFR": "Buzzsprout,Pack 2,https://www.buzzsprout.com/",
+    "WebsiteFR": "Buzzsprout,Pack 2,https://www.buzzsprout.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "3 heures",
+    "PriceFR": 10.2,
+    "PriceFRYearly": 10.2
+  },
+  {
+    "Podcast HostingFR": "Buzzsprout,Pack 3,https://www.buzzsprout.com/",
+    "WebsiteFR": "Buzzsprout,Pack 3,https://www.buzzsprout.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "6 heures",
+    "PriceFR": 15.3,
+    "PriceFRYearly": 15.3
+  },
+  {
+    "Podcast HostingFR": "Buzzsprout,Pack 4,https://www.buzzsprout.com/",
+    "WebsiteFR": "Buzzsprout,Pack 4,https://www.buzzsprout.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "12 heures",
+    "PriceFR": 20.4,
+    "PriceFRYearly": 20.4
+  },
+  {
+    "Podcast HostingFR": "Spreaker,Free Speech,https://www.spreaker.com",
+    "WebsiteFR": "Spreaker,Free Speech,https://www.spreaker.com",
+    "Downloads/Listens": "Illimité",
+    "Storage": "5 heures",
+    "PriceFR": 0,
+    "PriceFRYearly": 0
+  },
+  {
+    "Podcast HostingFR": "Spreaker,On-Air Talent,https://www.spreaker.com",
+    "WebsiteFR": "Spreaker,On-Air Talent,https://www.spreaker.com",
+    "Downloads/Listens": "Illimité",
+    "Storage": "100 heures",
+    "PriceFR": 7,
+    "PriceFRYearly": 7
+  },
+  {
+    "Podcast HostingFR": "Spreaker,Broadcaster,https://www.spreaker.com",
+    "WebsiteFR": "Spreaker,Broadcaster,https://www.spreaker.com",
+    "Downloads/Listens": "Illimité",
+    "Storage": "500 heures",
+    "PriceFR": 20,
+    "PriceFRYearly": 20
+  },
+  {
+    "Podcast HostingFR": "Spreaker,Anchorman,https://www.spreaker.com",
+    "WebsiteFR": "Spreaker,Anchorman,https://www.spreaker.com",
+    "Downloads/Listens": "Illimité",
+    "Storage": "1500 heures",
+    "PriceFR": 50,
+    "PriceFRYearly": 50
+  },
+  {
+    "Podcast HostingFR": "Spreaker,Publisher,https://www.spreaker.com",
+    "WebsiteFR": "Spreaker,Publisher,https://www.spreaker.com",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 120,
+    "PriceFRYearly": 120
+  },
+  {
+    "Podcast HostingFR": "Castos,Starter,https://castos.com/",
+    "WebsiteFR": "Castos,Starter,https://castos.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 16.15,
+    "PriceFRYearly": 13.6
+  },
+  {
+    "Podcast HostingFR": "Castos,Growth,https://castos.com/",
+    "WebsiteFR": "Castos,Growth,https://castos.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 41.65,
+    "PriceFRYearly": 34.85
+  },
+  {
+    "Podcast HostingFR": "Castos,Pro,https://castos.com/",
+    "WebsiteFR": "Castos,Pro,https://castos.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 84.15,
+    "PriceFRYearly": 73.1
+  },
+  {
+    "Podcast HostingFR": "Ausha,Launch,https://www.ausha.co/fr/",
+    "WebsiteFR": "Ausha,Launch,https://www.ausha.co/fr/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 13,
+    "PriceFRYearly": 11
+  },
+  {
+    "Podcast HostingFR": "Ausha,Boost,https://www.ausha.co/fr/",
+    "WebsiteFR": "Ausha,Boost,https://www.ausha.co/fr/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 29,
+    "PriceFRYearly": 24
+  },
+  {
+    "Podcast HostingFR": "Ausha,Supersonic,https://www.ausha.co/fr/",
+    "WebsiteFR": "Ausha,Supersonic,https://www.ausha.co/fr/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 69,
+    "PriceFRYearly": 57
+  },
+  {
+    "Podcast HostingFR": "Podcastics,Pro,https://www.podcastics.com/fr/h%C3%A9bergement-podcast-statistiques/",
+    "WebsiteFR": "Podcastics,Pro,https://www.podcastics.com/fr/h%C3%A9bergement-podcast-statistiques/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 8.16,
+    "PriceFRYearly": 8.16
+  },
+  {
+    "Podcast HostingFR": "Podcastics,Max,https://www.podcastics.com/fr/h%C3%A9bergement-podcast-statistiques/",
+    "WebsiteFR": "Podcastics,Max,https://www.podcastics.com/fr/h%C3%A9bergement-podcast-statistiques/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 39.78,
+    "PriceFRYearly": 39.78
+  },
+  {
+    "Podcast HostingFR": "Simplecast,Basic,https://simplecast.com/",
+    "WebsiteFR": "Simplecast,Basic,https://simplecast.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 12.75,
+    "PriceFRYearly": 11.48
+  },
+  {
+    "Podcast HostingFR": "Simplecast,Essential,https://simplecast.com/",
+    "WebsiteFR": "Simplecast,Essential,https://simplecast.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 29.75,
+    "PriceFRYearly": 26.78
+  },
+  {
+    "Podcast HostingFR": "Simplecast,Growth,https://simplecast.com/",
+    "WebsiteFR": "Simplecast,Growth,https://simplecast.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 72.25,
+    "PriceFRYearly": 65.03
+  },
+  {
+    "Podcast HostingFR": "Audiomeans,Pas les moyens,https://www.audiomeans.fr/",
+    "WebsiteFR": "Audiomeans,Pas les moyens,https://www.audiomeans.fr/",
+    "Downloads/Listens": "1500 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 0,
+    "PriceFRYearly": 0
+  },
+  {
+    "Podcast HostingFR": "Audiomeans,Les moyens du bord,https://www.audiomeans.fr/",
+    "WebsiteFR": "Audiomeans,Les moyens du bord,https://www.audiomeans.fr/",
+    "Downloads/Listens": "5000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 13,
+    "PriceFRYearly": 11
+  },
+  {
+    "Podcast HostingFR": "Audiomeans,Les moyens de votre ambition,https://www.audiomeans.fr/",
+    "WebsiteFR": "Audiomeans,Les moyens de votre ambition,https://www.audiomeans.fr/",
+    "Downloads/Listens": "35000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 27,
+    "PriceFRYearly": 23
+  },
+  {
+    "Podcast HostingFR": "Audiomeans,Les grands moyens,https://www.audiomeans.fr/",
+    "WebsiteFR": "Audiomeans,Les grands moyens,https://www.audiomeans.fr/",
+    "Downloads/Listens": "75 000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 49,
+    "PriceFRYearly": 41
+  },
+  {
+    "Podcast HostingFR": "Audioboom,Podcasters,https://audioboom.com/",
+    "WebsiteFR": "Audioboom,Podcasters,https://audioboom.com/",
+    "Downloads/Listens": "10 000 écoutes",
+    "Storage": "Illimité",
+    "PriceFR": 8.49,
+    "PriceFRYearly": 7.01
+  },
+  {
+    "Podcast HostingFR": "Podcastwebsites,Pack 1,https://podcastwebsites.com/",
+    "WebsiteFR": "Podcastwebsites,Pack 1,https://podcastwebsites.com/",
+    "Downloads/Listens": "Illimité",
+    "Storage": "Illimité",
+    "PriceFR": 82.45,
+    "PriceFRYearly": 65.45
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Marque": "Samson,Q2U,https://www.amazon.fr/Samson-Microphone-Dynamique-Enregistrement-sc%C3%A9nique/dp/B0876TR1ZS/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=samson+Q2U&qid=1628237403&sr=8-1",
+    "Modèle": "Samson,Q2U,https://www.amazon.fr/Samson-Microphone-Dynamique-Enregistrement-sc%C3%A9nique/dp/B0876TR1ZS/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=samson+Q2U&qid=1628237403&sr=8-1",
+    "Prix": "69.99€",
+    "Connection": "USB",
+    "Taille podcast": 1,
+    "Pour qui?": "Débutant",
+    "Pied": "Oui",
+    "Website": "Samson,Q2U,https://www.amazon.fr/Samson-Microphone-Dynamique-Enregistrement-sc%C3%A9nique/dp/B0876TR1ZS/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=samson+Q2U&qid=1628237403&sr=8-1"
+  },
+  {
+    "Marque": "Blue,Snowball,https://www.amazon.fr/Blue-Microphones-Microphone-Snowball-laqu%C3%A9/dp/B002OO18NS/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Snowball&qid=1628237686&sr=8-6",
+    "Modèle": "Blue,Snowball,https://www.amazon.fr/Blue-Microphones-Microphone-Snowball-laqu%C3%A9/dp/B002OO18NS/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Snowball&qid=1628237686&sr=8-6",
+    "Prix": "84.99€",
+    "Connection": "USB",
+    "Taille podcast": 1,
+    "Pour qui?": "Débutant",
+    "Pied": "Oui",
+    "Website": "Blue,Snowball,https://www.amazon.fr/Blue-Microphones-Microphone-Snowball-laqu%C3%A9/dp/B002OO18NS/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Snowball&qid=1628237686&sr=8-6"
+  },
+  {
+    "Marque": "Blue,Yeti,https://www.amazon.fr/Blue-Microphones-Yeti-Argent-Silver/dp/B002VA464S/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Yeti+USB+Microphone&qid=1628237732&sr=8-2",
+    "Modèle": "Blue,Yeti,https://www.amazon.fr/Blue-Microphones-Yeti-Argent-Silver/dp/B002VA464S/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Yeti+USB+Microphone&qid=1628237732&sr=8-2",
+    "Prix": "149.99€",
+    "Connection": "USB",
+    "Taille podcast": 2,
+    "Pour qui?": "Semi-pro",
+    "Pied": "Oui",
+    "Website": "Blue,Yeti,https://www.amazon.fr/Blue-Microphones-Yeti-Argent-Silver/dp/B002VA464S/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Blue+Yeti+USB+Microphone&qid=1628237732&sr=8-2"
+  },
+  {
+    "Marque": "Rode,Podcaster,https://www.amazon.fr/Rode-Microphones-PODCASTER-Podcaster-Microphone/dp/B000JM46FY/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-2",
+    "Modèle": "Rode,Podcaster,https://www.amazon.fr/Rode-Microphones-PODCASTER-Podcaster-Microphone/dp/B000JM46FY/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-2",
+    "Prix": "177.00€",
+    "Connection": "USB",
+    "Taille podcast": 1,
+    "Pour qui?": "Semi-pro",
+    "Pied": "Non",
+    "Website": "Rode,Podcaster,https://www.amazon.fr/Rode-Microphones-PODCASTER-Podcaster-Microphone/dp/B000JM46FY/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-2"
+  },
+  {
+    "Marque": "Rode,NT-USB,https://www.amazon.fr/Rode-Microphones-NT-USB-Microphone-Noir/dp/B00KQPGRRE/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-1",
+    "Modèle": "Rode,NT-USB,https://www.amazon.fr/Rode-Microphones-NT-USB-Microphone-Noir/dp/B00KQPGRRE/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-1",
+    "Prix": "148.00€",
+    "Connection": "USB",
+    "Taille podcast": 2,
+    "Pour qui?": "Semi-pro",
+    "Pied": "Oui",
+    "Website": "Rode,NT-USB,https://www.amazon.fr/Rode-Microphones-NT-USB-Microphone-Noir/dp/B00KQPGRRE/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rode+Podcaster+USB&qid=1628237888&sr=8-1"
+  },
+  {
+    "Marque": "Shure,SM7B,https://www.amazon.fr/Shure-SM7B-microphone-microphones-Cardioid/dp/B0002E4Z8M/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Shure+SM7b&qid=1628238102&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFHWVE5QlVBRTg5TVImZW5jcnlwdGVkSWQ9QTA1Mzg1NTRNTVNOSlU0WEpSTUkmZW5jcnlwdGVkQWRJZD1BMDA0MDE3MDNWNElURVg0UUEwV00md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
+    "Modèle": "Shure,SM7B,https://www.amazon.fr/Shure-SM7B-microphone-microphones-Cardioid/dp/B0002E4Z8M/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Shure+SM7b&qid=1628238102&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFHWVE5QlVBRTg5TVImZW5jcnlwdGVkSWQ9QTA1Mzg1NTRNTVNOSlU0WEpSTUkmZW5jcnlwdGVkQWRJZD1BMDA0MDE3MDNWNElURVg0UUEwV00md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
+    "Prix": "368.00€",
+    "Connection": "XLR",
+    "Taille podcast": 1,
+    "Pour qui?": "Pro",
+    "Pied": "Non",
+    "Website": "Shure,SM7B,https://www.amazon.fr/Shure-SM7B-microphone-microphones-Cardioid/dp/B0002E4Z8M/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Shure+SM7b&qid=1628238102&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFHWVE5QlVBRTg5TVImZW5jcnlwdGVkSWQ9QTA1Mzg1NTRNTVNOSlU0WEpSTUkmZW5jcnlwdGVkQWRJZD1BMDA0MDE3MDNWNElURVg0UUEwV00md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+  },
+  {
+    "Marque": "Heil,PR-40,https://www.amazon.fr/Heil-Pr-40-Professional-Studio-Microphone-vocal/dp/B000SOYOTQ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=HEiL+Sound+PR-40&qid=1628238201&sr=8-1",
+    "Modèle": "Heil,PR-40,https://www.amazon.fr/Heil-Pr-40-Professional-Studio-Microphone-vocal/dp/B000SOYOTQ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=HEiL+Sound+PR-40&qid=1628238201&sr=8-1",
+    "Prix": "422.00€",
+    "Connection": "XLR",
+    "Taille podcast": 1,
+    "Pour qui?": "Pro",
+    "Pied": "Non",
+    "Website": "Heil,PR-40,https://www.amazon.fr/Heil-Pr-40-Professional-Studio-Microphone-vocal/dp/B000SOYOTQ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=HEiL+Sound+PR-40&qid=1628238201&sr=8-1"
+  }
+]

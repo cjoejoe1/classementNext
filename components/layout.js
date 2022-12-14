@@ -8,7 +8,7 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 
 
-const Layout = ({ children, path }) => {
+const Layout = ({ children, path, email }) => {
 
  
 
@@ -23,7 +23,7 @@ const Layout = ({ children, path }) => {
   
           <link rel="canonical" />
         </Head>
-      <Header siteTitle={`Title`} path={path}/>
+      <Header siteTitle={`Title`} path={path} email={email}/>
 
     
           <main style={{marginTop: -98}}>{children}</main>

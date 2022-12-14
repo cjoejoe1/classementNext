@@ -38,9 +38,9 @@ const Testimonials = (props) => {
                 </footer>
               </blockquote>
             </div>
-            <div className="card p-3" style={{marginTop: 10}}>
+            <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
-                <p>Createur.com est de loin ma newsletter préférée ! <div style={{marginTop: 10}}>Je lis chaque mot, chaque semaine.</div></p>
+                <p>Createur.com est de loin ma newsletter préférée ! Je lis chaque mot, chaque semaine.</p>
                 <footer className="blockquote-footer">
                   <small className="text-muted">
                   Romain <cite title="Source Title">Paris</cite>
@@ -48,16 +48,6 @@ const Testimonials = (props) => {
                 </footer>
               </blockquote>
             </div>
-            {/* <div className="card p-3">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>Createur.com, c’est comme un mélange d’actu business que je peux vraiment utiliser et appliquer dans mes propres projets.</p>
-                <footer className="blockquote-footer" style={{marginTop: 10}}>
-                  <small className="text-muted">
-                 Benjamin <cite title="Source Title">Le Havre</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div> */}
             <div className="card p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>Chaque email est comme un shot d’inspiration et d’excitation. Non seulement j’ai des nouvelles idées, mais mon niveau d'énergie est décuplée.</p>
