@@ -35,7 +35,7 @@ const FirebaseAuth = () => {
               Connexion à Createur.com" />
       </Head>
 
-      <Header />
+
     <div style={{marginTop: 250, minHeight: 800}}>
       <StyledFirebaseAuth
         uiConfig={firebaseAuthConfig({ signInSuccessUrl })}
