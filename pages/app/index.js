@@ -1,5 +1,5 @@
 import React from 'react'
-import {createClient} from 'contentful'
+
 import {useState, useEffect} from 'react'
 import {firebase, auth} from '../../utils/firebaseData'
 import {useAuthState} from 'react-firebase-hooks/auth'
