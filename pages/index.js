@@ -1,16 +1,9 @@
 import * as React from "react"
 import Seo from '../components/seo';
 import Layout from '../components/layout'
-import Hero from '../components/Blocks/HeroPicture'
-import Tick from '../components/Blocks/Tick'
-import What from '../components/Blocks/What'
-import Tabs from '../components/Blocks/Tabs'
-import ForWho from '../components/Blocks/ForWho'
-import ForWhoReverse from '../components/Blocks/ForWhoReverse'
-import Testimonials from '../components/Blocks/Testimonials'
-import Who from '../components/Blocks/Who'
-import Faq from '../components/Blocks/FAQ'
-
+import HomeBoxes from '../components/Blocks/HomeBoxes'
+import {Container, Row, Col, Button} from 'react-bootstrap'
+import Newsletter from '../components/Newsletter/'
 
 
 const Index = props => {
@@ -19,16 +12,23 @@ const Index = props => {
     <Layout >
       
       <Seo title="Idées business à lancer en 2023 - Createur.com" description="La newsletter des idées business"/>
-      
-      <Hero/>
+      <Container style={{maxWidth: 1280, marginTop: 150}}>
+        <h1 style={{textAlign: 'center'}}>Classements Pour Les <span style={{textDecoration: 'underline', textDecorationColor: '#0074C6'}}>Pros</span></h1>
+        <p style={{textAlign: 'center', fontSize: 30, color: 'grey'}}>Logiciels, outils et services pours les indépendants et PME</p>
+        <div style={{maxWidth: 600, margin: 'auto', marginTop: 40}}>
+        <Newsletter/>
+        </div>
+      <HomeBoxes/>
+      </Container>
+      {/* <Hero/> */}
       {/* <Tick/> */}
-      <What/>
+      {/* <What/> */}
       {/* <Tabs/> */}
-      <ForWho/>
-      <ForWhoReverse/>
-      <Testimonials/>
+      {/* <ForWho/> */}
+      {/* <ForWhoReverse/> */}
+      {/* <Testimonials/> */}
       {/* <Who/> */}
-      <Faq/>
+      {/* <Faq/> */}
     </Layout>
   )
 }

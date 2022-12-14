@@ -11,7 +11,7 @@ function PrivacyPolicy(props) {
 
     <Layout path={props.path}>
 
-        <Seo title="Politique de confidentialité | Createur.com"/>
+        <Seo title="Politique de confidentialité | Classement.com"/>
         <Breadcrumbs text='Politique de confidentialité'/>
         <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
         <TitleBlock><h1>Politique de confidentialité</h1></TitleBlock>
@@ -21,7 +21,7 @@ function PrivacyPolicy(props) {
 
                 <h3 style={{marginTop: 30}}>ARTICLE 1 : PRÉAMBULE</h3>
 
-<p>Cette politique de confidentialité s’applique au site : Createur.com.</p>
+<p>Cette politique de confidentialité s’applique au site : Classement.com.</p>
 
 <p>La présente politique de confidentialité a pour but d’exposer aux utilisateurs du site :</p>
 
@@ -71,7 +71,7 @@ Le traitement et la collecte des données à caractère personnel sont nécessai
 A. DONNÉES COLLECTÉES ET TRAITÉES ET MODE DE COLLECTE
 </h4>
 <p>
-Les données à caractère personnel collectées sur le site Createur.com sont les suivantes :
+Les données à caractère personnel collectées sur le site Classement.com sont les suivantes :
 </p><ul><li>
 1) Nom, Prénom, Email, Commentaire
 </li><li>
@@ -83,7 +83,7 @@ Ces données sont collectées lorsque l’utilisateur effectue l’une des opér
 </p><ul>
 <li>
 1) Prise de contact dans la rubrique « Contactez-nous »</li>
-<li>2) Navigation sur le site internet Createur.com</li>
+<li>2) Navigation sur le site internet Classement.com</li>
 </ul>
 <p>
 Le responsable du traitement conservera dans ses systèmes informatiques du site et dans des conditions raisonnables de sécurité l’ensemble des données collectées pour une durée de : Les données sont conservées uniquement le temps nécessaire pour les finalités poursuivies, conformément aux prescriptions légales.
@@ -100,7 +100,7 @@ Les données à caractère personnel collectées par le site ne sont transmises 
 </p><h4 style={{marginTop: 30}}>
 C. HÉBERGEMENT DES DONNÉES</h4>
 <p>
-Le site Createur.com est hébergé par : Hostinger UAB, dont le siège est situé à l’adresse ci-après : Jonavos g. 60C, 44192, Kaunas, Lithuania
+Le site Classement.com est hébergé par : Hostinger UAB, dont le siège est situé à l’adresse ci-après : Jonavos g. 60C, 44192, Kaunas, Lithuania
 </p><p>
 L’hébergeur peut être contacté au numéro de téléphone suivant : 0044 207 0432 187
 </p><p>
@@ -116,7 +116,7 @@ Les données collectées et traitées par le site sont transférées vers le(s) 
   <li>
 T. +44 (0)7760 884744
 </li><li>
-E. <a href='mailto: bonjour@createur.com'>bonjour@createur.com</a>
+E. <a href='mailto: bonjour@classement.com'>bonjour@classement.com</a>
 </li>
 </ul>
 <p>
@@ -144,7 +144,7 @@ Le rôle du Délégué à la Protection des Données et de s’assurer la bonne 
 Le délégué à la protection des données peut être joint de la manière suivante :
 </p><ul>
   <li>T. +44 (0)7760 884744</li>
-  <li>E. <a href='mailto: bonjour@createur.com'>bonjour@createur.com</a></li>
+  <li>E. <a href='mailto: bonjour@classement.com'>bonjour@classement.com</a></li>
 </ul>
 
 <h3 style={{marginTop: 30}}>ARTICLE 5 : DROITS DE L’UTILISATEUR</h3>
@@ -161,13 +161,13 @@ a. Droit d’accès, de rectification et droit à l’effacement
 </p><p>
 L’utilisateur peut prendre connaissance, mettre à jour, modifier ou demander la suppression des données le concernant, en respectant la procédure ci-après énoncée :
 </p><p>
-Envoyer un email à <a href='mailto: bonjour@createur.com'>bonjour@createur.com</a>
+Envoyer un email à <a href='mailto: bonjour@classement.com'>bonjour@classement.com</a>
 </p><p>
 b. Droit à la portabilité des données
 </p><p>
 L’utilisateur a le droit de demander la portabilité de ses données personnelles, détenues par le site, vers un autre site, en se conformant à la procédure ci-après :
 </p><p>
-Envoyer un email à <a href='mailto: bonjour@createur.com'>bonjour@createur.com</a>
+Envoyer un email à <a href='mailto: bonjour@classement.com'>bonjour@classement.com</a>
 </p><p>
 c. Droit à la limitation et à l’opposition du traitement des données
 </p><p>
@@ -175,7 +175,7 @@ L’utilisateur a le droit de demander la limitation ou de s’opposer au traite
 </p><p>
 Afin de demander la limitation du traitement de ses données ou de formuler une opposition au traitement de ses données, l’utilisateur doit suivre la procédure suivante :
 </p><p>
-Envoyer un email à <a href='mailto: bonjour@createur.com'>bonjour@createur.com</a>
+Envoyer un email à <a href='mailto: bonjour@classement.com'>bonjour@classement.com</a>
 </p><p>
 d. Droit de ne pas faire l’objet d’une décision fondée exclusivement sur un procédé automatisé
 </p><p>

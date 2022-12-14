@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Link from "next/link";
 import GlobalContext from "../../context/GlobalContext";
 import Image from 'next/image'
-import logoBlack from '../../images/createur-logo-white.png'
+import logoBlack from '../../images/classement-logo-white.png'
 import flag from '../../images/flag.png'
 import phone from "../../images/phone.png";
 import { useRouter } from 'next/router'
@@ -18,7 +18,8 @@ const Menu = (props) => {
 
   console.log('props.email menu', props.email)
   const background = () => {
-    if (router.pathname && router.pathname !== '/') return '#0f222e'
+    // if (router.pathname && router.pathname !== '/') return '#0f222e'
+    return '#0f222e'
     // else return 'red'
   }
 

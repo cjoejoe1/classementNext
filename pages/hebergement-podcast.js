@@ -1,12 +1,12 @@
 import {useState} from 'react';
 import { Container, Row, Col} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Layout from '../components/layout'
 import Link from 'next/link'
-import Disclosure from '../../components/Blocks/Disclosure'
-import Seo from "../../components/seo";
-import DataTable from '../../components/data/hebergementPodcast/hebergementPodcast'
-import { Article, Input } from "../../components/Core";
+import Disclosure from '../components/Blocks/Disclosure'
+import Seo from "../components/seo";
+import DataTable from '../components/data/hebergementPodcast/hebergementPodcast'
+import { Article, Input } from "../components/Core";
 
 
 
@@ -23,7 +23,7 @@ function HebergementPodcast(props) {
         title="Comparatif hébergement podcast - meilleur hébergement pour votre podcast"
         description="Trouvez le meilleur hébergement pour votre podcast avec le comparatif complet sur createur.com"
       />
-         <Breadcrumbs link="/kit/" text='Hébergement podcast' cat="Kit du créateur"/>
+         <Breadcrumbs text='Hébergement podcast' cat="Kit du créateur"/>
 
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>

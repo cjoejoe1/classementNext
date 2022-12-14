@@ -34,10 +34,10 @@ h1{
 h2{
   color: #19191b;
   font-family: Montserrat !important;
-  font-size: 40px !important;
+  font-size: 35px !important;
   font-weight: 700 !important;
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
 h3{
   color: #19191b;
@@ -1031,3 +1031,20 @@ padding-bottom: 10px;
 
 }
 
+#cardOnHoverMarket{
+  border: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#cardOnHoverMarket:hover{
+  box-shadow: 0 52px 54px rgb(65 62 101 / 18%);
+
+}
+
+
+@media (min-width: 400px){
+  #noLarge{
+    display: none;
+  }
+}

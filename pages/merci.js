@@ -28,7 +28,7 @@ function PrivacyPolicy(props) {
         <Breadcrumbs text='Merci'/>
         <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174, minHeight: 600}}>
         <TitleBlock><h1>Merci</h1></TitleBlock>
-        <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Votre premier email idées business arrivera dans moins de 10 minutes.</p>
+        <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Votre classement arrivera dans moins de 10 minutes.</p>
           <TextBlock>
          
           </TextBlock>

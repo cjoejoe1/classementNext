@@ -9,14 +9,14 @@ function TermsConditions(props) {
 
 
     <Layout path={props.path}>
-      <Seo title="Mentions légales | Createur.com"/>
+      <Seo title="Mentions légales | Classement.com"/>
       <Breadcrumbs text='Mentions légales'/>
       <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
           <TitleBlock><h1>    Mentions Légales</h1></TitleBlock>
           {/* <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Full details of the Stimply terms and conditions.</p> */}
           <TextBlock>
           <div>
-                <p>Le site Createur.com est édité par la société Kohdao Ltd.</p>
+                <p>Le site Classement.com est édité par la société Kohdao Ltd.</p>
 
                 <h3 style={{marginTop: 30}}>Kohdao Ltd.</h3>
 <p>Forme sociale : Limited</p>
@@ -25,20 +25,20 @@ function TermsConditions(props) {
 <p>Telephone: +44 7760 884744</p>
 <p>Directeur de la publication : Monsieur John-Pierre Clark</p>
 
-<p>Pour nous contacter, écrivez nous à bonjour@createur.com</p>
+<p>Pour nous contacter, écrivez nous à bonjour@classement.com</p>
 
 
 <h3 style={{marginTop: 30}}>Conditions d’utilisation</h3>
-<p>Ce présent document a pour objet de définir les modalités et conditions dans lesquelles d’une part, Createur.com / Kohdao Ltd , ci-après dénommé l’EDITEUR, met à la disposition de ses utilisateurs le site, et les services disponibles sur le site et d’autre part, la manière par laquelle l’utilisateur accède au site et utilise ses services.
+<p>Ce présent document a pour objet de définir les modalités et conditions dans lesquelles d’une part, Classement.com / Kohdao Ltd , ci-après dénommé l’EDITEUR, met à la disposition de ses utilisateurs le site, et les services disponibles sur le site et d’autre part, la manière par laquelle l’utilisateur accède au site et utilise ses services.
 </p><p>
 Toute connexion au site est subordonnée au respect des présentes conditions.
 </p><p>
-Pour l’utilisateur, le simple accès au site de l’EDITEUR à l’adresse URL suivante https://www.createur.com implique l’acceptation de l’ensemble des conditions décrites ci-après.
+Pour l’utilisateur, le simple accès au site de l’EDITEUR à l’adresse URL suivante https://www.classement.com implique l’acceptation de l’ensemble des conditions décrites ci-après.
 </p>
 <h3 style={{marginTop: 30}}>Modalités de classement des offres</h3>
-<p>Createur.com agit simplement en tant que prestataire technique, et ne peut, en aucun cas, être considéré comme vendeur ou revendeur de produits ou services financiers, qui sont fournis exclusivement par les banques et organismes présentés et avec lesquelles vous pouvez décider seul(e) de les contracter.
+<p>Classement.com agit simplement en tant que prestataire technique, et ne peut, en aucun cas, être considéré comme vendeur ou revendeur de produits ou services financiers, qui sont fournis exclusivement par les banques et organismes présentés et avec lesquelles vous pouvez décider seul(e) de les contracter.
 </p><p>
-Createur.com compare l’offre de compte courant de la majorité des banques françaises avec un focus plus particulier sur les banques en ligne. Nous présentons les coûts liés à leurs cartes bancaires, à la tenue de compte ainsi que les conditions de leurs offres promotionnelles.
+Classement.com compare l’offre de compte courant de la majorité des banques françaises avec un focus plus particulier sur les banques en ligne. Nous présentons les coûts liés à leurs cartes bancaires, à la tenue de compte ainsi que les conditions de leurs offres promotionnelles.
 </p><p>
 Le scoring qui apparait sur certains de nos tableaux comparatifs représente une évaluation effectué par l’équipe de BankBank basé sur des critères objectifs comme les frais bancaire ainsi que des critères subjectif comme l’expérience utilisateur de leur site internet.
 </p><p>
@@ -75,13 +75,13 @@ Ces cookies collectent des informations en ce qui concerne vos habitudes de rech
 </p>
 <h4 style={{marginTop: 30}}>Les statistiques du Site Internet</h4>
 <p>
-Nous pouvons divulguer des statistiques globales et anonymes concernant le nombre de visiteurs du Site Internet ou le nombre d’achats effectués, informations qui nous sont demandées par nos investisseurs. Nous avons recours à une société indépendante spécialisée dans les études statistiques et la recherche qui recueille, pour notre compte, des données relatives aux visiteurs de ce Site, en utilisant des cookies et un code intégré dans le Site Internet. Les cookies et le code intégré permettent d’obtenir des informations statistiques sur le nombre de visites sur chacune des pages du Site, sur la durée de visualisation de chaque page, sur les itinéraires choisis par les visiteurs, ainsi que des données sur les paramètres d’utilisation des visiteurs et toute autre information à caractère général. Createur.com utilise et stocke ce type d’informations, ainsi que celles obtenues par les cookies utilisés sur le Site Internet, afin d’améliorer les services fournis à nos utilisateurs. Vous pouvez obtenir de plus amples renseignements sur l’obtention de ces informations et leur utilisation en nous contactant à ici.
+Nous pouvons divulguer des statistiques globales et anonymes concernant le nombre de visiteurs du Site Internet ou le nombre d’achats effectués, informations qui nous sont demandées par nos investisseurs. Nous avons recours à une société indépendante spécialisée dans les études statistiques et la recherche qui recueille, pour notre compte, des données relatives aux visiteurs de ce Site, en utilisant des cookies et un code intégré dans le Site Internet. Les cookies et le code intégré permettent d’obtenir des informations statistiques sur le nombre de visites sur chacune des pages du Site, sur la durée de visualisation de chaque page, sur les itinéraires choisis par les visiteurs, ainsi que des données sur les paramètres d’utilisation des visiteurs et toute autre information à caractère général. Classement.com utilise et stocke ce type d’informations, ainsi que celles obtenues par les cookies utilisés sur le Site Internet, afin d’améliorer les services fournis à nos utilisateurs. Vous pouvez obtenir de plus amples renseignements sur l’obtention de ces informations et leur utilisation en nous contactant à ici.
 </p>
 <h4 style={{marginTop: 30}}>Connexion via les réseaux sociaux</h4>
 <p>
-Lorsque vous vous connectez à Createur.com en utilisant un compte sur un réseau social (par ex. Facebook ou Google+), nous recevons les informations de votre profil de base qui sont publiquement disponibles. Ces informations peuvent comprendre votre identifiant utilisé pour vous identifier par média social, vos noms, réseaux, (ou « cercles ») et sexe. Selon la plateforme du réseau social que vous utilisez pour vous connecter, nous pouvons également recevoir votre adresse électronique, la liste de vos amis ou des personnes qui vous suivent et votre photo de profil et/ou photo de couverture.
+Lorsque vous vous connectez à Classement.com en utilisant un compte sur un réseau social (par ex. Facebook ou Google+), nous recevons les informations de votre profil de base qui sont publiquement disponibles. Ces informations peuvent comprendre votre identifiant utilisé pour vous identifier par média social, vos noms, réseaux, (ou « cercles ») et sexe. Selon la plateforme du réseau social que vous utilisez pour vous connecter, nous pouvons également recevoir votre adresse électronique, la liste de vos amis ou des personnes qui vous suivent et votre photo de profil et/ou photo de couverture.
 </p><p>
-Toute information personnelle reçue par Createur.com de cette manière sera traitée conformément aux termes des présentes Règles de Confidentialité. Toute information collectée du fait de votre connexion via un réseau social sera utilisée pour les besoins des fonctionnalités et à des fins d’analyse du Site Internet. Aucune information obtenue du fait de votre connexion via un réseau social ne sera utilisée à des fins de marketing si ce n’est avec votre accord.
+Toute information personnelle reçue par Classement.com de cette manière sera traitée conformément aux termes des présentes Règles de Confidentialité. Toute information collectée du fait de votre connexion via un réseau social sera utilisée pour les besoins des fonctionnalités et à des fins d’analyse du Site Internet. Aucune information obtenue du fait de votre connexion via un réseau social ne sera utilisée à des fins de marketing si ce n’est avec votre accord.
 </p>
 <h4 style={{marginTop: 30}}>Propriété intellectuelle</h4>
 <p>
@@ -89,7 +89,7 @@ Aucune reproduction, même partielle prévue à l’article L.122-5 du Code de l
 </p>
 <h4 style={{marginTop: 30}}>Liens hypertextes</h4>
 <p>
-Le site Createur.com peut contenir des liens hypertextes vers d’autres sites présents sur le réseau Internet. Les liens vers ces autres ressources vous font quitter le site Createur.com.
+Le site Classement.com peut contenir des liens hypertextes vers d’autres sites présents sur le réseau Internet. Les liens vers ces autres ressources vous font quitter le site Classement.com.
 </p>
 <h3>Responsabilité de l’éditeur</h3>
 <p>
@@ -123,13 +123,13 @@ L’EDITEUR se réserve la possibilité de modifier, à tout moment et sans pré
 </p>
 <h3>Modalités de classement des offres</h3>
 <p>
-Createur.com agit simplement en tant que prestataire technique, et ne peut, en aucun cas, être considéré comme vendeur ou revendeur de produits ou services financiers, qui sont fournis exclusivement par les banques et organismes présentés et avec lesquelles vous pouvez décider seul(e) de les contracter.
+Classement.com agit simplement en tant que prestataire technique, et ne peut, en aucun cas, être considéré comme vendeur ou revendeur de produits ou services financiers, qui sont fournis exclusivement par les banques et organismes présentés et avec lesquelles vous pouvez décider seul(e) de les contracter.
 </p><p>
-Createur.com compare l’offre de compte courant de la majorité des banques françaises avec un focus plus particulier sur les banques en ligne. Nous présentons les coûts liés à leurs cartes bancaires, à la tenue de compte ainsi que les conditions de leurs offres promotionnelles.
+Classement.com compare l’offre de compte courant de la majorité des banques françaises avec un focus plus particulier sur les banques en ligne. Nous présentons les coûts liés à leurs cartes bancaires, à la tenue de compte ainsi que les conditions de leurs offres promotionnelles.
 </p><p>
 Le scoring qui apparait sur certains de nos tableaux comparatifs représente une évaluation effectué par l’équipe de BankBank basé sur des critères objectifs comme les frais bancaire ainsi que des critères subjectif comme l’expérience utilisateur de leur site internet.
 </p><p>
-Createur.com présente et compare une sélection de produits et n’effectue pas une comparaison sur la totalité des produits existants.
+Classement.com présente et compare une sélection de produits et n’effectue pas une comparaison sur la totalité des produits existants.
 </p><p>
 Les informations et/ou documents figurant sur ce site et/ou accessibles par ce site proviennent de sources considérées comme étant fiables. Toutefois, ces informations et/ou documents sont susceptibles de contenir des inexactitudes techniques et des erreurs typographiques.
 </p><p>
@@ -155,7 +155,7 @@ L’utilisateur reconnaît que l’EDITEUR ne dispose d’aucun moyen de contrô
 <p>
 Tant le présent site que les modalités et conditions de son utilisation sont régis par le droit anglais, quel que soit le lieu d’utilisation. En cas de contestation éventuelle, et après l’échec de toute tentative de recherche d’une solution amiable, les tribunaux anglais seront seuls compétents pour connaître de ce litige.
 </p><p>
-Pour toute question relative aux présentes conditions d’utilisation du site, vous pouvez nous écrire à l’adresse suivante : bonjour@createur.com
+Pour toute question relative aux présentes conditions d’utilisation du site, vous pouvez nous écrire à l’adresse suivante : bonjour@classement.com
 </p>
 
 </div>

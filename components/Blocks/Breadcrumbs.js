@@ -6,7 +6,7 @@ const Breadcrumbs = (props) => {
 
     return (
  
-      <Container fluid style={{background: '#f7f7fb'}} id='bread'>
+      <Container fluid style={{background: 'rgb(243, 243, 243)'}} id='bread'>
           <Container style={{marginTop: 100, maxWidth: 1280}}>
           <Breadcrumb>
           <Breadcrumb.Item href={props.path === '/build-my-website' ? '#' : '/'}>Accueil</Breadcrumb.Item>

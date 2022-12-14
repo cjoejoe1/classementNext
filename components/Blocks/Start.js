@@ -14,7 +14,7 @@ const Start = (props) => {
      
          
           <h2 className="display-4" style={{maxWidth: 800,marginBottom: 0, fontWeight: 700, fontSize: 60, color: 'white', margin: 'auto', textAlign: 'center' }}>Rejoignez nos 30 000 membres qui
-lance leur business avec Createur.com </h2>
+comparent les offres pros avec Classement.com </h2>
     
         
               <div style={{maxWidth: 250, margin: 'auto'}}>

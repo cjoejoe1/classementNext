@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Layout from '../components/layout'
 import Link from 'next/link'
-import DataTable from '../../components/data/accountingSoftware/accountingSoftware'
-import DataTableMobile from '../../components/data/accountingSoftware/accountingSoftwareMobile'
-import Disclosure from '../../components/Blocks/Disclosure'
-import Seo from "../../components/seo";
+import Disclosure from '../components/Blocks/Disclosure'
+import Seo from "../components/seo";
+import DataTable from '../components/data/accountingSoftware/accountingSoftware'
+import DataTableMobile from '../components/data/accountingSoftware/accountingSoftwareMobile'
+import { Article, Input } from "../components/Core";
 
 function Accounting(props) {
 
@@ -22,7 +23,7 @@ var y = d.getFullYear();
         title="Logiciel de comptabilité - Meilleur logiciel de comptabilité pour votre business"
         description="Trouver le meilleur logiciel de comptabilité pour votre business avec createur.com"
       />
-     <Breadcrumbs link="/kit/" text='Logiciel de Comptabilité' cat="Kit du créateur"/>
+     <Breadcrumbs  text='Logiciel de Comptabilité' cat="Kit du créateur"/>
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>
      

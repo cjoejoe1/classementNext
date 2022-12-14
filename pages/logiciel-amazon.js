@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Layout from '../components/layout'
 import Link from 'next/link'
-import DataTable from '../../components/data/amazonSoftware/amazonSoftware'
-import DataTableMobile from '../../components/data/amazonSoftware/amazonSoftwareMobile'
-import Disclosure from '../../components/Blocks/Disclosure'
-import Seo from "../../components/seo";
+import Disclosure from '../components/Blocks/Disclosure'
+import Seo from "../components/seo";
+import DataTable from '../components/data/amazonSoftware/amazonSoftware'
+import DataTableMobile from '../components/data/amazonSoftware/amazonSoftwareMobile'
+import { Article, Input } from "../components/Core";
 
 
 function hebergementPodcast(props) {
@@ -24,7 +25,7 @@ var y = d.getFullYear();
         description="Trouver le meilleur logiciel Amazon pour votre business avec createur.com"
       />
 
-<Breadcrumbs link="/kit/" text='Logiciel Amazon' cat="Kit du créateur"/>
+<Breadcrumbs text='Logiciel Amazon' cat="Kit du créateur"/>
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>
   

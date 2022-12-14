@@ -16,7 +16,7 @@ function Contact(props) {
 
     <Layout path={props.path}>
 
-              <Seo title="Contactez-nous | Createur.com"/>
+              <Seo title="Contactez-nous | Classement.com"/>
               <Breadcrumbs text='Contactez-nous'/>
               <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
               <TitleBlock><h1>Contactez-nous</h1></TitleBlock>
@@ -25,17 +25,17 @@ function Contact(props) {
                 <Col sm={6}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaEnvelope /> Email</h3>
                 <Row>
                 <Col><b>Support client</b></Col>
-                <Col  sm={7}>{<a href={`mailto: bonjour@createur.com`}>bonjour@createur.com</a>}</Col>
+                <Col  sm={7}>{<a href={`mailto: bonjour@classement.com`}>bonjour@classement.com</a>}</Col>
                 </Row>
                 <Row>
                 <Col><b>Partenariats</b></Col>
-                <Col  sm={7}>{<a href={"mailto: partenaire@createur.com"}>partenaire@createur.com</a>}</Col>
+                <Col  sm={7}>{<a href={"mailto: partenaire@classement.com"}>partenaire@classement.com</a>}</Col>
                 </Row>
              
              
                 </Col>
                 <Col sm={3}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaMapMarkerAlt /> Adresse</h3>
-                <p><b>Createur.com @ Kohdao Ltd.</b><br></br>
+                <p><b>Classement.com @ Kohdao Ltd.</b><br></br>
                 7 Clapham Park Terrace<br></br>London, SW2 5EA<br></br>United Kingdom
                   </p></Col>
                 <Col sm={3}><h3 style={{marginTop: 50, marginBottom: 20, font: 'bold 1.5em / 1.2 Montserrat, sans-serif'}}><FaPhoneAlt /> Téléphone</h3>

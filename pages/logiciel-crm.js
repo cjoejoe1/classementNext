@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Layout from '../components/layout'
 import Link from 'next/link'
-import FilterForm from '../../components/data/crmSoftware/FilterForm'
-import FilterFormMobile from '../../components/data/crmSoftware/FilterFormMobile'
-import Disclosure from '../../components/Blocks/Disclosure'
-import Seo from "../../components/seo";
+import Disclosure from '../components/Blocks/Disclosure'
+import Seo from "../components/seo";
+import FilterForm from '../components/data/crmSoftware/FilterForm'
+import FilterFormMobile from '../components/data/crmSoftware/FilterFormMobile'
+import { Article, Input } from "../components/Core";
 
 function Accounting(props) {
 
@@ -22,7 +23,7 @@ var y = d.getFullYear();
         description="Trouver le meilleur logiciel CRM pour votre business avec createur.com"
       />
 
-<Breadcrumbs link="/kit/" text='Logiciel CRM' cat="Kit du créateur"/>
+<Breadcrumbs text='Logiciel CRM' cat="Kit du créateur"/>
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>
   

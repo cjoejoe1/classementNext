@@ -76,7 +76,7 @@ const Header = (props) => {
     // {
     //   url: 'idees-business/',
     //   name: 'idees-business/',
-    //   label: '💡 Idées business',
+    //   label: 'PRO',
     // },
     // {
     //   url: 'je-me-lance/',

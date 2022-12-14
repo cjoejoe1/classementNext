@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
+import Breadcrumbs from '../components/Blocks/Breadcrumbs'
+import Layout from '../components/layout'
 import Link from 'next/link'
-import DataTable from '../../components/data/websiteBuilders/websiteBuilders'
-import DataTableMobile from '../../components/data/websiteBuilders/websiteBuildersMobile'
-import Disclosure from '../../components/Blocks/Disclosure'
-import Seo from "../../components/seo";
+import DataTable from '../components/data/websiteBuilders/websiteBuilders'
+import DataTableMobile from '../components/data/websiteBuilders/websiteBuildersMobile'
+import Disclosure from '../components/Blocks/Disclosure'
+import Seo from "../components/seo";
 
 function Accounting(props) {
 
@@ -21,7 +21,7 @@ var y = d.getFullYear();
         title="Créateur de Site Internet - Meilleur créateur de site web pour votre business"
         description="Trouver le meilleur créateur de site web pour votre business avec createur.com"
       />
-         <Breadcrumbs link="/kit/" text='Créateur de Sites' cat="Kit du créateur"/>
+         <Breadcrumbs text='Créateur de Sites' cat="Kit du créateur"/>
      
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>
