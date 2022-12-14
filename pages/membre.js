@@ -5,7 +5,7 @@ import initFirebase from '../utils/firebaseData';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Head from 'next/head'
-
+import Layout from '../components/layout'
 // initFirebase();
 const firebaseAuthConfig = ({ signInSuccessUrl }) => ({
   signInFlow: 'popup',
@@ -29,12 +29,12 @@ const firebaseAuthConfig = ({ signInSuccessUrl }) => ({
 const FirebaseAuth = () => {
   const signInSuccessUrl = "/app"
   return (
-    <>
+    <Layout>
       <Head>
         <meta charSet="utf-8" />
-        <title>Login</title>
+        <title>Connexion</title>
                 <meta name="description" content="
-              Login to Startupmag" />
+              Connexion à Createur.com" />
       </Head>
 
       <Header />
@@ -45,8 +45,8 @@ const FirebaseAuth = () => {
         signInSuccessUrl={signInSuccessUrl}
       />
     </div>
-    <Footer/>
-    </>
+    </Layout>
+  
   );
 };
 
