@@ -12,7 +12,11 @@ import { Article, Input } from "../components/Core";
 
 function hebergementPodcast(props) {
 
-
+  var d = new Date();
+  var month = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
+  var n = month[d.getMonth()];
+  var y = d.getFullYear();
+  
 
     return (
       <Layout >
