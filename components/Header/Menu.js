@@ -112,6 +112,15 @@ const Menu = (props) => {
           <div style={{height: 40, marginLeft: 50, zIndex: 10}}></div>
         
         </div>
+        <div style={{display: 'flex', marginLeft: -60}}>
+          <div style={{marginTop: 8, bacground: 'blue'}}>
+          <div style={{color: 'white', textDecoration: 'none'}}><span style={{background: '#0074C6', paddingLeft: 10, paddingRight: 10, paddingTop: 5, paddingBottom : 5, borderRadius: 5, fontWeight: 700}}>Pro</span></div>
+          </div>
+          <div style={{borderLeft: '1px solid white', height: 20, marginLeft: 30, marginTop: 10}}></div>
+          <div style={{marginLeft: 30, marginTop: 8}}>
+          <a style={{color: 'white', textDecoration: 'none'}} href={'https://www.classement.com'}>Particuliers</a>
+          </div>
+        </div>
         {/* <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
           <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#f00057', borderColor: '#f00057', color: 'white', marginLeft: 0, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Je m'inscris <FaArrowRight /></Button>
         </Link> */}
