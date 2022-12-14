@@ -45,9 +45,9 @@ function HebergementPodcast() {
       <div {...getTableProps()} className="table sticky" >
         <div className="header">
           {headerGroups.map((headerGroup) => (
-            <div {...headerGroup.getHeaderGroupProps()} className="tr">
+            <div key={1} {...headerGroup.getHeaderGroupProps()} className="tr">
               {headerGroup.headers.map((column) => (
-                <div 
+               <div key={2}
                 {...column.getHeaderProps(column.getSortByToggleProps())}
                 
                 {...column.getHeaderProps()} className="th">
@@ -65,10 +65,10 @@ function HebergementPodcast() {
           {rows.map((row) => {
             prepareRow(row);
             return (
-              <div {...row.getRowProps()} className="tr" 
+              <div key={3} {...row.getRowProps()} className="tr" 
               >
                 {row.cells.map((cell) => (
-                  <div {...cell.getCellProps()} className="td">
+                 <div key={4} {...cell.getCellProps()} className="td">
                     {cell.render('Cell')}
                   </div>
                 ))}

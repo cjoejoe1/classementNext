@@ -18,7 +18,7 @@ export const COLUMNS = [
 
        <div style={{marginTop: -5}}>
          <a href={`/go/?go=${val[0]}&url=${val[2]}`}
-         state={{url: val[1]}}
+        //  state={{url: val[1]}}
          target='_blank' rel="noreferrer nofollow">
          <img style={{width: 200}} src={`/logos/${val[0].replace(' ', '').toLowerCase()}.png`} alt={`${e.value}`}></img>
        </a>
@@ -126,7 +126,7 @@ export const COLUMNS = [
         <div style={{padding: 6}}>
 
 <a href={`/go/?go=${val[0]}&url=${val[2]}`}
-         state={{url: val[1]}}
+        //  state={{url: val[1]}}
          target='_blank' rel="noreferrer nofollow">
                 <Bs.Button id="comparateurButton" type="submit" className="btn-lg" style={{height: 40, backgroundColor: '#E5234F', borderColor: '#E5234F',padding: 7, width: 150, fontSize: 14, boxShadow: '0 0 8px 0 rgb(0 0 0 / 30%)'}}>Voir l'offre <FaAngleDoubleRight style={{marginTop: 0, marginBottom: -3, fontSize: 24, marginLeft: 5}}/></Bs.Button>
           </a>

@@ -32,7 +32,7 @@ const columnsFunc = (props) => {
     
            <div style={{marginTop: 2}}>
              <a href={`/go/?go=${val[0]}&url=${val[2]}`}
-             state={{url: val[1]}}
+            //  state={{url: val[1]}}
              target='_blank'
              rel="noreferrer nofollow">
              <img style={{width: 150}} src={`/logos/${val[0].toLowerCase()}.png`} alt={`${e.value}`}></img>

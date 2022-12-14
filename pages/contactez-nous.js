@@ -2,7 +2,7 @@ import React from 'react'
 import {Container, Row, Col} from "react-bootstrap"
 import {FaEnvelope, FaMapMarkerAlt, FaPhoneAlt} from 'react-icons/fa'
 import Seo from '../components/seo';
-import FormContact from '../components/Blocks/FormContact'
+// import FormContact from '../components/Blocks/FormContact'
 import { TitleBlock } from '../components/common';
 import Layout from '../components/layout'
 import Breadcrumbs from '../components/Blocks/Breadcrumbs'
