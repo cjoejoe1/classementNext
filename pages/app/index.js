@@ -14,21 +14,21 @@ import {ArticleCard} from '../../components/Blocks/ArticleCard'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export async function getStaticProps(){
+// export async function getStaticProps(){
 
-  const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID, 
-    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-  })
+//   const client = createClient({
+//     space: process.env.CONTENTFUL_SPACE_ID, 
+//     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+//   })
 
-  const res = await client.getEntries({content_type: 'blogPost'})
+//   const res = await client.getEntries({content_type: 'blogPost'})
 
-  return {
-    props: {
-      articles: res.items
-    }
-  }
-}
+//   return {
+//     props: {
+//       articles: res.items
+//     }
+//   }
+// }
 
 
 export default function Dash ({articles}) {
@@ -84,12 +84,10 @@ export default function Dash ({articles}) {
         {/* {getDash()} */}
         {/* <h1>Logged in</h1> */}
         <Row id='fundingMobile' className="align-items-center justify-content-center">
-        {articles && articles.map(renderArticle)
-          // article => (
-          // <ArticleCard key={article.sys.id} article={article} tag='idées business'/>
-          // )
+        {/* {articles && articles.map(renderArticle)
+  
       
-        }
+        } */}
         </Row>
         </div> 
         </>
