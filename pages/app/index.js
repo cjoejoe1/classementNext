@@ -14,21 +14,7 @@ import {ArticleCard} from '../../components/Blocks/ArticleCard'
 import Link from 'next/link'
 import Image from 'next/image'
 
-// export async function getStaticProps(){
 
-//   const client = createClient({
-//     space: process.env.CONTENTFUL_SPACE_ID, 
-//     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-//   })
-
-//   const res = await client.getEntries({content_type: 'blogPost'})
-
-//   return {
-//     props: {
-//       articles: res.items
-//     }
-//   }
-// }
 
 
 export default function Dash ({articles}) {
