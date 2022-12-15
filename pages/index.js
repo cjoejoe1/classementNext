@@ -13,7 +13,7 @@ const Index = props => {
       
       <Seo title="Classements pour les pros - Classement.com" description="Comparatif et classements pour les pros"/>
       <Container style={{maxWidth: 1280, marginTop: 150}}>
-        <h1 style={{textAlign: 'center'}}>Classements Pour Les <span style={{textDecoration: 'underline', textDecorationColor: '#0074C6'}}>Pros</span></h1>
+        <h1 id='h1home' style={{textAlign: 'center'}}>Classements Pour Les <span style={{textDecoration: 'underline', textDecorationColor: '#0074C6'}}>Pros</span></h1>
         <p style={{textAlign: 'center', fontSize: 30, color: 'grey'}}>Logiciels, outils et services pours les indépendants et PME</p>
         <div style={{maxWidth: 600, margin: 'auto', marginTop: 40}}>
         <Newsletter/>

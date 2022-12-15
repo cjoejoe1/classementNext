@@ -92,7 +92,7 @@ function FilterForm() {
            <Form id='dataTableMobile'>
                <Row style={{marginLeft: 6}}>
             <Box mb={3}>
-               <label htmlFor='amount' style={{color: 'white'}}>Combien avez-vous d'utilisateurs?</label>
+               <label htmlFor='amount' style={{color: 'black'}}>Combien avez-vous d'utilisateurs?</label>
                <Field type='text' id='amount' name='amount' style={{width: 300}}/>
                <ErrorMessage name='amount'/>
                </Box>

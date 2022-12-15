@@ -36,7 +36,9 @@ const Content2 = () => (
     <Box width={360} id='iconBox' bg="light" border="1px solid" borderColor="border" p="20px" style={{marginBottom: 20, cursor: 'pointer'}} borderRadius={10} className={`d-flex`} css={`min-width: 100%;width: 100%;@media ${device.sm} {width: 360px;min-width: 360px;}`}>
     <Box size={55} minWidth={55} borderRadius="50%" color={'red'} fontSize="28px" className="d-flex justify-content-center align-items-center"
     style={{backgroundColor: 'rgba(240,64,55,0.1)'}} mr={3} >
-      <FaWordpress style={{color: '#e4234f'}}/>
+      <div style={{marginLeft: -30}}>
+      <FaWordpress style={{color: '#e4234f', marginRight: 50}}/>
+      </div>
     </Box>
     <div><Title variant="card" mb={0} style={{marginTop: 0}}>
     Hébergement Wordpress

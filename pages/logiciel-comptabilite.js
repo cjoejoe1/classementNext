@@ -27,7 +27,7 @@ var y = d.getFullYear();
           <Container fluid style={{background: 'rgb(243,243,243)', marginTop: 100, paddingTop: 20, paddingBottom: 50}}>
           <Container style={{maxWidth: 1280}}>
      
-          <h1 id='compareh1'>Meilleur logiciel de comptabilité de {y}</h1>
+          <h1 id='h1home'>Meilleur logiciel de comptabilité de {y}</h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24}}>Trouver le meilleur logiciel de comptabilité pour votre business (mise à jour {n} {y})</p>
        <Disclosure/>
 

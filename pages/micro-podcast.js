@@ -32,7 +32,7 @@ function hebergementPodcast(props) {
 
       {/* </Row> */}
 
-      <h1 id='compareh1'>Meilleur micro podcast de {y}</h1>
+      <h1 id='h1home'>Meilleur micro podcast de {y}</h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24}}>Quel est le meilleur micro pour votre podcast?</p>
           <Disclosure/>
           </Container>

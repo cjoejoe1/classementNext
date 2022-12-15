@@ -41,21 +41,7 @@ const Latest = (props) => {
       </Link>
     </div>
     </Col>
-    <Col lg={6}>
-<div style={{marginTop: 0}}>
-      <Link href={`/hebergement-podcast/`} id='textOnHover'>
-        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 25, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
-        <div style={{paddingRight: 20}}>
-        <h2 style={{fontFamily: 'Montserrat'}}>Hébergement Podcast</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement podcast de 2023.' || ''}</p>
-        </div>
-        <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
-        <FaMicrophoneAlt  style={{color: '#0074C6', fontSize: 100, marginTop: 30}}/>
-        </div>
-        </div>
-      </Link>
-    </div>
-</Col>
+   
     <Col lg={6}>
   <div style={{marginTop: 10}}>
       <Link href={`/logiciel-crm/`} id='textOnHover'>
@@ -151,8 +137,8 @@ const Latest = (props) => {
         <h2 style={{fontFamily: 'Montserrat'}}>Hébergement Wordpress</h2>
         <p id="pFundingBlock">{'Hébergement wordpress de 2023.' || ''}</p>
         </div>
-        <div style={{maxWidth: 140, minWidth: 140}}>
-        <FaWordpress  style={{color: '#0074C6', fontSize: 100, marginTop: 30}}/>
+        <div >
+        <FaWordpress  style={{color: '#0074C6', fontSize: 100, marginTop: 30, marginLeft: -30}}/>
         </div>
         </div>
       </Link>
@@ -162,6 +148,22 @@ const Latest = (props) => {
 
 
   </Col>
+
+  <Col lg={6}>
+<div style={{marginTop: 0}}>
+      <Link href={`/hebergement-podcast/`} id='textOnHover'>
+        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 25, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
+        <div style={{paddingRight: 20}}>
+        <h2 style={{fontFamily: 'Montserrat'}}>Hébergement Podcast</h2>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement podcast de 2023.' || ''}</p>
+        </div>
+        <div style={{ marginLeft: -30}}>
+        <FaMicrophoneAlt  style={{color: '#0074C6', fontSize: 100, marginTop: 30}}/>
+        </div>
+        </div>
+      </Link>
+    </div>
+</Col>
   <Col lg={6}>
   <div style={{marginTop: 10}}>
       <Link href={`/paiement-en-ligne/`} id='textOnHover'>
