@@ -12,7 +12,7 @@ const Index = props => {
     <Layout >
       
       <Seo title="Classements pour les pros - Classement.com" description="Comparatif et classements pour les pros"/>
-      <Container style={{maxWidth: 1140, marginTop: 150}}>
+      <Container style={{maxWidth: 1140, marginTop: 100}}>
        
 
        

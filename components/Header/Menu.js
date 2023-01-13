@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Link from "next/link";
 import GlobalContext from "../../context/GlobalContext";
 import Image from 'next/image'
-import logoBlack from '../../images/classement-logo-white.png'
+import logoBlack from '../../images/classement-logo-black.png'
 import flag from '../../images/flag.png'
 import phone from "../../images/phone.png";
 import { useRouter } from 'next/router'
@@ -19,7 +19,7 @@ const Menu = (props) => {
   console.log('props.email menu', props.email)
   const background = () => {
     // if (router.pathname && router.pathname !== '/') return '#0f222e'
-    return '#0f222e'
+    return 'white'
     // else return 'red'
   }
 
@@ -93,7 +93,7 @@ const Menu = (props) => {
 
   return (
     <DivStyle fluid style={{backgroundColor: background()}}>
-    <Container id='menu' style={{maxWidth: 1280, paddingtop:3}}>
+    <Container  style={{maxWidth: 1105, paddingtop:3}}>
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
     <div className="brand-logo" style={{display: 'flex'}}>

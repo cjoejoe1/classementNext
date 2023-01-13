@@ -1036,14 +1036,15 @@ padding-bottom: 10px;
 }
 
 #cardOnHoverMarket{
-  border: 1px solid rgba(0,0,0,.125);
+  border: 0px solid rgba(0,0,0,.125);
+  box-shadow: 0 52px 54px rgb(65 62 101 / 18%);
   margin-bottom: 10px;
   cursor: pointer;
 }
 
 #cardOnHoverMarket:hover{
   box-shadow: 0 52px 54px rgb(65 62 101 / 18%);
-
+  background: #349fff38;
 }
 
 

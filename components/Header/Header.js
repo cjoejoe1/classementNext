@@ -10,7 +10,7 @@ import Menu from './Menu'
 
 const SiteHeader = styled.header`
   padding: 10px 0 10px 0;
-  background-color: #0000004a;
+  background-color: white;
 
   top: 0;
   right: 0;
