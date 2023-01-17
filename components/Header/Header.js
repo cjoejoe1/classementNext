@@ -73,21 +73,17 @@ const Header = (props) => {
   // })
 
   const menuItems = [
-    // {
-    //   url: 'idees-business/',
-    //   name: 'idees-business/',
-    //   label: 'PRO',
-    // },
-    // {
-    //   url: 'je-me-lance/',
-    //   name: 'je-me-lance/',
-    //   label: '🧑‍🚀 Je me lance',
-    // },
-    // {
-    //   url: 'trouver-mes-clients/',
-    //   name: 'trouver-mes-clients/',
-    //   label: '🚀 Trouver mes clients',
-    // }
+    {
+      url: 'idees-business/',
+      name: 'idees-business/',
+      label: 'Comparatif',
+    },
+    {
+      url: 'je-me-lance/',
+      name: 'je-me-lance/',
+      label: "Guide d'achat",
+    },
+ 
   ]
 
   const menuItemsMobile = [
@@ -178,8 +174,8 @@ const Header = (props) => {
         
 
       
-        <Menu path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
-        menuItems={props.path === '/build-my-website' ? menuItemsLanding : menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
+        <Menu category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
+        menuItems={menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
         {/* </div> */}
       </SiteHeader>
       

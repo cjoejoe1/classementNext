@@ -102,10 +102,10 @@ console.log('email is', email)
               {/* <BS.Form.Row mx-auto id={props.design || 'newsletter'}> */}
               <div id="newsletter">
          
-                  <BS.Form.Control size="lg" value={email} onChange={changeEmailHandler} style={{height: 60, minWidth: 330, boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat'}} id="newsletterEmail" name="EMAIL"
+                  <BS.Form.Control size="lg" value={email} onChange={changeEmailHandler} style={{height: 60, minWidth: 250, maxWidth: 330, border: '1px solid black', boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat'}} id="newsletterEmail" name="EMAIL"
                   type="text" className="subscribe-email" placeholder={'indiquez votre email...'} onFocus={e => setEmail('')}/>
 
-                  <BS.Button id={props.buttonDesign || 'comparateurButton'} type="submit" className="btn-lg btn-primary" style={{minWidth: 200, height: 60, background: '#e5224f', borderColor: '#e5224f', boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500}}>{"Je m'inscris"} <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></BS.Button>
+                  <BS.Button id={props.buttonDesign || 'comparateurButton'} type="submit" className="btn-lg btn-primary" style={{minWidth: 290, height: 60, boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500}}>{"Je veux le comparatif"} <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></BS.Button>
        
                 </div>
               {/* </BS.Form.Row> */}

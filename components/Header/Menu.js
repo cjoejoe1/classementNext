@@ -9,14 +9,16 @@ import logoBlack from '../../images/classement-logo-black.png'
 import flag from '../../images/flag.png'
 import phone from "../../images/phone.png";
 import { useRouter } from 'next/router'
-import {FaArrowRight} from 'react-icons/fa'
+import {FaArrowRight, FaUserCircle} from 'react-icons/fa'
 import { firestore, firebase } from "../../utils/firebaseData"
+
+
 const Menu = (props) => {
   const router = useRouter()
 
   const gContext = useContext(GlobalContext);
 
-  console.log('props.email menu', props.email)
+ 
   const background = () => {
     // if (router.pathname && router.pathname !== '/') return '#0f222e'
     return 'white'
@@ -37,9 +39,11 @@ const Menu = (props) => {
     if(!props.email){
       return (
         <>
-      <div id="noMobile">
+      <div id="noMobile" style={{marginTop: 0}}>
       {/* <Link href={'/'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Find Investors <FaAngleDoubleRight/></Button></Link> */}
-      <Link href={'/membre/'}><Button variant="outline-light" style={{marginRight: 10, marginTop: -9}}>Connexion</Button></Link>
+      {/* <Link href={'/membre/'}><Button variant="outline-darj" style={{marginRight: 0, marginTop: -9}}> */}
+        <FaUserCircle style={{fontSize: 28, marginRight: 5, color: '#00000094'}}/>
+        {/* </Button></Link> */}
       </div>
       {/* <div id="noMobile">
       <Link href={'/'}><Button style={{marginLeft: 10, marginTop: 5, background: '#f00057',borderColor:  '#f00057', color: 'white'}}>Find Investors <FaAngleDoubleRight/></Button></Link>
@@ -93,37 +97,27 @@ const Menu = (props) => {
 
   return (
     <DivStyle fluid style={{backgroundColor: background()}}>
-    <Container  style={{maxWidth: 1105, paddingtop:3}}>
+    <Container  style={{maxWidth: 1140, paddingtop:3}}>
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
     <div className="brand-logo" style={{display: 'flex'}}>
         <Link href={props.path === '/build-my-website' ? '#' : '/'} style={{textDecoration: 'none'}}>
 
-                  <Image src={logoBlack} alt="logo" id='smallLogo' width='188px' height='38px' style={{cursor: 'pointer'}}/>
+                  <Image src={logoBlack} alt="logo" id='smallLogo' width='200px' height='40px' style={{cursor: 'pointer'}}/>
            
         </Link>
+
+        <div style={{marginTop: 5}}><span style={{background: '#0d6efd', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderTopRightRadius: 5, borderBottomRightRadius: 5}}>{props.category}</span></div>
         {/* <div style={{marginTop: 14 }}>
         <Image src={flag} alt="" width='30px' height='21px'/>
         </div> */}
         </div>
         <div className="collapse navbar-collapse">
           <div className="navbar-nav ml-lg-auto mr-3" style={{paddingBottom: 0}}>
-          <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
-          <div style={{height: 40, marginLeft: 50, zIndex: 10}}></div>
-        
-        </div>
-        <div style={{display: 'flex', marginLeft: -60}}>
-          <div style={{marginTop: 8, bacground: 'blue'}}>
-          <div style={{color: 'white', textDecoration: 'none'}}><span style={{background: '#0074C6', paddingLeft: 10, paddingRight: 10, paddingTop: 5, paddingBottom : 5, borderRadius: 5, fontWeight: 700}}>Pro</span></div>
-          </div>
-          <div style={{borderLeft: '1px solid white', height: 20, marginLeft: 30, marginTop: 10}}></div>
-          <div style={{marginLeft: 30, marginTop: 8}}>
-          <a style={{color: 'white', textDecoration: 'none'}} href={'https://www.classement.com'}>Particuliers</a>
-          </div>
-        </div>
-        {/* <Link href={props.path === '/build-my-website' ? '#' : '/start/'}>
-          <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#f00057', borderColor: '#f00057', color: 'white', marginLeft: 0, borderLeft: '1px solid white', borderTopLeftRadius: 0, borderBottomLeftRadius: 0}}>Je m'inscris <FaArrowRight /></Button>
-        </Link> */}
+            <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
+              <div style={{height: 40, marginLeft: 50, zIndex: 10}}></div>
+            </div>
+
             <MenuStyle
               className="navbar-nav d-none d-lg-flex"
               dark={0}
@@ -147,7 +141,7 @@ const Menu = (props) => {
                             <a
                               className="nav-link"
                               href={`${url}`}
-                              style={{color: 'white', fontSize: 16, lineHeight: 24, paddingTop: 18, paddingLeft: 18, paddingRight: 18 }}
+                              style={{color: 'black', fontSize: 16, lineHeight: 24, paddingTop: 18, paddingLeft: 18, paddingRight: 18 }}
                               rel="noopener noreferrer"
                             >
                               {label}
@@ -161,7 +155,7 @@ const Menu = (props) => {
                               aria-expanded="false"
                               passHref
                             >
-                              <a style={{color: 'white', fontSize: 16, textDecoration: 'none' }}>{label}</a>
+                              <a style={{color: 'black', fontSize: 16, textDecoration: 'none' }}>{label}</a>
                             </Link>
                           )}
                         </li>
@@ -177,9 +171,9 @@ const Menu = (props) => {
           </div>
         </div>
         { getLogin()}
-        <Link href={'/'}>
-          <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10, background: '#f00057', borderColor: '#f00057', color: 'white', marginLeft: 0}}>Je m'inscris <FaArrowRight /></Button>
-        </Link>
+        {/* <Link href={'/'}>
+          <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10,  color: 'white', marginLeft: 0}}>Je m'inscris <FaArrowRight /></Button>
+        </Link> */}
         {/* <div className="header-btns ms-auto ms-lg-0 d-none d-md-block" style={{marginRight: 10}}>
                 <div style={{textAlign: 'right', fontWeight: 300, fontSize:16, marginTop: 14, marginRight: 0, marginBottom: -10, color: 'white'}}  id='notMobile'>Mon-Fri (9am - 6pm)</div>
                 <div style={{textAlign: 'right', fontWeight: 700, fontSize:31, marginTop: 0, marginBottom: 0, marginRight: 0, color: 'white'}}  id='notMobile'><Image src={phone} alt="Stimply telephone number" width='31px' height='31px'/> 0203 287 1064</div>

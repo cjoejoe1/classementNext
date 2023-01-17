@@ -277,11 +277,34 @@ padding-bottom: 10px;
   }
 }
 
-/* @media (max-width: 992px){
-  .heroPic{
-    display: unset;
+@media (max-width: 992px){
+ 
+  #homeBox{
+    background: rgb(243, 243, 243);
+    padding: 50px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom : 20px;
+
   }
-} */
+
+  #min992{
+    display: none;
+  }
+}
+@media (min-width: 992px){
+#homeBox{
+  background: rgb(243, 243, 243);
+  padding: 50px;
+  border-radius: 10px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom : 30px;
+
+}}
+
+
 
 
 
@@ -568,9 +591,7 @@ padding-bottom: 10px;
 @media (min-width: 800px) {
   
 
-  .brand-logo{
-    margin-left: -15px;
-  }
+ 
 
 
   #forWhoMobile{
@@ -1052,4 +1073,9 @@ padding-bottom: 10px;
   #noLarge{
     display: none;
   }
+}
+
+
+#homeboxesh2{
+font-size: 30px !important;
 }
