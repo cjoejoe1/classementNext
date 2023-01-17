@@ -8,6 +8,12 @@ import Newsletter from '../../components/Newsletter'
 import { Title } from "../../components/Core";
 import { FaAmazon, FaWordpress, FaDesktop, FaFilter, FaMicrophone, FaMicrophoneAlt, FaSortAmountUpAlt, FaCreditCard, FaFileInvoice} from 'react-icons/fa'
 import { GiWashingMachine, GiVacuumCleaner} from 'react-icons/gi'
+import lavevaisselle from '../../images/lave-vaisselle.png'
+import refrigerateur from '../../images/refrigerateur.png'
+import sitederencontre from '../../images/site-de-rencontre.png'
+import matelas from '../../images/matelas.png'
+import aspirateur from '../../images/aspirateur.png'
+import lavelinge from '../../images/lave-linge.png'
 const Latest = (props) => {
 
 
@@ -35,8 +41,8 @@ const Latest = (props) => {
         <h2 id='homeboxesh2' style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
         <p id="pFundingBlock">{'Comparatif des meilleures machine à laver de 2023.' || ''}</p>
         </div>
-        <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
-        <GiWashingMachine style={{color: '#0d6efd', fontSize: 100, marginTop: 30}}/>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -60, marginBottom: 0}}>
+          <Image src={lavelinge} width={600} height={400}/>
         </div>
         </div>
       </Link>
@@ -53,8 +59,73 @@ const Latest = (props) => {
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>
         <p id="pFundingBlock">{'Comparatif des meilleurs aspirateurs de 2023.' || ''}</p>
         </div>
-        <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
-        <GiVacuumCleaner  style={{color: '#0d6efd', fontSize: 100, marginTop: 30}}/>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
+          <Image src={aspirateur} width={600} height={400}/>
+        </div>
+        </div>
+      </Link>
+    </div>
+</Col>
+
+
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/lave-vaisselle/`} id='textOnHover'>
+        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
+        <div style={{paddingRight: 20}}>
+        <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-vaisselle</h2>
+        <p id="pFundingBlock">{'Comparatif des meilleurs lave-vaisselle de 2023.' || ''}</p>
+        </div>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
+          <Image src={lavevaisselle} width={600} height={400}/>
+        </div>
+        </div>
+      </Link>
+    </div>
+</Col>
+
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/refrigerateur/`} id='textOnHover'>
+        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
+        <div style={{paddingRight: 20}}>
+        <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Réfrigérateur</h2>
+        <p id="pFundingBlock">{'Comparatif des meilleurs réfrigérateurs de 2023.' || ''}</p>
+        </div>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
+          <Image src={refrigerateur} width={600} height={400}/>
+        </div>
+        </div>
+      </Link>
+    </div>
+</Col>
+
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/site-de-rencontre/`} id='textOnHover'>
+        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
+        <div style={{paddingRight: 20}}>
+        <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Site de rencontre</h2>
+        <p id="pFundingBlock">{'Comparatif des sites de rencontre de 2023.' || ''}</p>
+        </div>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
+          <Image src={sitederencontre} width={600} height={400}/>
+        </div>
+        </div>
+      </Link>
+    </div>
+</Col>
+
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/matelas/`} id='textOnHover'>
+        <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
+        <div style={{paddingRight: 20}}>
+        <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Matelas</h2>
+        <p id="pFundingBlock">{'Comparatif des meilleurs matelas de 2023.' || ''}</p>
+        </div>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
+          <Image src={matelas} width={600} height={400}/>
         </div>
         </div>
       </Link>

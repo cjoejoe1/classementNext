@@ -21,14 +21,13 @@ const [values, setValues] = useState({
   }
   
   const navigate = () => {
-    if(values.choice === 'Créer un site internet') return router.push('/site-internet/')
+    if(values.choice === 'Aspirateur') return router.push('/aspirateur/')
     // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
-    else if(values.choice === 'Diagramme de gantt') return router.push('/diagramme-de-gantt/')
-    else if(values.choice === 'Trouver plus de clients (SEO)') return router.push('/comparateur/logiciel-seo/')
-    else if(values.choice === 'Gérer vos clients (CRM)') return router.push('/comparateur/logiciel-crm/')
-    else if(values.choice === 'Intelligence Artificielle') return router.push('/intelligence-artificielle/')
-    else if(values.choice === 'Texte') return router.push('/texte/')
-    else if(values.choice === 'Video') return router.push('/video/')
+    else if(values.choice === 'Lave-linge') return router.push('/lave-linge/')
+    else if(values.choice === 'Lave-vaisselle') return router.push('/lave-vaisselle/')
+    else if(values.choice === 'Matelas') return router.push('/matelas/')
+    else if(values.choice === 'Réfrigérateur') return router.push('/refrigerateur/')
+    else if(values.choice === 'Site de rencontre') return router.push('/site-de-rencontre/')
   }
 
   return (
@@ -50,18 +49,17 @@ const [values, setValues] = useState({
                 <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" style={{textAlign: 'left', height: 60, fontFamily: 'Montserrat', fontWeight: 500, fontSize: 20}}>{values.choice || `Choisissez votre produit `}
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item eventKey='Créer un site internet' active={false}>Site internet</Dropdown.Item>
-                  {/* <Bs.Dropdown.Item eventKey='Modifier un site existant' active={false}>Modifier un site existant</Bs.Dropdown.Item> */}
-                  <Dropdown.Item eventKey='Diagramme de gantt' active={false}>Diagramme de Gantt</Dropdown.Item>
-                  <Dropdown.Item eventKey='Texte' active={false}>Texte</Dropdown.Item>
-                  <Dropdown.Item eventKey='Video' active={false}>Video</Dropdown.Item>
-                  {/* <Bs.Dropdown.Item eventKey='Trouver plus de clients (SEO)' active={false}>Trouver plus de clients (SEO)</Bs.Dropdown.Item>
-                  <Bs.Dropdown.Item eventKey='Gérer vos clients (CRM)' active={false}>Gérer vos clients (CRM)</Bs.Dropdown.Item> */}
-                  {/* <Bs.Dropdown.Item eventKey='Intelligence Artificielle' active={false}>Intelligence Artificielle</Bs.Dropdown.Item> */}
+                  <Dropdown.Item eventKey='Aspirateur' active={false}>Aspirateur</Dropdown.Item>
+                  <Dropdown.Item eventKey='Lave-linge' active={false}>Lave-linge</Dropdown.Item>
+                  <Dropdown.Item eventKey='Lave-vaisselle' active={false}>Lave-vaisselle</Dropdown.Item>
+                  <Dropdown.Item eventKey='Matelas' active={false}>Matelas</Dropdown.Item>
+                  <Dropdown.Item eventKey='Réfrigérateur' active={false}>Réfrigérateur</Dropdown.Item>
+                  <Dropdown.Item eventKey='Site de rencontre' active={false}>Site de rencontre</Dropdown.Item>
+
                 </Dropdown.Menu>
                 </Dropdown>
                      
-                          <Button id="noMobile" onClick={navigate} style={{minWidth: 200, height: 60,  boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500, fontSize: 20, marginLeft : 10}}>C'est parti <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></Button>
+                          <Button id="noMobile" onClick={navigate} style={{minWidth: 200, height: 60,  boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500, fontSize: 20, marginLeft : 10}}>Je compare <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></Button>
 
                 </div>
           </div>
