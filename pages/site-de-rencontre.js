@@ -76,7 +76,33 @@ const [values, setValues] = useState({
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur site de rencontre ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
    <Image src={choisir} width={1200} height={765}/></div>
+  <p>Il y a plusieurs facteurs à considérer lorsque vous choisissez un site de rencontre :</p>
 
+<h3>Objectifs</h3>
+
+<p>Déterminez vos objectifs en vous inscrivant sur un site de rencontre. Certains sites sont destinés aux rencontres sérieuses, d'autres aux rencontres occasionnelles. Assurez-vous de choisir un site qui répond à vos besoins.
+</p>
+<h3>Public cible</h3>
+
+<p>Certains sites de rencontres sont destinés à un public spécifique, comme les seniors, les personnes LGBTQ+, les célibataires avec enfants, etc. Assurez-vous que le site que vous choisissez cible le public avec lequel vous souhaitez vous connecter.
+</p>
+<h3>Nombre d'utilisateurs</h3>
+<p>Plus un site de rencontre a d'utilisateurs, plus vous avez de chances de rencontrer des personnes qui correspondent à vos critères. Assurez-vous de choisir un site avec un grand nombre d'utilisateurs actifs.
+</p>
+<h3>Fonctionnalités</h3>
+
+<p>Recherchez des fonctionnalités telles que des matchs de compatibilité, des chats en direct, des options de filtrage avancées, etc. pour vous aider à trouver des personnes qui correspondent à vos critères.
+</p>
+<h3>Sécurité</h3>
+
+<p>Assurez-vous que le site de rencontre que vous choisissez prend des mesures pour protéger vos informations personnelles et vous aider à éviter les escroqueries et les arnaques.
+</p>
+<h3>Coût</h3>
+
+<p>Certains sites de rencontre sont gratuits, tandis que d'autres facturent des frais d'abonnement mensuels ou annuels. Assurez-vous de choisir un site qui convient à votre budget.
+</p>
+<p>Il est important de noter que la sécurité et la confidentialité des données sont des facteurs importants pour choisir un site de rencontre. Il est donc crucial de vérifier les politiques de confidentialité et de sécurité des sites avant de s'inscrire et de fournir des informations personnelles. Il est également recommandé de lire les avis et les critiques des utilisateurs pour avoir une idée de leur expérience avec le site.
+</p>
    </Container>
     </Layout>
   )

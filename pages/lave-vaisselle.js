@@ -99,7 +99,31 @@ const [values, setValues] = useState({
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur lave-vaisselle ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
    <Image src={choisir} width={1200} height={765}/></div>
+   <p>Il y a plusieurs facteurs à considérer lorsque vous choisissez un lave-vaisselle :</p>
 
+<h3>Taille de votre lave-vaisselle</h3>
+<p>Vérifiez la taille de votre cuisine et choisissez un lave-vaisselle qui s'intègrera parfaitement à l'espace disponible. Il existe des modèles encastrables et des modèles indépendants.
+</p>
+<h3>Capacité</h3>
+
+<p>Déterminez combien de couverts et de plats vous devez laver régulièrement et choisissez un lave-vaisselle avec une capacité suffisante pour répondre à vos besoins.
+</p>
+<h3>Consommation d'eau et d'énergie</h3>
+
+<p>Certains lave-vaisselle sont plus écoénergétiques que d'autres. Recherchez des modèles qui ont une consommation d'eau et d'énergie réduite pour économiser de l'argent à long terme.
+</p>
+<h3>Programme de lavage</h3>
+
+<p>Vérifiez les programmes de lavage disponibles et choisissez un lave-vaisselle qui a des options pour les types de vaisselle et de saleté que vous rencontrez le plus souvent.
+</p>
+<h3>Niveau sonore</h3>
+
+<p>Si vous avez une cuisine ouverte sur le salon, vous voudrez peut-être opter pour un lave-vaisselle qui fonctionne à un niveau sonore plus bas, pour ne pas perturber le calme de votre maison.
+</p>
+<h3>Marque et service après-vente</h3>
+
+<p>Choisissez une marque réputée et vérifiez les options de service après-vente disponibles, comme la garantie et les centres de réparation, pour être sûr que vous pourrez obtenir de l'aide si quelque chose ne va pas avec votre lave-vaisselle.
+</p>
    </Container>
     </Layout>
   )

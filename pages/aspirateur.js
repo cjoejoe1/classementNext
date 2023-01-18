@@ -86,7 +86,32 @@ const [values, setValues] = useState({
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur aspirateur ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
    <Image src={choisir} width={1200} height={765}/></div>
+   <p>Il y a plusieurs facteurs à considérer lorsque vous choisissez un aspirateur :</p>
 
+<h3>Type d'aspirateur</h3>
+
+<p>Il existe différents types d'aspirateurs, tels que les aspirateurs à main, les aspirateurs à balai, les aspirateurs traîneaux et les aspirateurs robots. Chacun a ses propres avantages et inconvénients, il est donc important de choisir celui qui convient le mieux à vos besoins.
+</p>
+<h3>Filtre</h3>
+
+<p>Les aspirateurs ont des filtres différents pour capturer les particules de poussière et de saleté. Certains filtres sont lavables, d'autres doivent être remplacés. Assurez-vous de choisir un aspirateur avec un filtre adapté à vos besoins.
+</p>
+<h3>Puissance d'aspiration</h3>
+
+<p>La puissance d'aspiration est mesurée en volts ou en watts. Plus la puissance est élevée, plus l'aspirateur est efficace pour nettoyer les sols durs et les tapis épais.
+</p>
+<h3>Accessoires</h3>
+
+<p>Certains aspirateurs ont des accessoires tels que des tuyaux d'extension et des embouts pour les coins et les recoins difficiles à atteindre. Assurez-vous que l'aspirateur que vous choisissez a les accessoires nécessaires pour nettoyer efficacement votre maison.
+</p>
+<h3>Niveau sonore</h3>
+
+<p>Si vous avez un animal de compagnie ou des enfants, vous voudrez peut-être opter pour un aspirateur qui fonctionne à un niveau sonore plus bas, pour ne pas les déranger
+</p>
+<h3>Marque et service après-vente</h3>
+
+<p>Choisissez une marque réputée et vérifiez les options de service après-vente disponibles, comme la garantie et les centres de réparation, pour être sûr que vous pourrez obtenir de l'aide si quelque chose ne va pas avec votre aspirateur.
+</p>
    </Container>
     </Layout>
   )

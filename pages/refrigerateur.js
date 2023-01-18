@@ -79,6 +79,32 @@ const [values, setValues] = useState({
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur réfrigérateur ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
    <Image src={choisir} width={1200} height={765}/></div>
+  <p> Il y a plusieurs facteurs à considérer lorsque vous choisissez un réfrigérateur :</p>
+
+<h3>Taille</h3>
+
+<p>Assurez-vous de choisir un réfrigérateur qui convient à la taille de votre cuisine et à vos besoins en termes de stockage. Mesurez l'espace disponible pour le réfrigérateur et vérifiez les dimensions du réfrigérateur avant de l'acheter.
+</p>
+<h3>Type de réfrigérateur</h3>
+
+<p>Il existe différents types de réfrigérateurs tels que les réfrigérateurs à portes françaises, les réfrigérateurs à deux portes, les réfrigérateurs à congélateur en bas et les réfrigérateurs à congélateur à côté. Chacun a ses propres avantages et inconvénients, il est donc important de choisir celui qui convient le mieux à vos besoins.
+</p>
+<h3>Classe énergétique</h3>
+
+<p>Les réfrigérateurs sont classés selon leur consommation d'énergie, allant de A+++ (la plus écoénergétique) à G (la moins écoénergétique). Choisissez un réfrigérateur avec une classe énergétique élevée pour économiser de l'argent à long terme sur vos factures d'électricité.
+</p>
+<h3>Fonctionnalités</h3>
+
+<p>Recherchez des fonctionnalités telles que des clayettes réglables, des compartiments à œufs, des distributeurs d'eau et de glace, des tiroirs à fruits et légumes, etc. pour répondre à vos besoins en termes de rangement.
+</p>
+<h3>Marque et service après-vente</h3>
+
+<p>Choisissez une marque réputée et vérifiez les options de service après-vente disponibles, comme la garantie et les centres de réparation, pour être sûr que vous pourrez obtenir de l'aide si quelque chose ne va pas avec votre réfrigérateur.
+</p>
+<h3>Niveau sonore</h3>
+
+<p>Si vous avez une cuisine ouverte sur le salon, vous voudrez peut-être opter pour un réfrigérateur qui fonctionne à un niveau sonore plus bas, pour ne pas perturber le calme de votre maison.
+</p>
 
    </Container>
     </Layout>
