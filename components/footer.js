@@ -3,6 +3,7 @@ import Link from "next/link"
 import {Container, Row, Col} from "react-bootstrap"
 import logoBlack from "../images/classement-logo-black.png";
 import Image from 'next/image'
+import CookieConsent from "react-cookie-consent";
 
 const Footer = (props) => {
 
@@ -45,7 +46,7 @@ const Footer = (props) => {
             </Row>
 
             </Container> 
-            {/* <CookieConsent location="bottom" buttonText="I understand" cookieName="myAwesomeCookieName2" style={{ background: "#2B373B" }} buttonStyle={{ color: "#4e503b", fontSize: "13px" }} expires={150}>This website uses cookies to enhance the user experience.</CookieConsent> */}
+            <CookieConsent location="bottom" buttonText="Je comprend" cookieName="myAwesomeCookieName2" style={{ background: "#2B373B" }} buttonStyle={{ color: "#4e503b", fontSize: "13px" }} expires={150}>Ce site internet utilise des cookies pour améliorer l'expérience utilisateur.</CookieConsent>
           </footer>
 
   )
