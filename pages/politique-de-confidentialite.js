@@ -13,7 +13,7 @@ function PrivacyPolicy(props) {
 
         <Seo title="Politique de confidentialité | Classement.com"/>
         <Breadcrumbs text='Politique de confidentialité'/>
-        <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
+        <Container  id='mobileContact' style={{ maxWidth: 1140, marginTop: 174}}>
         <TitleBlock><h1>Politique de confidentialité</h1></TitleBlock>
         {/* <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Your data is your data! Get to know the Stimply privacy policy.</p> */}
           <TextBlock>

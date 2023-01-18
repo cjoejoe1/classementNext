@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import {Container, Row, Col, Button} from "react-bootstrap"
-import {FaArrowRight} from 'react-icons/fa'
+import { FaAngleDoubleRight} from 'react-icons/fa'
 
 
 const Start = (props) => {
@@ -14,12 +14,12 @@ const Start = (props) => {
      
          
           <h2 className="display-4" style={{maxWidth: 800,marginBottom: 0, fontWeight: 700, fontSize: 60, color: 'white', margin: 'auto', textAlign: 'center' }}>Rejoignez nos 30 000 membres qui
-comparent les offres pros avec Classement.com </h2>
+comparent les offres avec Classement.com </h2>
     
         
-              <div style={{maxWidth: 250, margin: 'auto'}}>
-              <Link href={'/'}>
-                <Button id='buttonHover' className="btn-lg" style={{fontWeight: 700, marginTop: 50, paddingTop: 10, height: 60, maxWidth: 250, margin: 'auto', background: '#f00057', borderColor: '#f00057', }}>Je m'inscris <span style={{fontSize: 18}}><FaArrowRight /></span></Button>
+              <div style={{maxWidth: 270, margin: 'auto'}}>
+              <Link href={'#'}>
+              <Button id={props.buttonDesign || 'comparateurButton'} type="submit" className="btn-lg btn-primary" style={{minWidth: 290, height: 60, boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500}}>{"Je m'inscris"} <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></Button>
               </Link>
               </div>
           

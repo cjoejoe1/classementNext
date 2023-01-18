@@ -9,6 +9,10 @@ import Image from 'next/image'
 import stars from '../images/stars.png'
 import { GiWashingMachine, GiVacuumCleaner} from 'react-icons/gi'
 import { useRouter } from 'next/router'
+import What from '../components/Blocks/What'
+import lavelingechoisir from '../images/lave-linge-choisir.png'
+import OneTwoThree from "../components/Blocks/OneTwoThree";
+import lavelinge from '../images/lave-linge.png'
 
 const Category = props => {
 
@@ -33,35 +37,39 @@ const [values, setValues] = useState({
   }
 
   return (
-    <Layout category="Lave-linge">
+    <Layout url="lave-linge" category="Lave-linge" type="category">
       
-      <Seo title="Classements pour les pros - Classement.com" description="Comparatif et classements pour les pros"/>
+      <Seo title="Meilleur lave linge 2023 - comparatif et classement complet"
+      description="Recevez un comparatif complet avec les meilleurs lave-linge: couleur, fonction séchage, automatique"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
       <div style={{ marginTop: 50}}>
        <div id='homeBox'>
         <Row style={{}}>
-          <Col sm={8}>
-          <h1 id='h1home' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Classement Lave-linge 2023</h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992">Recevez le comparatif complet directement par e-mail</p>
+          <Col sm={9}>
+          <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement lave-linge<span id='min992'>*</span><span id='max992'> 2023</span></h1>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div style={{display: 'flex', marginTop: 50}}>
       
           
                      
           <Newsletter 
-                  from='lave-linge'
-                  form="https://app.convertkit.com/forms/2945089/subscriptions"/>
+                  tag='lave-linge'
+                  // form="https://app.convertkit.com/forms/2945089/subscriptions"
+                  />
                 </div>
           </div>
            
         </Col>
         
 
-        <Col sm={4} style={{minWidth: 300}} id='min992'>
-          <div style={{width: 400, marginLeft: 40, marginTop: 10}}>
-          <GiWashingMachine style={{color: '#0d6efd', fontSize: 170, marginTop: 40}}/>
-          <div style={{marginTop: -110, marginLeft: -50}}>
+        <Col sm={3} style={{minWidth: 200}} id='min992'>
+          <div style={{width: 500, marginLeft: -110, marginTop: 10}}>
+            <div style={{maxWidth: 400}}>
+          <Image src={lavelinge} width={600} height={400}/>
+          </div>
+          <div style={{marginTop: -150, marginLeft: 60}}>
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>
@@ -70,8 +78,22 @@ const [values, setValues] = useState({
         </div>
        </div>
       </Container>
-   <Container style={{maxWidth: 1000, margin: 'auto', marginTop: 50}}>
-   <h2>Comment trouver le meilleur lave-linge ?</h2>
+      {/* <What/> */}
+      <div id='max992' style={{maxWidth: 400, margin: 'auto', marginTop: 10}}>
+            <div style={{maxWidth: 400, margin: 'auto'}}>
+          <Image src={lavelinge} width={600} height={400}/>
+          </div>
+          <div style={{marginTop: -150, marginLeft: 60}}>
+         <Image src={stars} width={270} height={180}/>
+         </div>
+         </div>
+         <div id="comment" style={{marginTop: -70, padding: 90}}>
+      <OneTwoThree/>
+      </div>
+   <Container id='guide' style={{maxWidth: 800, margin: 'auto', marginTop: -90, paddingTop: 110, paddingLeft: 25, paddingRight: 25}}>
+   <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur lave-linge ?</h2>
+   <div style={{marginTop: 40, marginBottom: 40}}>
+   <Image src={lavelingechoisir} width={1200} height={765}/></div>
 <p>Il y a plusieurs facteurs à prendre en compte lors du choix d'une lave-linge, tels que :</p>
 <h3>Types de lave-linge</h3>
 

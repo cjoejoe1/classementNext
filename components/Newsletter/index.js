@@ -7,75 +7,62 @@ import { useRouter } from 'next/router'
 
 const Newsletter = (props) => {
 //   const { firebase } = useContext(FirebaseContext);
-  const [email, setEmail] = useState('')
-  const [emailSent, setEmailSent] = useState(false)
-  const [sent] = useState(false)
-  const [message] = useState('')
-  const router = useRouter()
+//   const { firebase } = useContext(FirebaseContext);
+const [email, setEmail] = useState('')
+const [emailSent, setEmailSent] = useState(false)
+const [sent] = useState(false)
+const [message] = useState('')
+const router = useRouter()
 
-console.log('email is', email)
+console.log('tag is', props.tag)
 
-  const thanks = () => {
-    if(router.query.l === 'sl') return '/thanks-sl/'
-    else return '/merci/'
-  }
+const thanks = () => {
+  if(router.query.l === 'sl') return '/thanks-sl/'
+  else return '/merci/'
+}
 
-  const changeEmailHandler = (event) => {
-    setEmail(event.target.value)
-  }
+const changeEmailHandler = (event) => {
+  setEmail(event.target.value)
+}
 
-  const addToDB = async () => {
+
+const addToDB = async () => {
+
+
+  const newsignups = await firestore.collection('classement2').add({
+    emailAddress: email,
+    date: new Date(),
+    tags: props.tag || 'notag',
+  })
+  console.log('user added!!')
+
+//  await firestore.collection('crm').doc(email.replace('@', '_').split('.')[0]).set(data)
+
+}
+
+
+const handleSubmit = async e => {
+  e.preventDefault();
+  if(email !== '' ){
+    
+    await addToDB().then(()=> {
+      setEmailSent(true)
+      console.log('it really is')
+      router.push(
+        {
+            pathname: thanks(),
+            query: 
+            { 
+              email: email
+            }
+          }
+        )
+
+    })
    
-
-    await firestore.collection('newStart').doc(email).set({
-       emailAddress: email,
-       date: new Date(),
-       tags: props.tags || 'createur',
-       from: props.from || 'createur'
-     })
-     console.log('it worked!!')
-   }
-
-  const addToDBOld = async () => {
-
-  // // // REGISTER USER
-  // const credential = await firebase.auth().createUserWithEmailAndPassword(email, 'password')
-  // .catch(function(error) {
-  //   // Handle Errors here.
-  //   var errorCode = error.code;
-  //   var errorMessage = error.message;
-  //   if (errorCode === 'auth/weak-password') {
-  //     alert('The password is too weak.');
-  //     // event.persist();
-  //   } else {
-  //     alert(errorMessage);
-  //     // event.persist();
-  //   }
-  //   console.log(error);
-  // });
-
-  // ADD TO DATBASE
-
-  // const { uid, email } = await credential.user
-
-
-
-  //  await firestore.collection('crm').doc(email.replace('@', '_').split('.')[0]).set(data)
-
+    
   }
-
-  const subscribe = async () => {
-    console.log('i am here')
-    const res = await fetch(`/api/subscribe?email=${email}`)
-  }
-
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    addToDB()
-    subscribe()
-    router.push('/merci/')
-  }
+}
   
   const [shake, setShake] = useState(true);
     
@@ -93,7 +80,7 @@ console.log('email is', email)
     return (
       <>
     {/* {steps()} */}
-    <BS.Container style={{marginBottom: 50, maxWidth: 1248, paddingLeft: 0, paddingRight: 0}}>
+    <BS.Container style={{marginBottom: 50, maxWidth: 1140, paddingLeft: 0, paddingRight: 0}}>
         <div id={props.design || 'newsletter'}>
       
             <div className="form">
@@ -102,7 +89,7 @@ console.log('email is', email)
               {/* <BS.Form.Row mx-auto id={props.design || 'newsletter'}> */}
               <div id="newsletter">
          
-                  <BS.Form.Control size="lg" value={email} onChange={changeEmailHandler} style={{height: 60, minWidth: 250, maxWidth: 330, border: '1px solid black', boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat'}} id="newsletterEmail" name="EMAIL"
+                  <BS.Form.Control value={email} onChange={changeEmailHandler} style={{height: 60, minWidth: 290, width: '100%', border: '1px solid black', boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat'}} id="newsletterEmail" name="EMAIL"
                   type="text" className="subscribe-email" placeholder={'indiquez votre email...'} onFocus={e => setEmail('')}/>
 
                   <BS.Button id={props.buttonDesign || 'comparateurButton'} type="submit" className="btn-lg btn-primary" style={{minWidth: 290, height: 60, boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500}}>{"Je veux le comparatif"} <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></BS.Button>

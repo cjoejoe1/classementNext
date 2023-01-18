@@ -40,8 +40,8 @@ const [values, setValues] = useState({
        <div id='homeBox'>
         <Row style={{}}>
           <Col sm={8}>
-          <h1 id='h1home' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Le meilleur produit pour chaque catégorie</h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992"><span style={{fontWeight: 700}}>Avis</span> et <span style={{fontWeight: 700}}>Classements</span> pour les meilleurs produits</p>
+          <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Recevez les classements de 2023</h1>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Les <span style={{fontWeight: 700}}>comparatifs complets</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div style={{display: 'flex', marginTop: 30}}>
       

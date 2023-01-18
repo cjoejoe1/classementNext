@@ -33,7 +33,7 @@ h1{
  #h1home{
    font-size: 32px !important
  }
- 
+
 
 h2{
   color: #19191b;
@@ -283,12 +283,17 @@ padding-bottom: 10px;
     background: rgb(243, 243, 243);
     padding: 50px;
     border-radius: 10px;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 0px;
     padding-bottom : 20px;
 
   }
 
+  .h1compare{
+    font-size: 38px !important
+  }
+ 
   #min992{
     display: none;
   }
@@ -302,7 +307,15 @@ padding-bottom: 10px;
   padding-top: 20px;
   padding-bottom : 30px;
 
-}}
+}
+.h1compare{
+  font-size: 38px !important
+}
+
+#max992{
+  display: none;
+}
+}
 
 
 
@@ -371,6 +384,18 @@ padding-bottom: 10px;
   #logoMenu{
     margin-left: 0px;
   }
+  .h1compare{
+    font-size: 42px !important;
+    text-align: center !important;
+  }
+  #stepMobile{
+    text-align: center !important;
+  }
+  
+  #stepMobile a{
+    color: black !important;
+    text-align: center !important;
+  }
   #dataTableDesktop{
     display: none;
   }
@@ -378,10 +403,10 @@ padding-bottom: 10px;
     display: none !important;
   }
 
-  #newsletter{
+  /* #newsletter{
     display: block;
     max-width: 100%;
-  }
+  } */
   #comparateurButton{
     margin-top: 10px;
     width: 100%;

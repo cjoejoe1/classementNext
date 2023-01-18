@@ -74,12 +74,18 @@ const Header = (props) => {
 
   const menuItems = [
     {
-      url: 'idees-business/',
+      url: props.url + '#comparatif',
       name: 'idees-business/',
       label: 'Comparatif',
     },
+    ,
     {
-      url: 'je-me-lance/',
+      url: props.url + '#comment',
+      name: 'je-me-lance/',
+      label: "Comment ça marche ?",
+    },
+    {
+      url: props.url + '#guide',
       name: 'je-me-lance/',
       label: "Guide d'achat",
     },
@@ -174,7 +180,7 @@ const Header = (props) => {
         
 
       
-        <Menu category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
+        <Menu type={props.type} category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
         menuItems={menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
         {/* </div> */}
       </SiteHeader>

@@ -53,7 +53,7 @@ const Latest = (props) => {
 
     <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/logiciel-comptabilite/`} id='textOnHover'>
+      <Link href={`/aspirateur/`} id='textOnHover'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>

@@ -19,20 +19,18 @@ const Footer = (props) => {
               <Col id='notMobile'>
                 <h5 style={{color: 'black', marginTop: 10}}>Nos classements</h5>
                 <ul>
-                <li><Link href={'/createur-de-site/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Créateur de Sites </a></Link></li>
-                <li><Link href={'/hebergement-wordpress/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Hébergement Wordpress </a></Link></li>
-                <li><Link href={'/logiciel-amazon/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Logiciel Amazon </a></Link></li>
-                <li><Link href={'/logiciel-comptabilite/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Logiciel de Comptabilité </a></Link></li>
-                <li><Link href={'/logiciel-crm/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Logiciel CRM </a></Link></li>
+                <li><Link href={'/lave-linge/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Lave-linge </a></Link></li>
+                <li><Link href={'/aspirateur/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Aspirateur </a></Link></li>
+                <li><Link href={'/lave-vaisselle/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Lave-vaisselle </a></Link></li>
+                <li><Link href={'/refrigerateur/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Réfrigérateur </a></Link></li>
+        
                 </ul></Col>
                 <Col id='notMobile'>
                 <h5 style={{color: 'black', marginTop: 40}}></h5>
                 <ul>
               
-                <li><Link href={'/logiciel-seo/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Logiciel SEO </a></Link></li>
-                <li><Link href={'/paiement-en-ligne/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Paiement en ligne </a></Link></li>
-                <li><Link href={'/hebergement-podcast/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Hébergement podcast </a></Link></li>
-                <li><Link href={'/micro-podcast/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Micro podcast </a></Link></li>
+                <li><Link href={'/matelas/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Matelas </a></Link></li>
+                <li><Link href={'/site-de-rencontre/'}  passHref><a style={{fontSize: 14, color:'black', fontFamily:'Montserrat'}}>Site de rencontre </a></Link></li>
                 
                 </ul></Col>
                 <Col id='notMobile'>

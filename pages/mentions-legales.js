@@ -11,7 +11,7 @@ function TermsConditions(props) {
     <Layout path={props.path}>
       <Seo title="Mentions légales | Classement.com"/>
       <Breadcrumbs text='Mentions légales'/>
-      <Container  id='mobileContact' style={{ maxWidth: 1260, marginTop: 174}}>
+      <Container  id='mobileContact' style={{ maxWidth: 1140, marginTop: 174}}>
           <TitleBlock><h1>    Mentions Légales</h1></TitleBlock>
           {/* <p className="lead" style={{maxWidth: 800, textAlign: 'center', margin: 'auto', marginBottom: 40}}>Full details of the Stimply terms and conditions.</p> */}
           <TextBlock>

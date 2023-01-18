@@ -107,7 +107,7 @@ const Menu = (props) => {
            
         </Link>
 
-        <div style={{marginTop: 5}}><span style={{background: '#0d6efd', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderTopRightRadius: 5, borderBottomRightRadius: 5}}>{props.category}</span></div>
+        <div style={{marginTop: 5}}>{props.type === 'category' ? <span style={{background: '#0d6efd', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderTopRightRadius: 5, borderBottomRightRadius: 5}}>{props.category}</span> : null}</div>
         {/* <div style={{marginTop: 14 }}>
         <Image src={flag} alt="" width='30px' height='21px'/>
         </div> */}
@@ -117,7 +117,7 @@ const Menu = (props) => {
             <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
               <div style={{height: 40, marginLeft: 50, zIndex: 10}}></div>
             </div>
-
+            {props.type === 'category' ? 
             <MenuStyle
               className="navbar-nav d-none d-lg-flex"
               dark={0}
@@ -166,8 +166,8 @@ const Menu = (props) => {
                     </React.Fragment>
                   );
                 }
-              )}
-            </MenuStyle>
+              )} 
+            </MenuStyle> : <div style={{minHeight: 45}}></div>}
           </div>
         </div>
         { getLogin()}
