@@ -16,7 +16,7 @@ const OneTwoThree = (props) => {
 
             <Row style={{maxWidth: 1000, margin: 'auto', marginBottom: 70, marginTop: 100}}>
 
-            <div sm={6} className='col-sm-6 order-md-2 order-sm-6' >
+            <div  className='col-sm-6 order-md-2 order-sm-6' >
                     <h5 style={{fontWeight: 300}} id="stepMobile">Étape 1</h5>
                     <h4 style={{fontSize: 30, lineHeight: '46px', fontFamily: 'Montserrat'}} id="stepMobile">
                  Inscription super <br></br> rapide.

@@ -33,7 +33,7 @@ const [values, setValues] = useState({
   return (
     <Layout >
       
-      <Seo title="Classements pour les pros - Classement.com" description="Comparatif et classements pour les pros"/>
+      <Seo title="Recevez tous les classements de l'année par email - Classement.com" description="Comparatif et classements de tous les produits"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
       <div style={{ marginTop: 50}}>
