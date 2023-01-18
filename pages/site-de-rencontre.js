@@ -37,7 +37,7 @@ const [values, setValues] = useState({
           
                      
           <Newsletter 
-                  tag='lave-linge'
+                  tag='site de rencontre'
                   // form="https://app.convertkit.com/forms/2945089/subscriptions"
                   />
                 </div>
