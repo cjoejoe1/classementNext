@@ -19,7 +19,7 @@ const [values, setValues] = useState({
 
 
   return (
-    <Layout url="site-de-rencontre" category="site de rencontre" type="category">
+    <Layout url="site-de-rencontre" category="rencontre" type="category">
       
       <Seo title="Meilleur site de rencontre 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs sites de rencontre: couleur, fonction séchage, automatique"/>
@@ -69,7 +69,7 @@ const [values, setValues] = useState({
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>
-         <div id="comment" style={{marginTop: -70, padding: 90}}>
+         <div id="comment" style={{marginTop: -70, paddingTop: 90}}>
       <OneTwoThree/>
       </div>
    <Container id='guide' style={{maxWidth: 830, margin: 'auto', marginTop: -90, paddingTop: 110, paddingLeft: 25, paddingRight: 25}}>

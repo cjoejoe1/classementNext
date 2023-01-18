@@ -72,7 +72,7 @@ const [values, setValues] = useState({
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>
-         <div id="comment" style={{marginTop: -70, padding: 90}}>
+         <div id="comment" style={{marginTop: -70, paddingTop: 90}}>
       <OneTwoThree/>
       </div>
    <Container id='guide' style={{maxWidth: 800, margin: 'auto', marginTop: -90, paddingTop: 110, paddingLeft: 25, paddingRight: 25}}>
