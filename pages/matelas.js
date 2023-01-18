@@ -35,7 +35,7 @@ const [values, setValues] = useState({
           <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement matelas<span id='min992'>*</span><span id='max992'> 2023</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 50}}>
+          <div style={{display: 'flex', marginTop: 30}}>
       
           
                      
@@ -54,7 +54,7 @@ const [values, setValues] = useState({
             <div style={{maxWidth: 400}}>
           <Image src={matelas} width={600} height={400}/>
           </div>
-          <div style={{marginTop: -150, marginLeft: 60}}>
+          <div style={{marginTop: -170, marginLeft: 60}}>
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>
