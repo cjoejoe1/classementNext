@@ -10,7 +10,7 @@ import stars from '../images/stars.png'
 import { GiWashingMachine, GiVacuumCleaner} from 'react-icons/gi'
 import { useRouter } from 'next/router'
 import What from '../components/Blocks/What'
-import lavelingechoisir from '../images/lave-linge-choisir.png'
+import choisir from '../images/aspirateur-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
 import lavelinge from '../images/lave-linge.png'
 import lavevaisselle from '../images/lave-vaisselle.png'
@@ -85,7 +85,7 @@ const [values, setValues] = useState({
    <Container id='guide' style={{maxWidth: 800, margin: 'auto', marginTop: -90, paddingTop: 110, paddingLeft: 25, paddingRight: 25}}>
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur aspirateur ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
-   <Image src={lavelingechoisir} width={1200} height={765}/></div>
+   <Image src={choisir} width={1200} height={765}/></div>
 
    </Container>
     </Layout>

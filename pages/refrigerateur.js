@@ -7,17 +7,11 @@ import Newsletter from '../components/Newsletter/'
 import { FaAngleDoubleRight} from 'react-icons/fa'
 import Image from 'next/image'
 import stars from '../images/stars.png'
-import { GiWashingMachine, GiVacuumCleaner} from 'react-icons/gi'
 import { useRouter } from 'next/router'
-import What from '../components/Blocks/What'
-import lavelingechoisir from '../images/lave-linge-choisir.png'
+import choisir from '../images/refrigerateur-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
-import lavelinge from '../images/lave-linge.png'
-import lavevaisselle from '../images/lave-vaisselle.png'
 import refrigerateur from '../images/refrigerateur.png'
-import sitederencontre from '../images/site-de-rencontre.png'
-import matelas from '../images/matelas.png'
-import aspirateur from '../images/aspirateur.png'
+
 
 const Category = props => {
 
@@ -26,20 +20,6 @@ const [values, setValues] = useState({
   choice: '',
 })
 
-  const handleWhat = (e) => {
-    setValues({...values, choice: e})
-  }
-  
-  const navigate = () => {
-    if(values.choice === 'Créer un site internet') return router.push('/site-internet/')
-    // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
-    else if(values.choice === 'Diagramme de gantt') return router.push('/diagramme-de-gantt/')
-    else if(values.choice === 'Trouver plus de clients (SEO)') return router.push('/comparateur/logiciel-seo/')
-    else if(values.choice === 'Gérer vos clients (CRM)') return router.push('/comparateur/logiciel-crm/')
-    else if(values.choice === 'Intelligence Artificielle') return router.push('/intelligence-artificielle/')
-    else if(values.choice === 'Texte') return router.push('/texte/')
-    else if(values.choice === 'Video') return router.push('/video/')
-  }
 
   return (
     <Layout url="refrigerateur" category="réfrigérateur" type="category">
@@ -98,7 +78,7 @@ const [values, setValues] = useState({
    <Container id='guide' style={{maxWidth: 800, margin: 'auto', marginTop: -90, paddingTop: 110, paddingLeft: 25, paddingRight: 25}}>
    <h2 style={{textAlign: 'center'}}>Comment trouver le meilleur réfrigérateur ?</h2>
    <div style={{marginTop: 40, marginBottom: 40}}>
-   <Image src={lavelingechoisir} width={1200} height={765}/></div>
+   <Image src={choisir} width={1200} height={765}/></div>
 
    </Container>
     </Layout>
