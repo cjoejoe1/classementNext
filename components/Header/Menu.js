@@ -100,14 +100,14 @@ const Menu = (props) => {
     <Container  style={{maxWidth: 1140, paddingtop:3}}>
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
-    <div className="brand-logo" style={{display: 'flex'}}>
+    <div className="brand-logo" style={{display: 'flex', justifyContent: 'space-between'}}>
         <Link href={props.page === 'lp' ? '#' : '/'} style={{textDecoration: 'none'}}>
 
                   <Image src={logoBlack} alt="logo" id='smallLogo' width='200px' height='40px' style={{cursor: 'pointer'}}/>
            
         </Link>
 
-        <div style={{marginTop: 5}}>{props.type === 'category' ? <Link href='#'><span style={{background: '#0d6efd', cursor: 'pointer', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderRadius: 5 }}>{props.category}</span></Link> : null}</div>
+        <div style={{marginTop: 7}}>{props.type === 'category' ? <Link href='#'><span style={{background: '#0d6efd', cursor: 'pointer', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderRadius: 5}}>{props.category}</span></Link> : null}</div>
         {/* <div style={{marginTop: 14 }}>
         <Image src={flag} alt="" width='30px' height='21px'/>
         </div> */}

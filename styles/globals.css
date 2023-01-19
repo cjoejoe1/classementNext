@@ -394,6 +394,10 @@ padding-bottom: 10px;
 
 @media (max-width: 576px){
 
+  .brand-logo{
+    width: 100% !important;
+  }
+
   #logoMenu{
     margin-left: 0px;
   }
@@ -873,9 +877,6 @@ padding-bottom: 10px;
     font-size: 50px;
   }
 
-  .brand-logo{
-    margin-left: 15;
-  }
 
   .cardMobile{
     margin: auto;

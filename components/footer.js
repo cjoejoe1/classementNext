@@ -10,7 +10,7 @@ const Footer = (props) => {
         return (
 
           <footer style={{marginTop: 150}}>
-            <Container fluid style={{backgroundColor: 'fff', paddingTop: 50, paddingBottom: 150}}>
+            <Container style={{backgroundColor: 'fff', paddingTop: 50, paddingBottom: 150}}>
             <Row style={{maxWidth: 1280, margin: 'auto', height: 100}}>
               <Col>
               <Link href="/"><Image src={logoBlack} alt="logo" width='188px' height='38px'/></Link>

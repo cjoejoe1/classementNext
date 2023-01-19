@@ -172,8 +172,8 @@ const Header = (props) => {
 
   return (
     <>
-          <SiteHeader className={`sticky-header`} dark={0}
-      // <SiteHeader className={`sticky-header ${showScrolling ? "" : ""} ${ showReveal ? "reveal-header" : "" }`} dark={0}
+          {/* <SiteHeader className={`sticky-header`} dark={0} */}
+      <SiteHeader className={`sticky-header ${showScrolling ? "" : ""} ${ showReveal ? "reveal-header" : "" }`} dark={0}
         style={{paddingTop: 0, paddingBottom: 0, position: 'sticky', top: 0}}
 
         // bgDown={'#223151'} bgDefault={'blue'}

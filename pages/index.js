@@ -43,7 +43,7 @@ const [values, setValues] = useState({
         <Row style={{}}>
           <Col sm={9}>
           <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992">*Recevez les <span style={{fontWeight: 700}}>comparatifs</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Recevez chaque <span style={{fontWeight: 700}}>comparatif</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div id='formBlock' style={{display: 'flex'}}>
       
@@ -81,9 +81,11 @@ const [values, setValues] = useState({
         </Row>
         </div>
        </div>
-   
-      <HomeBoxes/>
+ 
       </Container>
+    {/* <Container> */}
+      <HomeBoxes/>
+      {/* </Container> */}
       {/* <Hero/> */}
       {/* <Tick/> */}
       {/* <What/> */}
