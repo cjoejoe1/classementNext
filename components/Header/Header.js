@@ -35,7 +35,7 @@ const SiteHeader = styled.header`
 
 const Header = (props) => {
 
-  console.log('email header', props.email)
+
 
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
