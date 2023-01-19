@@ -1,17 +1,15 @@
 import {useState} from 'react'
 import Seo from '../components/seo';
 import Layout from '../components/layout'
-import HomeBoxes from '../components/Blocks/HomeBoxes'
-import {Container, Row, Col, Button, Dropdown} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 import Newsletter from '../components/Newsletter/'
-import { FaAngleDoubleRight} from 'react-icons/fa'
 import Image from 'next/image'
 import stars from '../images/stars.png'
 import { useRouter } from 'next/router'
 import choisir from '../images/refrigerateur-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
 import refrigerateur from '../images/refrigerateur.png'
-
+import Faq from "../components/Blocks/FAQ";
 
 const Category = props => {
 
@@ -107,6 +105,9 @@ const [values, setValues] = useState({
 <p>Si vous avez une cuisine ouverte sur le salon, vous voudrez peut-être opter pour un réfrigérateur qui fonctionne à un niveau sonore plus bas, pour ne pas perturber le calme de votre maison.
 </p>
 
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )

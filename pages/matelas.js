@@ -11,7 +11,7 @@ import { useRouter } from 'next/router'
 import choisir from '../images/matelas-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
 import matelas from '../images/matelas.png'
-
+import Faq from "../components/Blocks/FAQ";
 
 const Category = props => {
 
@@ -106,6 +106,9 @@ Les matelas ont des niveaux de fermeté différents, allant de ferme à extra-do
 
 <p>Si possible, essayez un matelas avant de l'acheter pour vous assurer qu'il est confortable pour vous. La plupart des magasins de meubles offrent des périodes d'essai de 30 jours ou plus pour vous permettre de tester le matelas dans votre propre maison.
 </p>
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )

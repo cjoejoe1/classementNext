@@ -1,23 +1,15 @@
 import {useState} from 'react'
 import Seo from '../components/seo';
 import Layout from '../components/layout'
-import HomeBoxes from '../components/Blocks/HomeBoxes'
-import {Container, Row, Col, Button, Dropdown} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 import Newsletter from '../components/Newsletter/'
-import { FaAngleDoubleRight} from 'react-icons/fa'
 import Image from 'next/image'
 import stars from '../images/stars.png'
-import { GiWashingMachine, GiVacuumCleaner} from 'react-icons/gi'
 import { useRouter } from 'next/router'
-import What from '../components/Blocks/What'
 import choisir from '../images/lave-vaisselle-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
-import lavelinge from '../images/lave-linge.png'
 import lavevaisselle from '../images/lave-vaisselle.png'
-import refrigerateur from '../images/refrigerateur.png'
-import sitederencontre from '../images/site-de-rencontre.png'
-import matelas from '../images/matelas.png'
-import aspirateur from '../images/aspirateur.png'
+import Faq from "../components/Blocks/FAQ";
 
 const Category = props => {
 
@@ -111,6 +103,9 @@ const [values, setValues] = useState({
 
 <p>Choisissez une marque réputée et vérifiez les options de service après-vente disponibles, comme la garantie et les centres de réparation, pour être sûr que vous pourrez obtenir de l'aide si quelque chose ne va pas avec votre lave-vaisselle.
 </p>
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )

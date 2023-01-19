@@ -5,9 +5,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Container, Row, Col, Button} from "react-bootstrap";
 
+
 const OneTwoThree = (props) => {
   return (
-    <Container style={{ maxWidth: 800, marginTop: 100}}>
+    <Container style={{ maxWidth: 800, marginTop: 100, marginBottom : 100}}>
     
 
     <h2 id="comment" style={{textAlign: 'center', marginBottom: 40, fontWeight: 700, fontSize: 60}}>Comment ça marche ?</h2>  
@@ -87,9 +88,12 @@ const OneTwoThree = (props) => {
 
                               </Col>
             </Row>
+<div style={{maxWidth: 300, margin: 'auto'}}>
+<Link href="#">
+<Button id={props.buttonDesign || 'comparateurButton'} type="submit" className="btn-lg btn-primary" style={{minWidth: 290, height: 60, boxShadow: '0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)', fontFamily: 'Montserrat', fontWeight: 500}}>{"Je m'inscris"} <FaAngleDoubleRight style={{marginTop: -5, marginBottom: -2, fontSize: 24, marginLeft: 10}}/></Button>
 
-
-
+  </Link>
+</div>
             </Container>
   )
 }

@@ -9,6 +9,7 @@ import { useRouter } from 'next/router'
 import choisir from '../images/site-de-rencontre-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
 import sitederencontre from '../images/site-de-rencontre.png'
+import Faq from "../components/Blocks/FAQ";
 
 const Category = props => {
 
@@ -104,6 +105,9 @@ const [values, setValues] = useState({
 </p>
 <p>Il est important de noter que la sécurité et la confidentialité des données sont des facteurs importants pour choisir un site de rencontre. Il est donc crucial de vérifier les politiques de confidentialité et de sécurité des sites avant de s'inscrire et de fournir des informations personnelles. Il est également recommandé de lire les avis et les critiques des utilisateurs pour avoir une idée de leur expérience avec le site.
 </p>
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )

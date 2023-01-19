@@ -12,6 +12,7 @@ import { useRouter } from 'next/router'
 import What from '../components/Blocks/What'
 import lavelingechoisir from '../images/lave-linge-choisir.png'
 import OneTwoThree from "../components/Blocks/OneTwoThree";
+import Faq from "../components/Blocks/FAQ";
 import lavelinge from '../images/lave-linge.png'
 
 const Category = props => {
@@ -188,6 +189,9 @@ const [values, setValues] = useState({
 </p>
 <p>Il est important de vérifier les options de connectivité disponibles sur les différents modèles avant de faire un achat pour s'assurer qu'elles répondent à vos besoins. Il est aussi important de noter que les options de connectivité peuvent varier en fonction des pays ou des modèles, il est donc important de vérifier la disponibilité de ces options dans votre zone géographique.
 </p>
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )

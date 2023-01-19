@@ -18,7 +18,7 @@ import refrigerateur from '../images/refrigerateur.png'
 import sitederencontre from '../images/site-de-rencontre.png'
 import matelas from '../images/matelas.png'
 import aspirateur from '../images/aspirateur.png'
-
+import Faq from "../components/Blocks/FAQ";
 
 const Category = props => {
 
@@ -113,6 +113,9 @@ const [values, setValues] = useState({
 
 <p>Choisissez une marque réputée et vérifiez les options de service après-vente disponibles, comme la garantie et les centres de réparation, pour être sûr que vous pourrez obtenir de l'aide si quelque chose ne va pas avec votre aspirateur.
 </p>
+   </Container>
+   <Container>
+   <Faq/>
    </Container>
     </Layout>
   )
