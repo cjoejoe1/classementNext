@@ -21,12 +21,14 @@ const Latest = (props) => {
   
   return (
 <Container style={{maxWidth: 1140}}>
-<Row style={{marginTop: 20, marginBottom: 0}} >
+<Row id="min992" style={{marginTop: 20, marginBottom: 0}} >
 
    
     <Col lg={6}>
   <div style={{marginTop: 10}}>
-      <Link href={`/lave-linge/`} id='textOnHover'>
+
+      <Link href={`/lave-linge/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}} id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2' style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
@@ -36,6 +38,7 @@ const Latest = (props) => {
           <Image src={lavelinge} width={600} height={400}/>
         </div>
         </div>
+        </a>
       </Link>
     </div>
     </Col>
@@ -44,7 +47,8 @@ const Latest = (props) => {
 
     <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/aspirateur/`} id='textOnHover'>
+      <Link href={`/aspirateur/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>
@@ -54,6 +58,7 @@ const Latest = (props) => {
           <Image src={aspirateur} width={600} height={400}/>
         </div>
         </div>
+        </a>
       </Link>
     </div>
 </Col>
@@ -61,7 +66,8 @@ const Latest = (props) => {
 
 <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/lave-vaisselle/`} id='textOnHover'>
+      <Link href={`/lave-vaisselle/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-vaisselle</h2>
@@ -71,13 +77,15 @@ const Latest = (props) => {
           <Image src={lavevaisselle} width={600} height={400}/>
         </div>
         </div>
+        </a>
       </Link>
     </div>
 </Col>
 
 <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/refrigerateur/`} id='textOnHover'>
+      <Link href={`/refrigerateur/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Réfrigérateur</h2>
@@ -87,13 +95,15 @@ const Latest = (props) => {
           <Image src={refrigerateur} width={600} height={400}/>
         </div>
         </div>
+        </a>
       </Link>
     </div>
 </Col>
 
 <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/site-de-rencontre/`} id='textOnHover'>
+      <Link href={`/site-de-rencontre/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Site de rencontre</h2>
@@ -103,13 +113,15 @@ const Latest = (props) => {
           <Image src={sitederencontre} width={600} height={400}/>
         </div>
         </div>
+        </a>
       </Link>
     </div>
 </Col>
 
 <Col lg={6}>
     <div style={{marginTop: 10}}>
-      <Link href={`/matelas/`} id='textOnHover'>
+      <Link href={`/matelas/`} id='textOnHover' passHref>
+      <a id='tabLink'>
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Matelas</h2>
@@ -119,6 +131,106 @@ const Latest = (props) => {
           <Image src={matelas} width={600} height={400}/>
         </div>
         </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+</Row>
+<Row id="max992" style={{marginTop: 20, marginBottom: 0}} >
+
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/lave-linge/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={lavelinge} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
+        </div>
+        </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/aspirateur/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={aspirateur} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>
+        </div>
+        </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/lave-vaisselle/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={lavevaisselle} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-vaisselle</h2>
+        </div>
+        </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/refrigerateur/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={refrigerateur} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Réfrigérateur</h2>
+        </div>
+        </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/site-de-rencontre/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={sitederencontre} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Site de rencontre</h2>
+        </div>
+        </div>
+        </a>
+      </Link>
+    </div>
+</Col>
+<Col lg={6}>
+    <div style={{marginTop: 10}}>
+      <Link href={`/matelas/`} id='textOnHover' passHref>
+      <a id='tabLink'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{maxWidth: 100, minWidth: 100}}>
+          <Image src={matelas} width={600} height={400}/>
+        </div>
+        <div style={{marginTop: -7, marginLeft: 7}}>
+          <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Matelas</h2>
+        </div>
+        </div>
+        </a>
       </Link>
     </div>
 </Col>

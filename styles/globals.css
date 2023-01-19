@@ -1124,3 +1124,12 @@ padding-bottom: 10px;
 #homeboxesh2{
 font-size: 30px !important;
 }
+
+#tabLink{
+  text-decoration: none !important;
+  }
+  
+  #tabLink p{
+    color: #222529 !important;
+    text-decoration: none !important;
+    }
