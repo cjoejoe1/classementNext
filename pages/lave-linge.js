@@ -29,7 +29,7 @@ const [values, setValues] = useState({
   return (
     <Layout url="lave-linge" category="Lave-linge" type="category" page={p}>
       
-      <Seo title="Meilleur lave linge 2023 - comparatif et classement complet"
+      <Seo title="Meilleur lave-linge 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs lave-linge: couleur, fonction séchage, automatique"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 

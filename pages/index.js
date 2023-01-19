@@ -33,7 +33,7 @@ const [values, setValues] = useState({
   }
 
   return (
-    <Layout >
+    <Layout page='home'>
       
       <Seo title="Classements 2023 par email - Classement.com" description="Comparatif et classements de tous les produits"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
