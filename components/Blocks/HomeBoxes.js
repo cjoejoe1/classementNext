@@ -142,11 +142,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/lave-linge/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={lavelinge} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
         </div>
         </div>
@@ -158,11 +158,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/aspirateur/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={aspirateur} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>
         </div>
         </div>
@@ -174,11 +174,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/lave-vaisselle/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={lavevaisselle} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-vaisselle</h2>
         </div>
         </div>
@@ -190,11 +190,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/refrigerateur/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={refrigerateur} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Réfrigérateur</h2>
         </div>
         </div>
@@ -206,11 +206,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/site-de-rencontre/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={sitederencontre} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Site de rencontre</h2>
         </div>
         </div>
@@ -222,11 +222,11 @@ const Latest = (props) => {
     <div style={{marginTop: 10}}>
       <Link href={`/matelas/`} id='textOnHover' passHref>
       <a id='tabLink'>
-        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
+        <div style={{minHeight: 100, borderRadius: 5, display: 'flex', paddingLeft: 20, paddingRight: 30, paddingTop: 25, paddingBottom : 16}}  id='cardOnHoverMarket'>
         <div style={{maxWidth: 100, minWidth: 100}}>
           <Image src={matelas} width={600} height={400}/>
         </div>
-        <div style={{marginTop: -7, marginLeft: 7}}>
+        <div style={{marginTop: -7, marginLeft: -3}}>
           <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Matelas</h2>
         </div>
         </div>
