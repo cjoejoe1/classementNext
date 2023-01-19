@@ -8,6 +8,8 @@ import { FaAngleDoubleRight} from 'react-icons/fa'
 import Image from 'next/image'
 import pro from '../images/classement-avis.png'
 import { useRouter } from 'next/router'
+import electromenager from '../images/electromenager.png'
+import stars from '../images/stars.png'
 
 const Index = props => {
 
@@ -39,11 +41,11 @@ const [values, setValues] = useState({
       <div style={{ marginTop: 50}}>
        <div id='homeBox'>
         <Row style={{}}>
-          <Col sm={8}>
-          <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Recevez les classements de 2023</h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992">*Les <span style={{fontWeight: 700}}>comparatifs complets</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
+          <Col sm={9}>
+          <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Recevez les <span style={{fontWeight: 700}}>comparatifs</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div id='formBlock' style={{display: 'flex'}}>
       
           <Dropdown onSelect={handleWhat} id="noMobile">
                 <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" style={{textAlign: 'left', height: 60, fontFamily: 'Montserrat', fontWeight: 500, fontSize: 20}}>{values.choice || `Choisissez votre produit `}
@@ -66,10 +68,13 @@ const [values, setValues] = useState({
         </Col>
         
 
-        <Col sm={4} style={{minWidth: 300}} id='min992'>
-          <div style={{width: 400, marginLeft: -40, marginTop: 10}}>
-            <div>
-         <Image src={pro} width={600} height={400}/>
+        <Col sm={3} style={{minWidth: 200}} id='min992'>
+          <div style={{width: 500, marginLeft: -170, marginTop: 10}}>
+            <div style={{maxWidth: 400}}>
+          <Image src={electromenager} width={600} height={400}/>
+          </div>
+          <div style={{marginTop: -150, marginLeft: 60}}>
+         <Image src={stars} width={270} height={180}/>
          </div>
          </div>
         </Col>

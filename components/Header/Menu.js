@@ -101,7 +101,7 @@ const Menu = (props) => {
       <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light" id='menuWidth' >
 
     <div className="brand-logo" style={{display: 'flex'}}>
-        <Link href={props.path === '/build-my-website' ? '#' : '/'} style={{textDecoration: 'none'}}>
+        <Link href={props.page === 'lp' ? '#' : '/'} style={{textDecoration: 'none'}}>
 
                   <Image src={logoBlack} alt="logo" id='smallLogo' width='200px' height='40px' style={{cursor: 'pointer'}}/>
            

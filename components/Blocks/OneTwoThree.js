@@ -10,9 +10,9 @@ const OneTwoThree = (props) => {
     <Container style={{ maxWidth: 800, marginTop: 100}}>
     
 
-    <h2 style={{textAlign: 'center', marginBottom: 40, fontWeight: 700, fontSize: 60}}>Comment ça marche?</h2>  
-    
-    <p className="lead" id='min992' style={{textAlign: 'center', margin: 'auto', fontFamily: 'unset', fontSize: 24, marginTop: -20, marginBottom: 80}} > {"Recevez votre comparatif en 3 étapes"}</p>
+    <h2 id="comment" style={{textAlign: 'center', marginBottom: 40, fontWeight: 700, fontSize: 60}}>Comment ça marche ?</h2>  
+
+    <p className="lead" style={{textAlign: 'center', margin: 'auto', marginTop: 0, marginBottom: 80}} > {"Recevez votre comparatif en 3 étapes"}</p>
 
             <Row style={{maxWidth: 1000, margin: 'auto', marginBottom: 70, marginTop: 100}}>
 

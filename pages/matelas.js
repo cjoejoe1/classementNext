@@ -16,13 +16,14 @@ import matelas from '../images/matelas.png'
 const Category = props => {
 
   const router = useRouter()
+  const p = router.query.p
 const [values, setValues] = useState({
   choice: '',
 })
 
 
   return (
-    <Layout url="matelas" category="matelas" type="category">
+    <Layout url="matelas" category="matelas" type="category" page={p}>
       
       <Seo title="Meilleur matelas 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs matelas: couleur, fonction séchage, automatique"/>
@@ -35,7 +36,7 @@ const [values, setValues] = useState({
           <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement matelas<span id='min992'>*</span><span id='max992'> 2023</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div id='formBlock' style={{display: 'flex'}}>
       
           
                      
@@ -54,7 +55,7 @@ const [values, setValues] = useState({
             <div style={{maxWidth: 400}}>
           <Image src={matelas} width={600} height={400}/>
           </div>
-          <div style={{marginTop: -170, marginLeft: 60}}>
+          <div style={{marginTop: -185, marginLeft: 60}}>
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>
@@ -68,7 +69,7 @@ const [values, setValues] = useState({
             <div style={{maxWidth: 400, margin: 'auto'}}>
           <Image src={matelas} width={600} height={400}/>
           </div>
-          <div style={{marginTop: -150, marginLeft: 60}}>
+          <div style={{marginTop: -185, marginLeft: 60}}>
          <Image src={stars} width={270} height={180}/>
          </div>
          </div>

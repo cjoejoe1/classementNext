@@ -287,7 +287,15 @@ padding-bottom: 10px;
     padding-right: 30px;
     padding-top: 0px;
     padding-bottom : 20px;
+  }
 
+  #comment{
+    font-size: 30px !important;
+   
+  }
+
+  #formBlock{
+    margin-top: 30px;
   }
 
   .h1compare{
@@ -306,8 +314,13 @@ padding-bottom: 10px;
   padding-left: 80px;
   padding-top: 20px;
   padding-bottom : 30px;
-
 }
+
+#formBlock{
+  margin-top: 50px;
+}
+
+
 .h1compare{
   font-size: 38px !important
 }

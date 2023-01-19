@@ -13,13 +13,14 @@ import sitederencontre from '../images/site-de-rencontre.png'
 const Category = props => {
 
   const router = useRouter()
+  const p = router.query.p
 const [values, setValues] = useState({
   choice: '',
 })
 
 
   return (
-    <Layout url="site-de-rencontre" category="rencontre" type="category">
+    <Layout url="site-de-rencontre" category="rencontre" type="category" page={p}>
       
       <Seo title="Meilleur site de rencontre 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs sites de rencontre: couleur, fonction séchage, automatique"/>
@@ -32,7 +33,7 @@ const [values, setValues] = useState({
           <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement site de rencontre<span id='min992'>*</span><span id='max992'> 2023</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div id='formBlock' style={{display: 'flex'}}>
       
           
                      

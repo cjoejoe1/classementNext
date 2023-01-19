@@ -180,7 +180,7 @@ const Header = (props) => {
         
 
       
-        <Menu type={props.type} category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
+        <Menu page={props.page} type={props.type} category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
         menuItems={menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
         {/* </div> */}
       </SiteHeader>

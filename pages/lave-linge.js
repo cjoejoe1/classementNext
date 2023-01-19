@@ -16,7 +16,9 @@ import lavelinge from '../images/lave-linge.png'
 
 const Category = props => {
 
-  const router = useRouter()
+const router = useRouter()
+const p = router.query.p
+
 const [values, setValues] = useState({
   choice: '',
 })
@@ -37,7 +39,7 @@ const [values, setValues] = useState({
   }
 
   return (
-    <Layout url="lave-linge" category="Lave-linge" type="category">
+    <Layout url="lave-linge" category="Lave-linge" type="category" page={p}>
       
       <Seo title="Meilleur lave linge 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs lave-linge: couleur, fonction séchage, automatique"/>
@@ -50,7 +52,7 @@ const [values, setValues] = useState({
           <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement lave-linge<span id='min992'>*</span><span id='max992'> 2023</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div id='formBlock' style={{display: 'flex'}}>
       
           
                      

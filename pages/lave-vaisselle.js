@@ -22,27 +22,14 @@ import aspirateur from '../images/aspirateur.png'
 const Category = props => {
 
   const router = useRouter()
+  const p = router.query.p
 const [values, setValues] = useState({
   choice: '',
 })
 
-  const handleWhat = (e) => {
-    setValues({...values, choice: e})
-  }
-  
-  const navigate = () => {
-    if(values.choice === 'Créer un site internet') return router.push('/site-internet/')
-    // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
-    else if(values.choice === 'Diagramme de gantt') return router.push('/diagramme-de-gantt/')
-    else if(values.choice === 'Trouver plus de clients (SEO)') return router.push('/comparateur/logiciel-seo/')
-    else if(values.choice === 'Gérer vos clients (CRM)') return router.push('/comparateur/logiciel-crm/')
-    else if(values.choice === 'Intelligence Artificielle') return router.push('/intelligence-artificielle/')
-    else if(values.choice === 'Texte') return router.push('/texte/')
-    else if(values.choice === 'Video') return router.push('/video/')
-  }
 
   return (
-    <Layout url="lave-vaisselle" category="lave-vaisselle" type="category">
+    <Layout url="lave-vaisselle" category="lave-vaisselle" type="category" page={p}>
       
       <Seo title="Meilleur lave-vaisselle 2023 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs lave-vaisselle: couleur, fonction séchage, automatique"/>
@@ -55,7 +42,7 @@ const [values, setValues] = useState({
           <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement lave-vaisselle<span id='min992'>*</span><span id='max992'> 2023</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
-          <div style={{display: 'flex', marginTop: 30}}>
+          <div id='formBlock' style={{display: 'flex'}}>
       
           
                      
