@@ -20,9 +20,8 @@ const Latest = (props) => {
 
   
   return (
-    <>
-
-<Row style={{maxWidth: 1140, margin: 'auto', marginTop: 20, marginBottom: 0}} >
+<Container style={{maxWidth: 1140}}>
+<Row style={{marginTop: 20, marginBottom: 0}} >
 
    
     <Col lg={6}>
@@ -31,9 +30,9 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}} id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2' style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleures machine à laver de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs lave-linge de 2023.' || ''}</p>
         </div>
-        <div style={{maxWidth: 250, minWidth: 140, marginRight: -60, marginBottom: 0}}>
+        <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={lavelinge} width={600} height={400}/>
         </div>
         </div>
@@ -132,11 +131,8 @@ const Latest = (props) => {
 
 
             </Row>
-   
-           
+            </Container>
 
- 
-</>
   )
 }
 
