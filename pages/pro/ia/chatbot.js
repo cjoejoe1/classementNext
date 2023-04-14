@@ -1,9 +1,10 @@
 import { Container, Row, Col, Button, Dropdown, Table} from "react-bootstrap";
-import Breadcrumbs from '../../components/Blocks/Breadcrumbs'
-import Layout from '../../components/layout'
-import data from '../intelligence-artificielle/data.json'
-import Seo from "../../components/seo";
-import Start from "../../components/Blocks/Start"
+import Breadcrumbs from '../../../components/Blocks/Breadcrumbs'
+import Layout from '../../../components/layout'
+import data from '../../../components/data/ia/data.json'
+import Seo from "../../../components/seo";
+import Start from "../../../components/Blocks/Start"
+import Top3 from "../../../components/data/Top3"
 const Ia = () => {
 
   const category = 'chatbot'
