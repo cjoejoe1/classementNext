@@ -23,6 +23,31 @@ h1{
   font-weight: 700 !important;
   margin-top: 0;
 }
+
+#cardOnHoverTop1{
+  border: 1px solid black;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 0 52px 54px rgb(165 164 185 / 18%)
+}
+#cardOnHoverTop1:hover{
+  box-shadow: 0 0 5px 1px rgb(229, 35, 79);
+  border: 2px solid rgb(229, 35, 79);
+}
+
+#cardOnHoverTop3{
+  border: 1px solid black;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 0 52px 54px rgb(165 164 185 / 18%)
+}
+
+#cardOnHoverTop3:hover{
+  box-shadow: 0 0 5px 1px rgb(229, 35, 79);
+  border: 2px solid rgb(229, 35, 79);
+}
+
+
 #h1Hero{
  font-size: 54px !important
 }
@@ -289,6 +314,30 @@ padding-bottom: 10px;
     padding-bottom : 20px;
   }
 
+
+  .scoreRowMob{
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 0 52px 54px rgb(165 164 185 / 18%);
+    cursor: pointer;
+  }
+
+  .scoreRowMob:hover{
+    box-shadow: 0 0 5px 1px rgb(215, 212, 212);
+    border: 2px solid rgb(216, 214, 214);
+  }
+
+  .scoreRowMob:first-child{
+    border: 2px solid rgb(229, 35, 79);
+    border-radius: 5px;
+    box-shadow: 0 0 3px 2px rgb(229, 35, 79);
+  }
+
+  .scoreRowMob:first-child:hover{
+    border: 2px solid rgb(229, 35, 79);
+    box-shadow: 0 0 4px 4px rgb(229, 35, 79);
+  }
+
   #rightPic{
     margin-left: 'none';
   } 
@@ -318,6 +367,36 @@ padding-bottom: 10px;
   padding-left: 80px;
   padding-top: 20px;
   padding-bottom : 30px;
+}
+
+.scoreRow{
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 52px 54px rgb(165 164 185 / 18%);
+  cursor: pointer;
+}
+
+.scoreRow:hover{
+  box-shadow: 0 0 5px 1px rgb(215, 212, 212);
+  border: 2px solid rgb(216, 214, 214);
+}
+
+.scoreRow:first-child{
+  border: 2px solid rgb(229, 35, 79);
+  border-radius: 5px;
+  box-shadow: 0 0 3px 2px rgb(229, 35, 79);
+}
+
+.scoreRow:first-child:hover{
+  border: 2px solid rgb(229, 35, 79);
+  box-shadow: 0 0 4px 4px rgb(229, 35, 79);
+}
+.scoreRowMob{
+  display: none;
+}
+
+.top1New{
+  margin-top: -20px;
 }
 
 #rightPic{
