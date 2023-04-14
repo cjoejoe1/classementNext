@@ -1,0 +1,1333 @@
+[
+  {
+    "name": "Ada",
+    "website": "ada.support",
+    "category": "Chatbots",
+    "location": "Toronto, Ontario, Canada",
+    "summary": "ADA est une entreprise automatisée d'expérience client qui fournit des robots de chat utilisés dans le support client."
+  },
+  {
+    "name": "Balto",
+    "website": "balto.ai",
+    "category": "Chatbots",
+    "location": "St Louis, Missouri, United States",
+    "summary": "Uniter les agents avec l'IA pour les conversations qui fournissent des résultats. Autorisez votre équipe en utilisant des conseils en temps réel avec Balto."
+  },
+  {
+    "name": "Certainly",
+    "website": "certainly.io",
+    "category": "Chatbots",
+    "location": "Copenhagen, Hovedstaden, Denmark",
+    "summary": "Est certainement une plate-forme d'IA conversationnelle conçue pour le commerce électronique et le service client."
+  },
+  {
+    "name": "Cohere",
+    "website": "cohere.so",
+    "category": "Chatbots",
+    "location": "New York, New York, United States",
+    "summary": "Dépasser les attentes des clients 24/7/365. Faire baisser les coûts d'assistance et CSAT."
+  },
+  {
+    "name": "Cresta",
+    "website": "cresta.com",
+    "category": "Chatbots",
+    "location": "San Francisco, California, United States",
+    "summary": "Cresta tire parti de l'intelligence artificielle pour aider les agents de vente et de service à améliorer la qualité de leur service client."
+  },
+  {
+    "name": "EliseAI",
+    "website": "eliseai.com",
+    "category": "Chatbots",
+    "location": "New York, New York, United States",
+    "summary": "Aliver des conversations commerciales."
+  },
+  {
+    "name": "Forethought",
+    "website": "forethought.ai",
+    "category": "Chatbots",
+    "location": "San Francisco, California, United States",
+    "summary": "La prévoyance fournit des solutions de service client qui transforment l'expérience client avec une IA centrée sur l'homme."
+  },
+  {
+    "name": "Haptik",
+    "website": "haptik.ai",
+    "category": "Chatbots",
+    "location": "Mumbai, Maharashtra, India",
+    "summary": "Accélérer la transition du monde vers le commerce conversationnel."
+  },
+  {
+    "name": "IN.WORLD",
+    "website": "inworld.ai",
+    "category": "Chatbots",
+    "location": "Mountain View, California, United States",
+    "summary": "INWORLD AI est une plate-forme créative pour les personnages virtuels, les réalités immersives et les espaces métaverseurs."
+  },
+  {
+    "name": "Kasisto",
+    "website": "kasisto.com",
+    "category": "Chatbots",
+    "location": "New York, New York, United States",
+    "summary": "Kasisto permet aux institutions financières de servir, d'engager et d'acquérir des clients."
+  },
+  {
+    "name": "Lang.ai",
+    "website": "lang.ai",
+    "category": "Chatbots",
+    "location": "Madrid, Madrid, Spain",
+    "summary": "Lang.ai est une plate-forme de compréhension linguistique qui automatise le taggage et les actions répétitives pour chaque conversation de support."
+  },
+  {
+    "name": "Luka (dba Replika)",
+    "website": "replika.ai",
+    "category": "Chatbots",
+    "location": "San Francisco, California, United States",
+    "summary": "Luka est une société de développement de logiciels basée à San Francisco, en Californie,"
+  },
+  {
+    "name": "NLX",
+    "website": "nlx.ai",
+    "category": "Chatbots",
+    "location": "New York, New York, United States",
+    "summary": "NLX transforme le contact client en expériences en libre-service personnalisées."
+  },
+  {
+    "name": "Observe.AI",
+    "website": "observe.ai",
+    "category": "Chatbots",
+    "location": "San Francisco, California, United States",
+    "summary": "Observe.ai est la principale plate-forme de renseignement de conversation pour augmenter les performances du centre de contact."
+  },
+  {
+    "name": "PolyAI",
+    "website": "poly-ai.com",
+    "category": "Chatbots",
+    "location": "London, England, United Kingdom",
+    "summary": "AI conversationnelle de nouvelle génération pour l'automatisation du service client imbattable."
+  },
+  {
+    "name": "Sapling.ai",
+    "website": "sapling.ai",
+    "category": "Chatbots",
+    "location": "San Francisco, California, United States",
+    "summary": "Sapling est l'assistant d'écriture de l'IA pour les équipes destinées aux clients."
+  },
+  {
+    "name": "Sociate",
+    "website": "https://sociate.ai",
+    "category": "Chatbots",
+    "location": "London, England, United Kingdom",
+    "summary": "L'avenir est conversationnel. Maia by Sociate est un plug-in sur le marché des stylistes personnels de l'IA pour les marchés de mode de luxe et pré-aimés, en tirant parti de l'IA générative infusée à la curiosité propriétaire. Maia voit et parle de laisser chaque client dire et montrer ce qu'il a besoin et aiment, comme ils le feraient avec un assistant humain. Les achats en ligne pour les vêtements sont cassés, dépendants des recherches de mots clés et de défilement. 79% des clients abandonnent simplement la recherche par page 3. Avec MAIA, les clients n'ont jamais à cliquer et à faire défiler sans cesse pour retrouver les choses qu'ils aiment encore - le tout sans aucun fardeau d'étiquetage ou de marquage pour le détaillant, améliorant la conversion jusqu'à 800% ."
+  },
+  {
+    "name": "Tymely",
+    "website": "tymely.ai",
+    "category": "Chatbots",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Tymely utilise la technologie hybride AI-Human qui permet aux utilisateurs de gérer leurs e-mails et de chats d'assistance et fournit un service empathique et précis."
+  },
+  {
+    "name": "ultimate.ai",
+    "website": "ultimate.ai",
+    "category": "Chatbots",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Automatisez votre support client avec la plate-forme d'agent virtuel la plus puissante au monde. Dans 109 langues. Classé n ° 1 sur G2."
+  },
+  {
+    "name": "Ushur",
+    "website": "ushur.com",
+    "category": "Chatbots",
+    "location": "Santa Clara, California, United States",
+    "summary": "USHUR est une entreprise d'IA basée sur le cloud qui automatise les workflows de service dans le processus backend et les interfaces conversationnelles."
+  },
+  {
+    "name": "Verloop.io",
+    "website": "verloop.io",
+    "category": "Chatbots",
+    "location": "Bengaluru, Karnataka, India",
+    "summary": "AI conversationnelle pour le support client"
+  },
+  {
+    "name": "XOKind",
+    "website": "xokind.com",
+    "category": "Chatbots",
+    "location": "San Diego, California, United States",
+    "summary": "Xokind est une startup en IA, formée avec la mission de simplifier la planification et la décision humaine."
+  },
+  {
+    "name": "Adept",
+    "website": "adept.ai",
+    "category": "ML Platforms",
+    "location": "San Francisco, California, United States",
+    "summary": "Adept est une entreprise de technologie de l'intelligence artificielle dont l'objectif est de créer l'intelligence artificielle générale."
+  },
+  {
+    "name": "Aporia",
+    "website": "aporia.com",
+    "category": "ML Platforms",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Plate-forme d'observabilité ML complète"
+  },
+  {
+    "name": "Archistar.ai",
+    "website": "archistar.ai",
+    "category": "ML Platforms",
+    "location": "Sydney, New South Wales, Australia",
+    "summary": "Archistar crée une technologie de pointe qui révolutionne la façon dont les professionnels de la propriété planifient, conçoivent et construisent."
+  },
+  {
+    "name": "Deepset",
+    "website": "deepset.ai",
+    "category": "ML Platforms",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Recherche sémantique de niveau supérieur pour les entreprises alimentées par la dernière PNL et open source"
+  },
+  {
+    "name": "Featureform",
+    "website": "featureform.com",
+    "category": "ML Platforms",
+    "location": "San Francisco, California, United States",
+    "summary": "La forme de fonctionnalité normalise la façon dont les fonctionnalités sont définies, gérées et partagées."
+  },
+  {
+    "name": "Galileo",
+    "website": "rungalileo.io",
+    "category": "ML Platforms",
+    "location": "San Francisco, California, United States",
+    "summary": "Chaîne de données de prochaine génération pour les développeurs ML"
+  },
+  {
+    "name": "Jina AI",
+    "website": "jina.ai",
+    "category": "ML Platforms",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Permettre aux entreprises et aux développeurs de construire des solutions de recherche de neurones en minutes à grande échelle."
+  },
+  {
+    "name": "LatticeFlow",
+    "website": "https://latticeflow.ai",
+    "category": "ML Platforms",
+    "location": "Zurich, Zurich, Switzerland",
+    "summary": "LatticeFlow permet aux équipes ML de diagnostiquer et de résoudre automatiquement les problèmes dans leurs données et modèles d'IA, ainsi que pour évaluer leur sécurité, leur fiabilité et leurs biais cachés."
+  },
+  {
+    "name": "Loci",
+    "website": "https://www.loci.ai",
+    "category": "ML Platforms",
+    "location": "London, England, United Kingdom",
+    "summary": "LOCI fournit une plate-forme AI pour aider les équipes à comprendre, trier et modifier de vastes bibliothèques de contenu 3D instantanément et automatiquement."
+  },
+  {
+    "name": "Slai",
+    "website": "slai.io",
+    "category": "ML Platforms",
+    "location": "Cambridge, Massachusetts, United States",
+    "summary": "SLAI déploie des modèles d'apprentissage automatique en minutes en utilisant l'infrastructure gérée pour vous."
+  },
+  {
+    "name": "Symbl.ai",
+    "website": "symbl.ai",
+    "category": "ML Platforms",
+    "location": "Seattle, Washington, United States",
+    "summary": "Symbl.ai est une startup soutenue par un stade précoce qui démocratise l'accès à l'intelligence conversationnelle pour les développeurs."
+  },
+  {
+    "name": "Synthesis AI",
+    "website": "synthesis.ai",
+    "category": "ML Platforms",
+    "location": "San Francisco, California, United States",
+    "summary": "Synthesis AI fournit une plate-forme de génération de données pour la vision par ordinateur."
+  },
+  {
+    "name": "AI21 Labs",
+    "website": "ai21.com",
+    "category": "Text",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Les laboratoires AI21 se spécialisent dans le développement de systèmes d'IA avec une capacité sans précédent à comprendre et à générer un langage naturel."
+  },
+  {
+    "name": "Anyword",
+    "website": "anyword.com",
+    "category": "Text",
+    "location": "New York, New York, United States",
+    "summary": "Anyword offre aux éditeurs et aux spécialistes du marketing une approche de la distribution de contenu et de la mesure du rendement."
+  },
+  {
+    "name": "Autobound",
+    "website": "autobound.ai",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "Germer les BDR et les AES pour personnaliser leur sensibilisation à grande échelle, en utilisant CRM et les idées tiers."
+  },
+  {
+    "name": "Cogram",
+    "website": "cogram.com",
+    "category": "Text",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Autorisez tout le monde dans votre équipe pour interroger les données"
+  },
+  {
+    "name": "Compose.AI",
+    "website": "compose.ai",
+    "category": "Text",
+    "location": "Chicago, U.S.A",
+    "summary": "Composer AI est une extension chromée gratuite qui réduit votre temps d'écriture de 40% avec une assurance autocérosée à AI"
+  },
+  {
+    "name": "Contexts.com",
+    "website": "https://www.contents.com",
+    "category": "Text",
+    "location": "Milan, Italy",
+    "summary": "Contents.com est une plate-forme SAAS d'intelligence artificielle générative qui propose des outils de création de contenu automatique pour soutenir toute entreprise. La combinaison de modèles d'intelligence artificielle avec des ensembles de données propriétaires permet une génération de contenu polyvalente à haute performance. L'expérience humaine forme la machine à devenir hautement autonome, à jour et performante. Cette solution couvre l'ensemble du flux de travail de contenu, de la conception à la création en passant par la transformation. Notre mission est de transformer le marché de la création de contenu en exploitant la puissance des technologies d'intelligence artificielle les plus avancées combinées à la puissance de la créativité humaine. La vision du contenu embrasse un monde inclusif où les barrières de communication n'existent pas. Il veut devenir l'indice de référence pour toutes les entreprises qui veulent apprendre à mieux s'exprimer, à communiquer plus puissamment et à être entendus plus efficacement."
+  },
+  {
+    "name": "CopyAI",
+    "website": "copy.ai",
+    "category": "Text",
+    "location": "Memphis, Tennessee, United States",
+    "summary": "Copyai est un startup Building Copywriting Otintwriting AI pour les clients d'entreprise.",
+    "textPos": 2,
+    "logo": "copyai.png",
+    "go": "https://www.copy.ai/",
+    "score": 9.3,
+    "quote": "Spécialisé copywriting"
+  },
+  {
+    "name": "Copymatic",
+    "website": "copymatic.ai",
+    "category": "Text",
+    "location": "Los Angeles, California, United States",
+    "summary": "Écrivain de copie et de contenu alimentée par AI. Générez un contenu unique, engageant et de qualité: des articles de blog ou des pages de destination aux publicités numériques en quelques secondes."
+  },
+  {
+    "name": "Copysmith",
+    "website": "copysmith.ai",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "Le meilleur rédacteur IA au monde. Utilisez l'IA pour écrire une copie pour les publicités, les descriptions de produits, les publications sur les réseaux sociaux, les pages de destination, les articles de blog, etc."
+  },
+  {
+    "name": "Creatext",
+    "website": "creatext.ai",
+    "category": "Text",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Creatext est une équipe d'ingénieurs AI basée à Berlin qui construit un «copilote GitHub pour les vendeurs»."
+  },
+  {
+    "name": "Frase",
+    "website": "frase.io",
+    "category": "Text",
+    "location": "Boston, Massachusetts, United States",
+    "summary": "Frase est fournit un assistant d'étude de marché basé sur l'intelligence artificielle."
+  },
+  {
+    "name": "genei",
+    "website": "genei.io",
+    "category": "Text",
+    "location": "London, England, United Kingdom",
+    "summary": "Genie est une plate-forme alimentée par l'IA pour l'extraction d'informations, la prise de notes et la recherche."
+  },
+  {
+    "name": "GoCharlie",
+    "website": "https://www.GoCharlie.ai",
+    "category": "Text",
+    "location": "",
+    "summary": "Plateforme de création de contenu AI"
+  },
+  {
+    "name": "Hypertype.co",
+    "website": "hypertype.co",
+    "category": "Text",
+    "location": "Stockholm, Stockholms Lan, Sweden",
+    "summary": "HyperType est l'expérience par e-mail la plus intelligente pour les communications des ventes à l'aide de l'IA."
+  },
+  {
+    "name": "Hypotenuse",
+    "website": "hypotenuse.ai",
+    "category": "Text",
+    "location": "Mountain View, California, United States",
+    "summary": "L'hypotenuse AI génère automatiquement la rédaction de contenu pour les entreprises, y compris les descriptions de produits, le texte publicitaire et les articles de blog.",
+    "textPos": 3,
+    "logo": "hypotenuse.png",
+    "go": "https://www.hypotenuse.ai/",
+    "score": 9.3,
+    "quote": "Pour les écrivains"
+  },
+  {
+    "name": "Jasper",
+    "website": "jasper.ai",
+    "category": "Text",
+    "location": "Austin, Texas, United States",
+    "summary": "Jasper est une plate-forme de contenu d'IA qui permet aux individus et aux équipes d'utiliser l'IA pour évoluer leurs stratégies de contenu.",
+    "textPos": 1,
+    "logo": "jasper.png",
+    "go": "https://jasper.ai?source=partner&fpr=createur",
+    "score": 9.8,
+    "quote": "Plus d'utilisateurs"
+  },
+  {
+    "name": "Lately",
+    "website": "lately.ai",
+    "category": "Text",
+    "location": "New York, New York, United States",
+    "summary": "Dernièrement, c'est la seule plate-forme de gestion du marketing des médias sociaux alimentée par A.I. qui crée du contenu pour vous."
+  },
+  {
+    "name": "Letterdrop",
+    "website": "letterdrop.com",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "Letterdrop est une plateforme de publication Web et de messagerie qui aide les créateurs et les petites entreprises à gagner."
+  },
+  {
+    "name": "Linguix",
+    "website": "https://linguix.com",
+    "category": "Text",
+    "location": "Miami, Florida, United States",
+    "summary": "Assistant d'écriture en ligne gratuit basé sur l'IA"
+  },
+  {
+    "name": "Mavenoid",
+    "website": "mavenoid.com",
+    "category": "Text",
+    "location": "Stockholm, Stockholms Lan, Sweden",
+    "summary": "Mavenoid développe une plate-forme de support de produit et de dépannage axée sur l'IA pour les sociétés matérielles."
+  },
+  {
+    "name": "Mutiny",
+    "website": "mutinyhq.com",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "Mutiny propose un site Web de personnalisation, de la publicité, du marketing basé sur les comptes et des services d'optimisation des médias payants."
+  },
+  {
+    "name": "OthersideAI (HyperWrite)",
+    "website": "othersideai.com",
+    "category": "Text",
+    "location": "Los Angeles, California, United States",
+    "summary": "AutresIDEAi est un fournisseur d'un logiciel basé sur l'IA qui transforme les résumés et les notes de scolarité en e-mails écrits."
+  },
+  {
+    "name": "Persado",
+    "website": "persado.com",
+    "category": "Text",
+    "location": "New York, New York, United States",
+    "summary": "Persado fournit de l'intelligence artificielle (IA) de motivation qui anime les communications personnalisées à grande échelle."
+  },
+  {
+    "name": "regie.ai",
+    "website": "regie.ai",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "Regie est un système de création et de gestion de contenu AI tout-en-un pour les équipes GTM modernes."
+  },
+  {
+    "name": "Smart Writer",
+    "website": "smartwriter.ai",
+    "category": "Text",
+    "location": "Sydney, New South Wales, Australia",
+    "summary": "La sensibilisation par e-mail à froid personnalisé. Automatisez l'intégralité de votre génération de leads en 1 clic"
+  },
+  {
+    "name": "Typewise",
+    "website": "https://www.typewise.app",
+    "category": "Text",
+    "location": "Zurich, Zurich, Switzerland",
+    "summary": "Solution d'écriture d'IA pour les équipes de service client et de vente."
+  },
+  {
+    "name": "Writer",
+    "website": "writer.com",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "L'écrivain est la plate-forme d'écriture de l'IA pour les équipes. Les clients incluent UnitedHealthCare, Accenture, Intuit, L'Oreal, Uipath, HubSpot et Spotify."
+  },
+  {
+    "name": "Writesonic",
+    "website": "writesonic.com",
+    "category": "Text",
+    "location": "San Francisco, California, United States",
+    "summary": "L'assistant d'écriture de l'IA d'écriture est utilisé par 200 000 entreprises pour automatiser leur écriture et économiser 80% de leur temps et de leur énergie."
+  },
+  {
+    "name": "You.com",
+    "website": "you.com",
+    "category": "Text",
+    "location": "Palo Alto, California, United States",
+    "summary": "You.com est un moteur de recherche qui aide les utilisateurs à trouver ce qu'ils recherchent en hiérarchisant les résultats réels."
+  },
+  {
+    "name": "Ad Auris",
+    "website": "https://www.ad-auris.com",
+    "category": "Audio",
+    "location": "Vancouver, British Columbia, Canada",
+    "summary": "Transformer le contenu écrit en audio de type podcast, instantanément."
+  },
+  {
+    "name": "Aimi",
+    "website": "aimi.fm",
+    "category": "Audio",
+    "location": "Austin, Texas, United States",
+    "summary": "Pas une playlist. Pas radio. AIMI est une expérience d'écoute entièrement nouvelle. Appuyez simplement sur Play."
+  },
+  {
+    "name": "Altered",
+    "website": "https://www.altered.ai",
+    "category": "Audio",
+    "location": "London, England, United Kingdom",
+    "summary": "Création de contenu audio numérique"
+  },
+  {
+    "name": "AssemblyAI",
+    "website": "assemblyai.com",
+    "category": "Audio",
+    "location": "San Francisco, California, United States",
+    "summary": "Assemblyai est une entreprise d'IA qui construit une plate-forme d'API pour transcrire et comprendre les données audio."
+  },
+  {
+    "name": "coqui.ai",
+    "website": "coqui.ai",
+    "category": "Audio",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Coqui est une startup qui fournit une technologie de parole ouverte pour tout le monde."
+  },
+  {
+    "name": "Deepgram",
+    "website": "deepgram.com",
+    "category": "Audio",
+    "location": "San Francisco, California, United States",
+    "summary": "DeepGram est une plate-forme de parole d'IA qui fournit aux développeurs une API simple à utiliser."
+  },
+  {
+    "name": "Dubverse.ai",
+    "website": "dubverse.ai",
+    "category": "Audio",
+    "location": "Gurgaon, Haryana, India",
+    "summary": "Dubverse.ai est une plate-forme de doublage et de création de contenu vidéo SaaS alimenté en AI qui prend en charge le doublage de bout en bout."
+  },
+  {
+    "name": "Endel",
+    "website": "endel.io",
+    "category": "Audio",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "Endel est un écosystème audio multiplateforme qui crée des paysages sonores personnalisés pour réduire le stress, améliorer le sommeil et stimuler la productivité."
+  },
+  {
+    "name": "Kaizan",
+    "website": "kaizan.ai",
+    "category": "Audio",
+    "location": "London, England, United Kingdom",
+    "summary": "L'assistant d'IA qui amplifie vos capacités au travail - arrêtez d'écrire des notes, des mises à jour et des rapports - demandez à votre IA de le faire."
+  },
+  {
+    "name": "Krisp",
+    "website": "krisp.ai",
+    "category": "Audio",
+    "location": "Berkeley, California, United States",
+    "summary": "La mission de Krisp est de permettre aux gens de parler plus efficacement par le biais de la technologie."
+  },
+  {
+    "name": "Listnr",
+    "website": "listnr.tech",
+    "category": "Audio",
+    "location": "Middletown, Delaware, United States",
+    "summary": "ListNR est une solution tout en un podcation pour vous aider à enregistrer, modifier, distribuer et monétiser votre podcast sur une seule plate-forme."
+  },
+  {
+    "name": "LOVO",
+    "website": "lovo.ai",
+    "category": "Audio",
+    "location": "Berkeley, California, United States",
+    "summary": "Lovo est une plate-forme de logicielle de discours de la voix off de l'IA et de l'apprentissage automatique."
+  },
+  {
+    "name": "Moises",
+    "website": "moises.ai",
+    "category": "Audio",
+    "location": "Salt Lake City, Utah, United States",
+    "summary": "Moises est une entreprise audio-tech qui tire parti de l'apprentissage automatique et de la science des données par rapport à la musique et au traitement audio."
+  },
+  {
+    "name": "Mubert",
+    "website": "mubert.com",
+    "category": "Audio",
+    "location": "Dover, Delaware, United States",
+    "summary": "Mubert est une plate-forme alimentée par AI qui permet à ses utilisateurs de créer des bandes sonores et de la musique, et relie également les musiciens et les auditeurs."
+  },
+  {
+    "name": "MURF AI",
+    "website": "murf.ai",
+    "category": "Audio",
+    "location": "Salt Lake City, Utah, United States",
+    "summary": "Murf AI est une startup de technologie de la parole synthétique développant des voix d'IA réalistes pour des podcasts, des diaporamas et des présentations professionnelles."
+  },
+  {
+    "name": "Neural Space",
+    "website": "neuralspace.ai",
+    "category": "Audio",
+    "location": "London, England, United Kingdom",
+    "summary": "La solution à guichet unique pour tous vos besoins en PNL dans plus de 100 langues"
+  },
+  {
+    "name": "Notably",
+    "website": "notably.ai",
+    "category": "Audio",
+    "location": "Florida, New York, United States",
+    "summary": "Offre notamment une plate-forme de renseignement de recherche qualitative pour construire un produit SaaS et offrant une recherche qualitative."
+  },
+  {
+    "name": "Papercup",
+    "website": "papercup.com",
+    "category": "Audio",
+    "location": "London, England, United Kingdom",
+    "summary": "PaperCup traduit des vidéos utilisant l'IA en générant des voix qui ressemblent au haut-parleur original"
+  },
+  {
+    "name": "Replica Studios",
+    "website": "replicastudios.com",
+    "category": "Audio",
+    "location": "Brisbane, Queensland, Australia",
+    "summary": "Replica Studios crée des voix et des performances naturellement expressives à travers une IA qui peut reproduire la voix humaine."
+  },
+  {
+    "name": "Resemble AI",
+    "website": "resemble.ai",
+    "category": "Audio",
+    "location": "Toronto, Ontario, Canada",
+    "summary": "La ressembler à l'IA crée des voix personnalisées en utilisant des modèles de profondeur propriétaire qui peuvent produire une synthèse de la parole réaliste."
+  },
+  {
+    "name": "Soundful",
+    "website": "soundful.com",
+    "category": "Audio",
+    "location": "San Diego, California, United States",
+    "summary": "L'avenir de la musique est maintenant. Permettre à tout le monde de faire de la musique et du contenu."
+  },
+  {
+    "name": "Soundraw",
+    "website": "https://soundraw.io",
+    "category": "Audio",
+    "location": "Tokyo, Japan",
+    "summary": "Générateur de musique AI pour les créateurs"
+  },
+  {
+    "name": "Speechify",
+    "website": "speechify.com",
+    "category": "Audio",
+    "location": "Miami, Florida, United States",
+    "summary": "Speechify est une application mobile et de bureau qui permet aux personnes atteintes de dyslexie et de faible vision de lire en utilisant du texte à la voix de la parole."
+  },
+  {
+    "name": "Vocal Clarity",
+    "website": "https://www.vocalclarity.ai",
+    "category": "Audio",
+    "location": "New York, New York, United States",
+    "summary": "Amélioration de la parole par synthèse vocale."
+  },
+  {
+    "name": "Voicemod",
+    "website": "voicemod.net",
+    "category": "Audio",
+    "location": "Valencia, Comunidad Valenciana, Spain",
+    "summary": "VoiceMod est le meilleur logiciel de changeur de voix gratuit pour Windows."
+  },
+  {
+    "name": "WellSaid Labs",
+    "website": "wellsaidlabs.com",
+    "category": "Audio",
+    "location": "Seattle, Washington, United States",
+    "summary": "Wellsaid Labs est un développeur de la technologie du texte-vocation artistique qui crée des voix synthétiques réalistes, des voix des vraies personnes."
+  },
+  {
+    "name": "Air",
+    "website": "air.inc",
+    "category": "Search",
+    "location": "Brooklyn, New York, United States",
+    "summary": "Air est un développeur de la collaboration en milieu de travail et de l'outil de remplacement de stockage cloud utilisé pour offrir des services de gestion des médias."
+  },
+  {
+    "name": "Consensus",
+    "website": "consensus.app",
+    "category": "Search",
+    "location": "Boston, Massachusetts, United States",
+    "summary": "Le consensus est un moteur de recherche qui utilise l'IA pour trouver des réponses directement à partir de la recherche scientifique."
+  },
+  {
+    "name": "Glean",
+    "website": "glean.com",
+    "category": "Search",
+    "location": "Palo Alto, California, United States",
+    "summary": "Glean fournit un assistant de travail qui permet et aide les employés à trouver des données sur leur lieu de travail."
+  },
+  {
+    "name": "Hebbia",
+    "website": "hebbia.ai",
+    "category": "Search",
+    "location": "New York, New York, United States",
+    "summary": "La recherche neuronale d'Hébbia vous permet d'exécuter des recherches 10x plus rapidement et 10x plus précisément."
+  },
+  {
+    "name": "Looria",
+    "website": "looria.com",
+    "category": "Search",
+    "location": "Zurich, Zurich, Switzerland",
+    "summary": "Looria rassemble, analyse et résume les revues de produits les plus fiables."
+  },
+  {
+    "name": "Pinecone",
+    "website": "pinecone.io",
+    "category": "Search",
+    "location": "San Mateo, California, United States",
+    "summary": "Recherche de similitude en tant que service"
+  },
+  {
+    "name": "Qdrant",
+    "website": "qdrant.tech",
+    "category": "Search",
+    "location": "Berlin, Berlin, Germany",
+    "summary": "QDrant est un moteur de recherche de similitude vectorielle open source."
+  },
+  {
+    "name": "Vectara",
+    "website": "vectara.com",
+    "category": "Search",
+    "location": "Cupertino, California, United States",
+    "summary": "SaaS"
+  },
+  {
+    "name": "AIXcoder",
+    "website": "aixcoder.com",
+    "category": "Code",
+    "location": "Haidian, Beijing, China",
+    "summary": "AIXCODER est une entreprise de développeur de robot de programmation virtuelle AI."
+  },
+  {
+    "name": "Anima App",
+    "website": "animaapp.com",
+    "category": "Code",
+    "location": "New York, New York, United States",
+    "summary": "Anima est la plate-forme de conception-code."
+  },
+  {
+    "name": "Bloop",
+    "website": "bloop.ai",
+    "category": "Code",
+    "location": "London, England, United Kingdom",
+    "summary": "Bloop.ai est une extension pour un éditeur de code qui fait surface des exemples de code à partir de la documentation officielle de chaque bibliothèque."
+  },
+  {
+    "name": "Codacy",
+    "website": "codacy.com",
+    "category": "Code",
+    "location": "Lisbon, Lisboa, Portugal",
+    "summary": "Codacy est un outil de révision de code automatisé qui aide les développeurs à gagner du temps dans les avis de code et à gérer la dette technique."
+  },
+  {
+    "name": "Codiga",
+    "website": "codiga.io",
+    "category": "Code",
+    "location": "Denver, Colorado, United States",
+    "summary": "Aider les développeurs à écrire un meilleur code, plus rapidement"
+  },
+  {
+    "name": "Codis",
+    "website": "https://codis.io",
+    "category": "Code",
+    "location": "Melbourne, australia",
+    "summary": "Accélérez votre développement de flottement"
+  },
+  {
+    "name": "Codota",
+    "website": "codota.com",
+    "category": "Code",
+    "location": "Herzliya, Tel Aviv, Israel",
+    "summary": "La plate-forme Codota aide les développeurs à créer des logiciels plus rapidement en fournissant des informations apprises de tout le code du monde."
+  },
+  {
+    "name": "Debuild",
+    "website": "debuild.app",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "Décrivez ce que votre application doit faire en anglais simple, puis commencez à l'utiliser en quelques secondes 💫"
+  },
+  {
+    "name": "DhiWise",
+    "website": "dhiwise.com",
+    "category": "Code",
+    "location": "Surat, Gujarat, India",
+    "summary": "Dhiwise est une plate-forme de programmation graphique de nouvelle génération pour la création d'applications d'entrepreneuriat."
+  },
+  {
+    "name": "Durable",
+    "website": "durable.co",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "Durable est une plate-forme en ligne qui aide les entreprises de service à la configuration, aux modèles, au marketing et à la facturation de leur entreprise."
+  },
+  {
+    "name": "Enzyme",
+    "website": "enzyme.so",
+    "category": "Code",
+    "location": "New York, New York, United States",
+    "summary": "Enzyme fournit un accès sans code à Web3 et permet aux créateurs et aux entreprises de développer et de mettre en œuvre des contrats intelligents."
+  },
+  {
+    "name": "Kodezi",
+    "website": "https://kodezi.com",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "Grammaire pour les programmeurs!"
+  },
+  {
+    "name": "Locofy.ai",
+    "website": "locofy.ai",
+    "category": "Code",
+    "location": "Singapore, Central Region, Singapore",
+    "summary": "LOCOFY fournit un service qui convertit les conceptions en code."
+  },
+  {
+    "name": "MarsX",
+    "website": "https://www.marsx.dev",
+    "category": "Code",
+    "location": "Seattle, Washington, United States",
+    "summary": "Plate-forme à code basse propulsé par l'IA conversationnelle et les micropps. Les utilisateurs peuvent utiliser le langage naturel en combinaison pour utiliser le code"
+  },
+  {
+    "name": "Maya :: Automate your work, in minutes",
+    "website": "mayalabs.io",
+    "category": "Code",
+    "location": "Bengaluru, Karnataka, India",
+    "summary": "Maya Labs aide à construire des machines qui peuvent se programmer."
+  },
+  {
+    "name": "Metabob",
+    "website": "https://metabob.com",
+    "category": "Code",
+    "location": "Berkeley, California, United States",
+    "summary": "Détecter et résoudre les erreurs cachées avant de fusionner le code avec l'IA de Metabob"
+  },
+  {
+    "name": "Mintlify",
+    "website": "mintlify.com",
+    "category": "Code",
+    "location": "New York, New York, United States",
+    "summary": "Le backend pour la documentation de classe mondiale"
+  },
+  {
+    "name": "MutableAI",
+    "website": "mutable.ai",
+    "category": "Code",
+    "location": "Chicago, U.S.A",
+    "summary": "Mutableai fournit des services basés sur l'intelligence artificielle pour le développement de logiciels."
+  },
+  {
+    "name": "Replit",
+    "website": "replit.com",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "REPL.Il est un environnement de développement intégré basé sur un navigateur pour le codage collaboratif multiplateforme."
+  },
+  {
+    "name": "Tabnine",
+    "website": "tabnine.com",
+    "category": "Code",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Tabnine est un outil d'achèvement de code AI qui aide les développeurs dans le monde entier à écrire un meilleur code plus rapidement."
+  },
+  {
+    "name": "The.com",
+    "website": "the.com",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "Créez plus Web, automatiquement."
+  },
+  {
+    "name": "Theneo",
+    "website": "https://www.theneo.io/",
+    "category": "Code",
+    "location": "San Francisco, California, United States",
+    "summary": "Génération automatique des documents API de haute qualité et de haute qualité"
+  },
+  {
+    "name": "Topline",
+    "website": "https://toplinepro.com",
+    "category": "Code",
+    "location": "New York, NY",
+    "summary": "Topline Pro utilise une AI générative pour automatiser la création d'un site Web et une présence en ligne continue pour aider les entreprises de services à domicile à être découvertes, fiables et réservées à plusieurs reprises."
+  },
+  {
+    "name": "Warp",
+    "website": "warp.dev",
+    "category": "Code",
+    "location": "New York, New York, United States",
+    "summary": "Warp est un développeur d'un terminal de codage basé sur la rouille conçu pour rendre les équipes productives au codage et au développement des applications."
+  },
+  {
+    "name": "Midjourney",
+    "website": "https://midjourney.com",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "Un laboratoire de recherche indépendant explorant de nouveaux médiums de pensée et élargissant les pouvoirs imaginatifs des espèces humaines."
+  },
+  {
+    "name": "Autoenhance.ai",
+    "website": "autoenhance.ai",
+    "category": "Image",
+    "location": "London, England, United Kingdom",
+    "summary": "Autoenhance.ai propose un logiciel de retouche photo automatisé à l'aide de l'intelligence artificielle."
+  },
+  {
+    "name": "Beautiful.AI",
+    "website": "beautiful.ai",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "Créer des logiciels qui comprend les règles d'un excellent design et permet à n'importe qui de construire facilement des documents visuels incroyablement beaux."
+  },
+  {
+    "name": "Blend",
+    "website": "blendnow.com",
+    "category": "Image",
+    "location": "Bengaluru, Karnataka, India",
+    "summary": "Blend est une application de conception graphique et de marketing dirigée par AI pour aider les vendeurs à se démarquer et à vendre plus de produits en ligne."
+  },
+  {
+    "name": "Botika",
+    "website": "botika.io",
+    "category": "Image",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Botika exploite les médias synthétiques pour alimenter la création et l'optimisation du contenu visuel de l'industrie de la mode."
+  },
+  {
+    "name": "Bria",
+    "website": "bria.ai",
+    "category": "Image",
+    "location": "Tel Aviv-yafo, Tel Aviv, Israel",
+    "summary": "Bria est une société de logiciels informatiques."
+  },
+  {
+    "name": "Bubbles",
+    "website": "https://designwithbubbles.com",
+    "category": "Image",
+    "location": "Salt Lake City, Utah, United States",
+    "summary": "La reconnaissance d'image avancée rencontre des scènes 3D modifiables instantanées pour les personnes moyennes ... pensez à Figma en 3D!"
+  },
+  {
+    "name": "ClipDrop",
+    "website": "clipdrop.co",
+    "category": "Image",
+    "location": "Paris, Ile-de-France, France",
+    "summary": "Clipdrop est une application qui transforme les photos mobiles régulières en visuels de produits professionnels."
+  },
+  {
+    "name": "Common Sense Machines",
+    "website": "csm.ai",
+    "category": "Image",
+    "location": "Cambridge, Massachusetts, United States",
+    "summary": "Common Sense Machines construit une intelligence artificielle qui apprend à traduire le monde en simulation 3D."
+  },
+  {
+    "name": "Facet",
+    "website": "facet.ai",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "Facet est une société de logiciels informatiques qui fournit des artistes et des ingénieurs, visant à redéfinir et à humaniser le processus créatif."
+  },
+  {
+    "name": "Hexo",
+    "website": "hexo.ai",
+    "category": "Image",
+    "location": "Bengaluru, Karnataka, India",
+    "summary": ""
+  },
+  {
+    "name": "Hypar",
+    "website": "hypar.io",
+    "category": "Image",
+    "location": "Culver City, California, United States",
+    "summary": "HYPAR offre une expertise pour plusieurs organisations pour les aider à créer rapidement des conceptions de bâtiments."
+  },
+  {
+    "name": "Kaedim",
+    "website": "kaedim.com",
+    "category": "Image",
+    "location": "London, England, United Kingdom",
+    "summary": "AI pour transformer les images 2D en modèles 3D"
+  },
+  {
+    "name": "Let's Enhance",
+    "website": "letsenhance.io",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "Let's Imphance est une entreprise de technologie profonde qui construit une solution de gestion de photos de NExt AI pour les marchés"
+  },
+  {
+    "name": "Maket Technologies",
+    "website": "maket.ca",
+    "category": "Image",
+    "location": "Montréal, Quebec, Canada",
+    "summary": "Maket automatise la création de plans d'étage en utilisant une AI générative"
+  },
+  {
+    "name": "Modulize",
+    "website": "https://www.modulize.io",
+    "category": "Image",
+    "location": "Oslo, Norway",
+    "summary": "Déverrouillez le potentiel de la construction hors site avec le logiciel de décollage et d'estimation des coûts ultime"
+  },
+  {
+    "name": "Pencil",
+    "website": "trypencil.com",
+    "category": "Image",
+    "location": "Singapore, Central Region, Singapore",
+    "summary": "Le crayon est une plate-forme d'IA créative qui génère des annonces prévues pour gagner."
+  },
+  {
+    "name": "PhotoRoom",
+    "website": "photoroom.com",
+    "category": "Image",
+    "location": "Paris, Ile-de-France, France",
+    "summary": "PhotOroom est une application de capture d'image compatible AI qui permet aux utilisateurs de créer des images de produits de qualité studio en quelques secondes."
+  },
+  {
+    "name": "Poly",
+    "website": "withpoly.com",
+    "category": "Image",
+    "location": "Santa Monica, California, United States",
+    "summary": "Générer des actifs de conception avec l'IA en quelques secondes"
+  },
+  {
+    "name": "Recast : AI",
+    "website": "https://recastai.com",
+    "category": "Image",
+    "location": "Singapore, Central Region, Singapore",
+    "summary": "Créez-le. Posséder."
+  },
+  {
+    "name": "Rosebud AI",
+    "website": "rosebud.ai",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "Rosebud AI utilise l'apprentissage en profondeur pour créer des photos et des vidéos de modèles virtuels pour la publicité et le divertissement de marque."
+  },
+  {
+    "name": "Scenario",
+    "website": "https://www.scenario.gg",
+    "category": "Image",
+    "location": "San Francisco, California, United States",
+    "summary": "AI générative pour les actifs de jeu"
+  },
+  {
+    "name": "Sloyd",
+    "website": "https://www.sloyd.ai",
+    "category": "Image",
+    "location": "Oslo, Norway",
+    "summary": "Création 3D automagique instantanée"
+  },
+  {
+    "name": "Soul Machines",
+    "website": "soulmachines.com",
+    "category": "Image",
+    "location": "Auckland, Auckland, New Zealand",
+    "summary": "Soul Machines conçoit des avatars intelligents et émotionnellement réactifs qui changent la façon dont les gens interagissent avec les machines."
+  },
+  {
+    "name": "stability.ai",
+    "website": "stability.ai",
+    "category": "Image",
+    "location": "London, England, United Kingdom",
+    "summary": "La stabilité AI est une startup d'art visuel axé sur l'IA qui conçoit et implémente un outil d'IA ouvert pour créer des images basées sur l'entrée de texte donnée."
+  },
+  {
+    "name": "Uizard Technologies",
+    "website": "uizard.io",
+    "category": "Image",
+    "location": "Copenhagen, Hovedstaden, Denmark",
+    "summary": "Uizard est un outil de conception pour les non-concepteurs - alimenté par l'IA"
+  },
+  {
+    "name": "AudioLabs",
+    "website": "https://www.audiolabs.io",
+    "category": "Video",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Nous faisons découvrir audio sur vidéo avec l'IA. Idéal pour les podcasteurs qui cherchent à croître sur une vidéo courte"
+  },
+  {
+    "name": "Basch",
+    "website": "basch.io",
+    "category": "Video",
+    "location": "",
+    "summary": ""
+  },
+  {
+    "name": "Colossyan Synthetic Media Generation",
+    "website": "colossyan.com",
+    "category": "Video",
+    "location": "Wilmington, Delaware, United States",
+    "summary": "Avec Colossyan, vous pouvez créer des vidéos d'IA avec de vrais acteurs beaucoup moins chers et plus rapides qu'avec des enregistrements de studio traditionnels ou des logiciels vidéo."
+  },
+  {
+    "name": "Deepdub",
+    "website": "deepdub.ai",
+    "category": "Video",
+    "location": "Tel Aviv-yafo, Tel Aviv, Israel",
+    "summary": "Deepdub fournit un service de doublage basé sur l'IA pour le contenu de divertissement."
+  },
+  {
+    "name": "Fathom Video",
+    "website": "fathom.video",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "Fathom Video est un service d'enregistrement audiovisuel qui s'intègre à la fois au calendrier Zoom et Google."
+  },
+  {
+    "name": "GlossAI",
+    "website": "https://glossai.co/",
+    "category": "Video",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Un générateur de vidéos IA qui storifie le contenu existant, le transformant en vidéos de short-form en partage qui maximisent l'engagement"
+  },
+  {
+    "name": "Incentivai",
+    "website": "incentivai.co",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "INCENTIVAI est un outil pour tester les structures incitatives des économies de contrats intelligentes via la simulation à l'aide d'agents d'IA."
+  },
+  {
+    "name": "InVideo",
+    "website": "invideo.io",
+    "category": "Video",
+    "location": "Singapore, Central Region, Singapore",
+    "summary": "Invideo réinvente la création de vidéos et la rend accessible au monde."
+  },
+  {
+    "name": "Lumen5",
+    "website": "lumen5.com",
+    "category": "Video",
+    "location": "Vancouver, British Columbia, Canada",
+    "summary": "Lumen5 est un A.I. Plateforme de création vidéo motivée qui peut transformer des articles et des articles de blog en vidéos sociales via une interface simple."
+  },
+  {
+    "name": "Maverick",
+    "website": "trymaverick.com",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "Permettre aux entreprises de commerce électronique d'envoyer des vidéos personnalisées à l'échelle des clients à l'aide de l'IA."
+  },
+  {
+    "name": "Metaphysic.ai",
+    "website": "metaphysic.ai",
+    "category": "Video",
+    "location": "London, England, United Kingdom",
+    "summary": "Metaphysic développe des outils assistés par l'intelligence artificielle pour aider les créateurs de contenu à créer du contenu."
+  },
+  {
+    "name": "Peech",
+    "website": "peech-ai.com",
+    "category": "Video",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Le premier expert vidéo générateur de l'IA qui transforme les équipes de contenu en #UnstoppableCreators."
+  },
+  {
+    "name": "Pictory.AI",
+    "website": "pictory.ai",
+    "category": "Video",
+    "location": "Bothell, Washington, United States",
+    "summary": "Pictory est une IA qui convertit le contenu long comme des webinaires, des blogs, des livres blancs en dizaines de vidéos sociales courtes en quelques minutes."
+  },
+  {
+    "name": "Potion",
+    "website": "sendpotion.com",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "Potion est un outil logiciel qui fournit des enregistrements d'écran, des vidéos dynamiques, des thèmes personnalisés, des intégres de calendrier et des services vidéo sécurisés."
+  },
+  {
+    "name": "Recut",
+    "website": "getrecut.io",
+    "category": "Video",
+    "location": "New York, New York, United States",
+    "summary": "RecUt crée des campagnes vidéo individualisées à grande échelle."
+  },
+  {
+    "name": "Rephrase.ai",
+    "website": "rephrase.ai",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "Rephrase construit des outils d'IA génératifs pour créer des vidéos professionnelles avec la facilité d'écriture de texte."
+  },
+  {
+    "name": "Respeecher",
+    "website": "respeecher.com",
+    "category": "Video",
+    "location": "Kyiv, Kyyiv, Ukraine",
+    "summary": "Nous construisons des systèmes de clonage vocal haute fidélité (conversion vocale) à l'aide de réseaux de neurones profonds."
+  },
+  {
+    "name": "Runway",
+    "website": "runwayml.com",
+    "category": "Video",
+    "location": "New York, New York, United States",
+    "summary": "Runway est une solution d'édition vidéo de nouvelle génération alimentée par l'apprentissage automatique."
+  },
+  {
+    "name": "Steve.AI",
+    "website": "steve.ai",
+    "category": "Video",
+    "location": "California, Kentucky, United States",
+    "summary": "Steve.ai est un logiciel de fabrication vidéo en ligne breveté qui aide quiconque à créer rapidement des vidéos et des animations en direct."
+  },
+  {
+    "name": "Synthesia",
+    "website": "synthesia.io",
+    "category": "Video",
+    "location": "London, England, United Kingdom",
+    "summary": "La synthèse est une plate-forme d'avatar vidéo AI qui crée des vidéos professionnelles à partir d'un texte dans différentes langues."
+  },
+  {
+    "name": "Tavus.io",
+    "website": "tavus.io",
+    "category": "Video",
+    "location": "Houston, Texas, United States",
+    "summary": "Enregistrez une vidéo, nous gérerons le prochain mille"
+  },
+  {
+    "name": "Terra",
+    "website": "welcometerra.com",
+    "category": "Video",
+    "location": "New York, New York, United States",
+    "summary": "Terra est une plate-forme d'édition vidéo d'apprentissage automatique pour les équipes de contenu et de communication"
+  },
+  {
+    "name": "VEED",
+    "website": "veed.io",
+    "category": "Video",
+    "location": "Benfleet, Essex, United Kingdom",
+    "summary": "Veed.io est une plate-forme de montage vidéo en ligne qui fabrique des vidéos de création."
+  },
+  {
+    "name": "VOCHI",
+    "website": "vochi.com",
+    "category": "Video",
+    "location": "Nicosia, Nicosia, Cyprus",
+    "summary": "Vochi est une application de retouche vidéo et photo qui permet l'ajout d'effets aux objets individuels en temps réel."
+  },
+  {
+    "name": "Windsor.io",
+    "website": "windsor.io",
+    "category": "Video",
+    "location": "San Francisco, California, United States",
+    "summary": "Windsor apporte l'IA et la technologie médiatique augmentée à la personnalisation vidéo"
+  },
+  {
+    "name": "WOMBO",
+    "website": "wombo.ai",
+    "category": "Video",
+    "location": "Toronto, Ontario, Canada",
+    "summary": "Wombo est une application de synchronisation labiale alimentée par AI qui crée des copies profondes d'images en synchronisation labiale à une sélection de chansons."
+  },
+  {
+    "name": "Xembly",
+    "website": "xembly.com",
+    "category": "Video",
+    "location": "Seattle, Washington, United States",
+    "summary": "Xembly applique une automatisation intelligente pour améliorer la rencontre de la productivité."
+  },
+  {
+    "name": "Yepic AI",
+    "website": "yepic.ai",
+    "category": "Video",
+    "location": "London, England, United Kingdom",
+    "summary": "Yepic AI construire des outils de production vidéo et de doublage aide les entreprises à mieux communiquer."
+  },
+  {
+    "name": "Zubtitle",
+    "website": "zubtitle.com",
+    "category": "Video",
+    "location": "Charleston, South Carolina, United States",
+    "summary": "Zubtitle est le premier outil de légende vidéo qui facilite l'ajout automatique des sous-titres à n'importe quelle vidéo. Propulsé par Google."
+  },
+  {
+    "name": "Bifrost",
+    "website": "bifrost.ai",
+    "category": "Data",
+    "location": "Singapore, Central Region, Singapore",
+    "summary": "Bifrost développe des outils de données synthétiques pour aider les équipes AI à créer des modèles de vision informatique robustes - aucune collecte de données ou étiquetage requis."
+  },
+  {
+    "name": "Databar",
+    "website": "https://databar.ai",
+    "category": "Data",
+    "location": "New York, New York, United States",
+    "summary": "Une plate-forme d'enrichissement de données sans code."
+  },
+  {
+    "name": "Datagen",
+    "website": "datagen.tech",
+    "category": "Data",
+    "location": "Tel Aviv, Tel Aviv, Israel",
+    "summary": "Datagen Technologies développe une technologie de données simulée pour être évolutive, sans biais et annotée automatiquement."
+  },
+  {
+    "name": "Gretel.ai",
+    "website": "gretel.ai",
+    "category": "Data",
+    "location": "San Diego, California, United States",
+    "summary": "Gretel aide les développeurs à construire rapidement avec les données et à les partager en toute sécurité avec d'autres."
+  },
+  {
+    "name": "HiGeorge",
+    "website": "dataherald.com",
+    "category": "Data",
+    "location": "San Francisco, California, United States",
+    "summary": "Dataherald est une société de développement de logiciels qui propose des visualisations de données."
+  },
+  {
+    "name": "Pilot AI",
+    "website": "getpilot.ai",
+    "category": "Data",
+    "location": "",
+    "summary": ""
+  },
+  {
+    "name": "Syntegra",
+    "website": "syntegra.io",
+    "category": "Data",
+    "location": "San Francisco, California, United States",
+    "summary": "Syntegra applique des modèles d'apprentissage automatique de pointe pour créer des ensembles de données de soins de santé synthétiques."
+  },
+  {
+    "name": "Charisma",
+    "website": "https://charisma.ai",
+    "category": "Gaming",
+    "location": "Oxford, U.K",
+    "summary": "Power les humains numériques en temps réel"
+  },
+  {
+    "name": "Hidden Door",
+    "website": "https://www.hiddendoor.co",
+    "category": "Gaming",
+    "location": "Brooklyn, New York, United States",
+    "summary": "Nous parlons de la narration, des jeux narratifs, de la construction avec un langage AI et de tout le plaisir de démarrer une entreprise à l'intersection de l'apprentissage automatique et du divertissement immersif. Les aventures et les mésaventures des humains et des machines!"
+  },
+  {
+    "name": "Latitude",
+    "website": "latitude.io",
+    "category": "Gaming",
+    "location": "Provo, Utah, United States",
+    "summary": "Latitude développe des jeux alimentés par l'IA conçus pour la liberté et l'expression de soi des joueurs."
+  },
+  {
+    "name": "Scenario",
+    "website": "https://www.scenario.gg",
+    "category": "Gaming",
+    "location": "",
+    "summary": "AI générative pour les actifs de jeu"
+  },
+  {
+    "name": "Spellbrush",
+    "website": "spellbrush.com",
+    "category": "Gaming",
+    "location": "San Francisco, California, United States",
+    "summary": "Spellbrush est une société de logiciels informatiques"
+  }
+]

@@ -182,7 +182,9 @@ const Header = (props) => {
 
       
         <Menu page={props.page} type={props.type} category={props.category} path={props.path} header={props.header} design={props.design}  bg={'red'} burgerLine={'white'} burgerBorder={'white'} buttonBorder={'white'}  linkColor={'white'} headerLink={'white'} headerCta={'Start Now'}
-        menuItems={menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}/>
+        menuItems={menuItems} showReveal={showReveal} logo={'stimply-logo-white'} email={props.email}
+        checked={props.checked} setChecked={props.setChecked} radioValue={props.radioValue} setRadioValue={props.setRadioValue} target={props.target}
+        />
         {/* </div> */}
       </SiteHeader>
       
