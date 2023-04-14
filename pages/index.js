@@ -8,7 +8,7 @@ import { FaAngleDoubleRight} from 'react-icons/fa'
 import Image from 'next/image'
 import pro from '../images/classement-avis.png'
 import { useRouter } from 'next/router'
-import electromenager from '../images/electromenager.png'
+import electromenager from '../images/part.png'
 import stars from '../images/stars.png'
 
 const Index = props => {
@@ -38,8 +38,8 @@ const [values, setValues] = useState({
       <Seo title="Classements 2023 par email - Classement.com" description="Comparatif et classements de tous les produits"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
-      <div style={{ marginTop: 50}}>
-       <div id='homeBox'>
+      <div style={{ marginTop: 140}}>
+       <div id='proBox'>
         <Row style={{}}>
           <Col sm={9}>
           <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
@@ -68,9 +68,9 @@ const [values, setValues] = useState({
         </Col>
         
 
-        <Col sm={3} style={{minWidth: 200}} id='min992'>
-          <div style={{width: 500, marginLeft: -170, marginTop: 10}}>
-            <div style={{maxWidth: 400}}>
+        <Col sm={3} style={{minWidth: 200}} >
+        <div id="rightPic" style={{marginTop: 10}}>
+      <div style={{maxWidth: 450}}>
           <Image src={electromenager} width={600} height={400}/>
           </div>
           <div style={{marginTop: -150, marginLeft: 60}}>

@@ -289,6 +289,10 @@ padding-bottom: 10px;
     padding-bottom : 20px;
   }
 
+  #rightPic{
+    margin-left: 'none';
+  } 
+
   #comment{
     font-size: 30px !important;
    
@@ -315,6 +319,11 @@ padding-bottom: 10px;
   padding-top: 20px;
   padding-bottom : 30px;
 }
+
+#rightPic{
+  margin-left: -190px;
+
+} 
 
 #menuStick{
   position: sticky;

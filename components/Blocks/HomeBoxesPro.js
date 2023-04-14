@@ -321,7 +321,7 @@ const Latest = (props) => {
     </a>
     </Link>
     </Col> */}
-    <Col lg={6}>
+    {/* <Col lg={6}>
     <Link href={`/intelligence-artificielle/`} id='textOnHover'>
     <a id='tabLink'>
       <div style={{marginTop: 0, background: 'white'}}>
@@ -339,6 +339,44 @@ const Latest = (props) => {
         </div>
         </a>
         </Link>
+    </Col> */}
+  <Col lg={6}>
+    <Link href={`/comparateur/diagramme-de-gantt/`} id='textOnHover'>
+    <a id='tabLink'>
+      <div style={{marginTop: 0, background: 'white'}}>
+      
+            <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
+          
+            <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
+            <FaAlignLeft  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
+            </div>
+            <div style={{marginLeft: 20, marginTop: 0}}>
+            <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Gestion de Projets</h2>
+            </div>
+            </div>
+       
+        </div>
+        </a>
+        </Link>
+    </Col>
+    <Col lg={6}>
+    <Link href={`/comparateur/digital-learning/`} id='textOnHover'>
+    <a id='tabLink'>
+      <div style={{marginTop: 0, background: 'white'}}>
+      
+            <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
+          
+            <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
+            <FaRegBuilding  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
+            </div>
+            <div style={{marginLeft: 20, marginTop: 0}}>
+            <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Digital Learning</h2>
+            </div>
+            </div>
+       
+        </div>
+        </a>
+        </Link>
     </Col>
     <Col lg={6}>
     <Link href={`/comparateur/logiciel-crm/`} id='textOnHover'>
@@ -348,9 +386,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaFilter  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaFilter  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel CRM</h2>
             </div>
             </div>
@@ -369,9 +407,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaFileInvoice  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaFileInvoice  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel Comptabilité</h2>
             </div>
             </div>
@@ -390,9 +428,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaSortAmountUpAlt  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaSortAmountUpAlt  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel SEO</h2>
             </div>
             </div>
@@ -414,9 +452,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaMicrophone  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaMicrophone  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Micro Podcast</h2>
             </div>
             </div>
@@ -433,9 +471,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaAmazon  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaAmazon  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel Amazon</h2>
             </div>
             </div>
@@ -472,9 +510,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaMicrophoneAlt  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaMicrophoneAlt  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Hébergement Podcast</h2>
             </div>
             </div>
@@ -491,9 +529,9 @@ const Latest = (props) => {
             <div style={{borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30}} id='cardOnHoverMarket'>
           
             <div style={{maxWidth: 40, minWidth: 40, marginLeft: -20}}>
-            <FaCreditCard  style={{color: '#dc3545', fontSize: 40, marginTop: 30}}/>
+            <FaCreditCard  style={{color: '#dc3545', fontSize: 40, marginTop: 20}}/>
             </div>
-            <div style={{marginLeft: 20, marginTop: -10}}>
+            <div style={{marginLeft: 20, marginTop: 0}}>
             <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Paiement en Ligne</h2>
             </div>
             </div>

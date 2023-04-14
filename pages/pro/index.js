@@ -16,7 +16,7 @@ const LandingPage2 = () => {
   }
   
   const navigate = () => {
-    if(values.choice === 'Digital learning') return router.push('/pro/digital-learning/')
+    if(values.choice === 'digital') return router.push('/digital-learning/')
     // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
     else if(values.choice === 'Gestion de projets') return router.push('/pro/diagramme-de-gantt/')
     else if(values.choice === 'Locigiel Comptable') return router.push('/pro/logiciel-comptabilite/')
@@ -69,8 +69,8 @@ const LandingPage2 = () => {
   </Col>
   
 
-  <Col sm={3} style={{minWidth: 200}} id='min992'>
-    <div style={{width: 450, marginLeft: -190, marginTop: 10}}>
+  <Col sm={3} style={{minWidth: 200}}>
+  <div id="rightPic" style={{ marginTop: 10}}>
       <div style={{maxWidth: 450}}>
     <Image src={electromenager} width={600} height={400}/>
     </div>
