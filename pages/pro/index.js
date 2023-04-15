@@ -16,7 +16,7 @@ const LandingPage2 = () => {
   }
   
   const navigate = () => {
-    if(values.choice === 'Digital-Learning') return router.push('/pro/digital-learning/')
+    if(values.choice === 'Digital Learning') return router.push('/pro/digital-learning/')
     // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
     else if(values.choice === 'Gestion de Projets') return router.push('/pro/gestion-de-projets/')
     else if(values.choice === 'Locigiel Comptable') return router.push('/pro/logiciel-comptabilite/')
