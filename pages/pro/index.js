@@ -16,9 +16,9 @@ const LandingPage2 = () => {
   }
   
   const navigate = () => {
-    if(values.choice === 'digital') return router.push('/digital-learning/')
+    if(values.choice === 'Digital-Learning') return router.push('/pro/digital-learning/')
     // else if(values.choice === 'Modifier un site existant') return router.push('/site/demande/')
-    else if(values.choice === 'Gestion de projets') return router.push('/pro/diagramme-de-gantt/')
+    else if(values.choice === 'Gestion de Projets') return router.push('/pro/gestion-de-projets/')
     else if(values.choice === 'Locigiel Comptable') return router.push('/pro/logiciel-comptabilite/')
     else if(values.choice === 'Logiciel CRM') return router.push('/pro/logiciel-crm/')
     else if(values.choice === 'Logiciel Podcast') return router.push('/pro/logiciel-podcast/')
@@ -52,8 +52,8 @@ const LandingPage2 = () => {
           <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" style={{textAlign: 'left', height: 60, fontFamily: 'Montserrat', fontWeight: 500, fontSize: 20}}>{values.choice || `Choisissez votre produit `}
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item eventKey='Digital learning' active={false}>Digital learning</Dropdown.Item>
-            <Dropdown.Item eventKey='Gestion de projets' active={false}>Gestion de projets</Dropdown.Item>
+            <Dropdown.Item eventKey='Digital Learning' active={false}>Digital Learning</Dropdown.Item>
+            <Dropdown.Item eventKey='Gestion de Projets' active={false}>Gestion de Projets</Dropdown.Item>
             <Dropdown.Item eventKey='Locigiel Comptable' active={false}>Locigiel Comptable</Dropdown.Item>
             <Dropdown.Item eventKey='Logiciel CRM' active={false}>Logiciel CRM</Dropdown.Item>
             <Dropdown.Item eventKey='Logiciel Podcast' active={false}>Logiciel Podcast</Dropdown.Item>
