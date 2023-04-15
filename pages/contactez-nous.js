@@ -14,7 +14,7 @@ function Contact(props) {
   return (
  
 
-    <Layout path={props.path}>
+    <Layout path={props.path} target='pro'>
 
               <Seo title="Contactez-nous | Classement.com"/>
               <Breadcrumbs text='Contactez-nous'/>

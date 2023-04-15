@@ -8,7 +8,7 @@ function TermsConditions(props) {
   return (
 
 
-    <Layout path={props.path}>
+    <Layout path={props.path} target='pro'>
       <Seo title="Mentions légales | Classement.com"/>
       <Breadcrumbs text='Mentions légales'/>
       <Container  id='mobileContact' style={{ maxWidth: 1140, marginTop: 174}}>

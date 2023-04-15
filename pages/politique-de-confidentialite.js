@@ -9,7 +9,7 @@ import Link from 'next/link';
 function PrivacyPolicy(props) {
   return (
 
-    <Layout path={props.path}>
+    <Layout path={props.path} target='pro'>
 
         <Seo title="Politique de confidentialité | Classement.com"/>
         <Breadcrumbs text='Politique de confidentialité'/>
