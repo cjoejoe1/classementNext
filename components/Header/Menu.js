@@ -13,7 +13,7 @@ import { useRouter } from 'next/router'
 import {FaArrowRight, FaUserCircle} from 'react-icons/fa'
 import { firestore, firebase } from "../../utils/firebaseData"
 import Toggle from '../Blocks/Toggle'
-
+import ToggleMob from '../Blocks/ToggleMob'
 const Menu = (props) => {
   const router = useRouter()
 
@@ -109,6 +109,8 @@ const Menu = (props) => {
         </Link>
 
         <div style={{marginTop: 7}}>{props.page !== 'lp' && props.page !== 'home' && props.target !== 'pro' ? <Link href='#'><span style={{background: '#0d6efd', cursor: 'pointer', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderRadius: 5}}>{props.category}</span></Link> : null}</div>
+    
+        
         {/* <div style={{marginTop: 14 }}>
         <Image src={flag} alt="" width='30px' height='21px'/>
         </div> */}
@@ -118,6 +120,7 @@ const Menu = (props) => {
             <div style={{justifyContent: 'center', alignContent: 'center', flexDirection: 'column'}} id='mobileLogo'>
               <div style={{height: 40, marginLeft: 50, zIndex: 10}}></div>
             </div>
+          
             {props.page !== 'lp' && props.page !== 'home' && props.target !== 'pro'  ? 
             <MenuStyle
               className="navbar-nav d-none d-lg-flex"
@@ -169,14 +172,20 @@ const Menu = (props) => {
                 }
               )} 
             </MenuStyle> : 
-            
+            <>
+              <div id='max992'>
+              <ToggleMob target={props.target}/>
+              </div>
             <div style={{marginLeft: -40}}>
-              <Toggle
-              
-              checked={props.checked} setChecked={props.setChecked} radioValue={props.radioValue} setRadioValue={props.setRadioValue} target={props.target}/>
-              </div>}
+              <Toggle target={props.target}/>
+              </div>
+              </>
+              }
           </div>
         </div>
+        <div id='max992'>
+              <ToggleMob target={props.target}/>
+              </div>
         { getLogin()}
         {/* <Link href={'/'}>
           <Button id="buttonHover" style={{marginTop: 1, marginBottom: 10,  color: 'white', marginLeft: 0}}>Je m'inscris <FaArrowRight /></Button>
