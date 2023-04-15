@@ -42,7 +42,7 @@ const [values, setValues] = useState({
        <div id='proBox'>
         <Row style={{}}>
           <Col sm={9}>
-          <h1 className='h1compare' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
+          <h1 id='compareh1' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Recevez chaque <span style={{fontWeight: 700}}>comparatif</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div id='formBlock' style={{display: 'flex'}}>

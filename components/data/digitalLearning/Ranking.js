@@ -2,12 +2,12 @@ import React, {useMemo} from 'react'
 import data from './data.json'
 import "bootstrap/dist/css/bootstrap-grid.css"
 import {Container, Button} from 'react-bootstrap'
-import wrike from '../../../images/logos/wrike.png'
-import asana from '../../../images/logos/asana.png'
-import clickup from '../../../images/logos/clickup.png'
-import celoxis from '../../../images/logos/celoxis.png'
-import trello from '../../../images/logos/trello.png'
-import monday from '../../../images/logos/monday.png'
+import coorpacademy from '../../../images/logos/coorpacademy.png'
+import edflex from '../../../images/logos/edflex.png'
+import linkedinlearning from '../../../images/logos/linkedinlearning.png'
+import crossknowledge from '../../../images/logos/crossknowledge.png'
+import kokoroe from '../../../images/logos/kokoroe.png'
+import skillsoft from '../../../images/logos/skillsoft.png'
 import Link from 'next/link'
 import Image from 'next/image'
 import ReactStars from "react-rating-stars-component";
@@ -32,12 +32,12 @@ const renderRowMob = (item, index) => {
   }
 
   const getLogo = () => {
-    if(item.name === 'ClickUp') return clickup
-    else if (item.name === 'Wrike') return wrike
-    else if (item.name === 'Asana') return asana
-    else if (item.name === 'Celoxis') return celoxis
-    else if (item.name === 'Trello') return trello
-    else if (item.name === 'Monday') return monday
+    if(item.name === 'Coorpacademy') return coorpacademy
+    else if (item.name === 'Edflex') return edflex
+    else if (item.name === 'Linkedin Learning') return linkedinlearning
+    else if (item.name === 'Crossknowledge') return crossknowledge
+    else if (item.name === 'Kokoroe') return kokoroe
+    else if (item.name === 'Skillsoft') return skillsoft
   }
 
   return (
@@ -56,7 +56,7 @@ const renderRowMob = (item, index) => {
               {item.feature ? <div style={{background: 'rgb(229, 35, 79)', borderBottomRightRadius: 5, marginTop: 2}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
               </div>
               <div style={{maxWidth: 200, margin: 'auto', marginTop: 30}}>
-              <Image src={getLogo()} width={256} height={107} alt="" />
+              <Image src={getLogo()} width={256} height={207} alt="" />
               </div>
             </div>
 
@@ -112,12 +112,12 @@ const renderRowMob = (item, index) => {
     }
 
     const getLogo = () => {
-      if(item.name === 'ClickUp') return clickup
-      else if (item.name === 'Wrike') return wrike
-      else if (item.name === 'Asana') return asana
-      else if (item.name === 'Celoxis') return celoxis
-      else if (item.name === 'Trello') return trello
-      else if (item.name === 'Monday') return monday
+      if(item.name === 'Coorpacademy') return coorpacademy
+      else if (item.name === 'Edflex') return edflex
+      else if (item.name === 'Linkedin Learning') return linkedinlearning
+      else if (item.name === 'Crossknowledge') return crossknowledge
+      else if (item.name === 'Kokoroe') return kokoroe
+      else if (item.name === 'Skillsoft') return skillsoft
     }
 
     return (
@@ -135,7 +135,7 @@ const renderRowMob = (item, index) => {
           {item.feature ? <div style={{background: 'rgb(229, 35, 79)', borderBottomRightRadius: 5}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
           </div>
           <div style={{marginTop: 30}}>
-          <Image src={getLogo()}  width={200} height={84} alt="" />
+          <Image src={getLogo()}  width={256} height={200} alt="" />
           </div>
           </div>
 

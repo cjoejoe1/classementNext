@@ -68,22 +68,28 @@ const renderBox = (item, index) => {
     <div style={{marginTop: 0, background: 'white', borderRadius: 5}}>
    <div style={{height: 20, background: '#008600', width: 118, marginBottom: -25, marginLeft: 0, marginTop: 5, color: 'white', fontSize: 14, paddingLeft: 5, fontWeight: 700, paddingLeft: 7}}>Recommandé</div>
 
-            <div style={{ minHeight: 150, borderRadius: 5, display: 'flex', paddingTop: 10, paddingLeft: 10, paddingRight: 30, justifyContent: 'space-between'}}  >
+        <div style={{ minHeight: 150, borderRadius: 5, display: 'flex', paddingTop: 10, paddingLeft: 10, paddingRight: 30, justifyContent: 'space-between'}}  >
                    
-                   <div style={{marginLeft: -10, marginTop: 15}}>
-            <div style={{maxWidth: 158}}>
-              <Image src={getLogo()}  width={256} height={107} alt=""/>
+            <div style={{marginLeft: 10, marginTop: 15}}>
+              <div style={{maxWidth: 158}}>
+                <Image src={getLogo()}  width={256} height={200} alt=""/>
+              </div>
             </div>
-            </div>
-            <div style={{marginTop: 40}}>
-            <p style={{fontFamily: 'Montserrat', fontSize: 15, fontWeight: 700}}>Exceptionnel <span style={{background: '#f00057', color: 'white', paddingLeft: 4, paddingRight: 4, borderRadius: 4, fontWeight: 700}}>{item.score}</span></p>
+            <div>
+              <div style={{marginTop: 40}}>
+                <p style={{fontFamily: 'Montserrat', fontSize: 15, fontWeight: 700, marginLeft: 2}}>Exceptionnel <span style={{background: '#f00057', color: 'white', paddingLeft: 4, paddingRight: 4, borderRadius: 4, fontWeight: 700}}>{item.score}</span></p>
+              </div>
+
+              <div style={{ paddingBottom: 10, marginLeft: 40, marginTop: 30}}>
+                  <p id='jemelance' style={{fontSize: 15, color: '#f00057', marginTop: -3, fontWeight: 700}}>Voir l'offre <FaArrowRight /></p>
+              </div>
             </div>
 
-            </div>
-            <div style={{paddingLeft: 25, paddingRight: 30, marginTop: -50, paddingBottom: 10, display: 'flex', justifyContent: 'space-between'}}>
-            <p style={{fontSize: 13}}>{<span style={{fontStyle: 'italic'}}>"{item.quote}"</span> || ''}</p>
-         <p id='jemelance' style={{fontSize: 15, color: '#f00057', marginTop: -3}}>Je me lance <FaArrowRight /></p>
-            </div>
+        </div>
+
+        
+
+
         </div>
         
         </div></a>
@@ -94,24 +100,26 @@ const renderBox = (item, index) => {
 
     <div style={{marginTop: 0, background: 'white', borderRadius: 5}}  id='cardOnHoverTop3'>
 
-            <div style={{ minHeight: 120, borderRadius: 5, display: 'flex', paddingTop: 10, paddingLeft: 10, paddingRight: 30, justifyContent: 'space-between', marginBottom : -40}} >
+            <div style={{ minHeight: 175, borderRadius: 5, display: 'flex', paddingTop: 10, paddingLeft: 10, paddingRight: 30, justifyContent: 'space-between', marginBottom : -40}} >
                    
-                   <div style={{marginLeft: -8, marginTop: -10}}>
-            <div style={{maxWidth: 158}}>
-              <Image src={getLogo()}  width={256} height={107} alt=""/>
-            </div>
-            </div>
-
-            <div style={{marginTop: 20}}>
-              <p style={{fontFamily: 'Montserrat', fontSize: 15, fontWeight: 700}}>Excellent <span style={{background: '#f00057', color: 'white', paddingLeft: 4, paddingRight: 4, borderRadius: 4, fontWeight: 700}}>{item.score}</span></p>
-            </div>
-
+                   <div style={{marginLeft: 10, marginTop: -10}}>
+                    <div style={{maxWidth: 158}}>
+                      <Image src={getLogo()}  width={256} height={200} alt=""/>
+                    </div>
+                    </div>
+<div>
+                    <div style={{marginTop: 20}}>
+              <p style={{fontFamily: 'Montserrat', fontSize: 15, fontWeight: 700, marginLeft: 30}}>Excellent <span style={{background: '#f00057', color: 'white', paddingLeft: 4, paddingRight: 4, borderRadius: 4, fontWeight: 700}}>{item.score}</span></p>
             </div>
 
-            <div style={{paddingLeft: 25, paddingRight: 30, paddingBottom: 10, display: 'flex', justifyContent: 'space-between'}}>
-              <p style={{fontSize: 13}}>{<span style={{fontStyle: 'italic'}}>"{item.quote}"</span> || ''}</p>
-              <p id='jemelance' style={{fontSize: 15, color: '#f00057', marginTop: -3}}>Je me lance <FaArrowRight /></p>
+           
+            <div style={{ paddingBottom: 10, marginLeft: 40, marginTop: 30}}>
+              {/* <p style={{fontSize: 13}}>{<span style={{fontStyle: 'italic'}}>"{item.quote}"</span> || ''}</p> */}
+              <p id='jemelance' style={{fontSize: 15, color: '#f00057', marginTop: -3}}>Voir l'offre <FaArrowRight /></p>
             </div>
+            </div>
+             </div>
+
         </div></a>
         </Link>
         </Col>}

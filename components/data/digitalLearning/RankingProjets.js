@@ -45,7 +45,7 @@ const renderRowMob = (item, index) => {
    
 {/* Not on desktop */}
         <div className='scoreRowMob' style={{marginBottom :20, background: 'white'}}>
-      <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'>
+      <a href={`/go/?go=${item.name}&url=${item.goProjets}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'>
     
       <div style={{padding: 30}}>
         
@@ -68,21 +68,21 @@ const renderRowMob = (item, index) => {
                 {getStars()} <span style={{fontSize: 24, marginLeft: 10, fontWeight: 700, color: 'black'}}>{item.score}</span>
               </div>
 
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
+              <a href={`/go/?go=${item.name}&url=${item.goProjets}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
             
               <div>
-                <a href={`/go/?go=${item.name}&url=${item.go}`} style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
+                <a href={`/go/?go=${item.name}&url=${item.goProjets}`} style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
               </div>
               
               <div style={{marginTop: 20, marginBottom: 20}}>
-                <a href={`/go/?go=${item.name}&url=${item.go}`} style={{fontWeight: 700, textDecoration: 'none', color: 'blue'}}>{item.extraLink}</a>
+                <a href={`/go/?go=${item.name}&url=${item.goProjets}`} style={{fontWeight: 700, textDecoration: 'none', color: 'blue'}}>{item.extraLink}</a>
               </div>
             </div>
           
       
 
           <div style={{textAlign: 'center', paddingLeft: 30, paddingRight: 30, paddingBottom : 30}}>
-            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>{item.col2Title}</p>
+            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>{item.titleProjets}</p>
 
             <div style={{textAlign: 'center', maxWidth: 350, margin: 'auto'}}>
             <ul style={{textAlign: 'left'}}>
@@ -140,7 +140,7 @@ const renderRowMob = (item, index) => {
           </div>
 
           <div style={{width: 600}}>
-            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>{item.col2Title}</p>
+            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>{item.titleProjets}</p>
             <ul>
             {item.col2Li1 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li1}</li>: null}
             {item.col2Li2 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li2}</li>: null}
@@ -154,12 +154,12 @@ const renderRowMob = (item, index) => {
               <div style={{display: 'flex', justifyContent:'center', maxWidth: 200}}>
                 {getStars()} <span style={{fontSize: 24, marginLeft: 10, fontWeight: 700, color: 'black'}}>{item.score}</span>
               </div>
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
+              <a href={`/go/?go=${item.name}&url=${item.goProjets}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
               <div>
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
+              <a href={`/go/?go=${item.name}&url=${item.goProjets}`} target='_blank' rel="noreferrer nofollow" style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
               </div>
               <div style={{marginTop: 20}}>
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" style={{fontWeight: 700, textDecoration: 'none', color: 'blue'}}>{item.extraLink}</a>
+              <a href={`/go/?go=${item.name}&url=${item.goProjets}`} target='_blank' rel="noreferrer nofollow" style={{fontWeight: 700, textDecoration: 'none', color: 'blue'}}>{item.extraLink}</a>
               </div>
             </div>
           </div>
@@ -177,10 +177,10 @@ const renderRowMob = (item, index) => {
 
     <Container style={{maxWidth: 1140, margin: 'auto', marginTop: 20}}>
 
-<div id='min992'>
+<div className='min992'>
 {data.filter(item => item.live !== 'no').map(renderRow)}
 </div>
-<div id='max992'>
+<div  className='max992'>
 {data.filter(item => item.live !== 'no').map(renderRowMob)}
 </div>
 
