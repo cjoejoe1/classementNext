@@ -53,7 +53,7 @@ const renderRowMob = (item, index) => {
             <div>
               <div style={{display: 'flex', marginTop: -32}}>
               <div style={{marginTop: 4}} ><span style={{background: 'pink', paddingLeft: 15, paddingRight: 15, paddingBottom: 3, paddingTop: 4, color: 'rgb(229, 35, 79)', fontWeight: 700}}>{index +1}</span></div>
-              {item.feature ? <div style={{background: 'rgb(229, 35, 79)', borderBottomRightRadius: 5, marginTop: 2}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
+              {item.feature ? <div style={{background: '#dc3545', borderBottomRightRadius: 5, marginTop: 2}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
               </div>
               <div style={{maxWidth: 200, margin: 'auto', marginTop: 30}}>
               <Image src={getLogo()} width={256} height={207} alt="" />
@@ -68,7 +68,7 @@ const renderRowMob = (item, index) => {
                 {getStars()} <span style={{fontSize: 24, marginLeft: 10, fontWeight: 700, color: 'black'}}>{item.score}</span>
               </div>
 
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
+              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button variant='danger' style={{width: 200, marginTop: 20, color: 'white', fontWeight: 700}}>Voir l'offre'</Button></a>
             
               <div>
                 <a href={`/go/?go=${item.name}&url=${item.go}`} style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
@@ -86,6 +86,7 @@ const renderRowMob = (item, index) => {
 
             <div style={{textAlign: 'center', maxWidth: 350, margin: 'auto'}}>
             <ul style={{textAlign: 'left'}}>
+            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>Avis des clients :</p>
             {item.col2Li1 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li1}</li>: null}
             {item.col2Li2 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li2}</li>: null}
               {item.col2Li3 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li3}</li>: null}
@@ -132,7 +133,7 @@ const renderRowMob = (item, index) => {
           <div style={{minWidth: 220}}>
           <div style={{display: 'flex', marginTop: -32}}>
           <div style={{marginTop: 4}} ><span style={{background: 'pink', paddingLeft: 15, paddingRight: 15, paddingBottom: 3, paddingTop: 4, color: 'rgb(229, 35, 79)', fontWeight: 700}}>{index +1}</span></div>
-          {item.feature ? <div style={{background: 'rgb(229, 35, 79)', borderBottomRightRadius: 5}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
+          {item.feature ? <div style={{background: '#dc3545', borderBottomRightRadius: 5}}><span style={{color: 'white', fontWeight: 700, paddingLeft: 10, paddingRight: 10, fontSize: 14}}>PLUS POPULAIRE</span></div>: null}
           </div>
           <div style={{marginTop: 30}}>
           <Image src={getLogo()}  width={256} height={200} alt="" />
@@ -141,6 +142,7 @@ const renderRowMob = (item, index) => {
 
           <div style={{width: 600}}>
             <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>{item.col2Title}</p>
+            <p style={{fontSize: 16, fontWeight: 700, color: 'black'}}>Avis des clients :</p>
             <ul>
             {item.col2Li1 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li1}</li>: null}
             {item.col2Li2 ? <li style={{fontSize: 15, color: 'black'}}>{item.col2Li2}</li>: null}
@@ -154,7 +156,7 @@ const renderRowMob = (item, index) => {
               <div style={{display: 'flex', justifyContent:'center', maxWidth: 200}}>
                 {getStars()} <span style={{fontSize: 24, marginLeft: 10, fontWeight: 700, color: 'black'}}>{item.score}</span>
               </div>
-              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button style={{width: 200, marginTop: 20, background: '#f00057', borderColor: '#f00057', color: 'white', fontWeight: 700}}>Voir le site</Button></a>
+              <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" id='noLinkDecoration'><Button variant="danger" style={{width: 200, marginTop: 20, color: 'white', fontWeight: 700}}>Voir l'offre</Button></a>
               <div>
               <a href={`/go/?go=${item.name}&url=${item.go}`} target='_blank' rel="noreferrer nofollow" style={{fontSize: 14, color: 'black'}}>{item.displayUrl}</a>
               </div>

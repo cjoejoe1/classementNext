@@ -30,8 +30,8 @@ const Layout = ({ children, path, email, category, url, type, page, target }) =>
       />
 
           <main style={{marginTop: -98}}>{children}</main>
-     <Start path={path}/>
-    <Footer/>
+     <Start path={path} target={target}/>
+    <Footer target={target}/>
  
     </>
   )

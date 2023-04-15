@@ -108,8 +108,8 @@ const Menu = (props) => {
            
         </Link>
 
-        <div style={{marginTop: 7}}>{props.page !== 'lp' && props.page !== 'home' && props.target !== 'pro' ? <Link href='#'><span style={{background: '#0d6efd', cursor: 'pointer', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderRadius: 5}}>{props.category}</span></Link> : null}</div>
-    
+        {/* <div style={{marginTop: 7}}>{props.page !== 'lp' && props.page !== 'home' && props.target !== 'pro' ? <Link href='#'><span style={{background: '#0d6efd', cursor: 'pointer', color: 'white', fontWeight: 500, paddingLeft: 20, paddingRight: 20, paddingBottom: 10, paddingTop:10, borderRadius: 5}}>{props.category}</span></Link> : null}</div>
+     */}
         
         {/* <div style={{marginTop: 14 }}>
         <Image src={flag} alt="" width='30px' height='21px'/>
@@ -183,6 +183,7 @@ const Menu = (props) => {
               }
           </div>
         </div>
+
         <div id='max992'>
               <ToggleMob target={props.target}/>
               </div>

@@ -9,7 +9,7 @@ import Disclosure from '../../../components/Blocks/Disclosure'
 import Top3 from '../../../components/data/Top3'
 import data from '../../../components/data/gantt/data.json'
 import Ranking from '../../../components/data/gantt/Ranking'
-import sell from "../../../images/gantt.png"
+import sell from "../../../images/gestiondeprojets.png"
 import Text from '../../../components/data/gantt/Text'
 
 function Comparateur() {
@@ -41,7 +41,7 @@ function Comparateur() {
 
         <Seo title="Gestion de projets | classement.com"
          description="Trouver votre meilleur outil de gestion de projet avec avec classement.com"/>
-           <Breadcrumbs link="/pro/" text='Diagramme de Gantt' cat='Pro'/>
+           <Breadcrumbs link="/pro/" text='Gestion de projets' cat='Pro'/>
            <Container fluid style={{background: 'rgb(243,243,243)', paddingTop: 100, paddingBottom: 50}}>
        
         <Container style={{maxWidth: 1140}}>
