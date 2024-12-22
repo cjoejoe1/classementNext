@@ -27,7 +27,7 @@ var y = d.getFullYear();
    
    <Container style={{maxWidth: 1140}}>
    
-          <h1 id='compareh1'>Logiciel de comptabilité <span id='noMobile'>(Classement 2023)</span></h1>
+          <h1 id='compareh1'>Logiciel de comptabilité <span id='noMobile'>(Classement 2025)</span></h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24}}>Trouver le meilleur logiciel de comptabilité pour votre business (mise à jour {n} {y})</p>
           <div style={{marginLeft: 10, marginTop: 0}}>
        <p style={{fontSize: 16}}><span id='oneTwo'>1</span> Utilisez le menu de notre <span style={{fontWeight: 700}}>comparateur de logiciels comptables</span> pour déterminer vos priorités.</p>

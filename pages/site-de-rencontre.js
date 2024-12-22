@@ -25,7 +25,7 @@ const [values, setValues] = useState({
   return (
     <Layout url="site-de-rencontre" category="rencontre" type="category" page={p}>
       
-      <Seo title="Meilleur site de rencontre 2023 - comparatif et classement complet"
+      <Seo title="Meilleur site de rencontre 2025 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs sites de rencontre: couleur, fonction séchage, automatique"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
@@ -33,8 +33,8 @@ const [values, setValues] = useState({
        <div id='homeBox'>
         <Row style={{}}>
           <Col sm={9}>
-          <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement {kw && kw || 'site de rencontre'}<span id='min992'>*</span><span id='max992'> 2023</span></h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
+          <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement {kw && kw || 'site de rencontre'}<span id='min992'>*</span><span id='max992'> 2025</span></h1>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2025</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div id='formBlock' style={{display: 'flex'}}>
       

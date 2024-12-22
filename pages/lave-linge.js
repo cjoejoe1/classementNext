@@ -29,7 +29,7 @@ const [values, setValues] = useState({
   return (
     <Layout url="lave-linge" category="Lave-linge" type="category" page={p}>
       
-      <Seo title="Meilleur lave-linge 2023 - comparatif et classement complet"
+      <Seo title="Meilleur lave-linge 2025 - comparatif et classement complet"
       description="Recevez un comparatif complet avec les meilleurs lave-linge: couleur, fonction séchage, automatique"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
@@ -37,8 +37,8 @@ const [values, setValues] = useState({
        <div id='homeBox'>
         <Row style={{}}>
           <Col sm={9}>
-          <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement {kw && kw || 'lave-linge'}<span id='min992'>*</span><span id='max992'> 2023</span></h1>
-          <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2023</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
+          <h1 className='h1compare' id='comparatif' style={{textAlign: 'left', color: 'black', marginTop: 5, paddingTop: 50}}>Recevez le classement {kw && kw || 'lave-linge'}<span id='min992'>*</span><span id='max992'> 2025</span></h1>
+          <p style={{fontSize: 20, color: 'black'}} id="min992">*Le <span style={{fontWeight: 700}}>comparatif complet 2025</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div id='formBlock' style={{display: 'flex'}}>
       

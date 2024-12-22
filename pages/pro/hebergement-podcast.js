@@ -32,7 +32,7 @@ function HebergementPodcast(props) {
     
       {/* </Row> */}
 
-          <h1 id='compareh1'>Hébergements Podcast <span id='noMobile'>(Classement 2023)</span></h1>
+          <h1 id='compareh1'>Hébergements Podcast <span id='noMobile'>(Classement 2025)</span></h1>
           <p id='compareh2' style={{marginLeft: 2, marginBottom: 25, fontWeight: 300, fontSize: 24, marginTop: -10}}>Quel est le meilleur hébergement pour votre podcast?</p>
           <div style={{marginLeft: 10, marginTop: 0}}>
        <p style={{fontSize: 16}}><span id='oneTwo'>1</span> Utilisez le menu de notre <span style={{fontWeight: 700}}>comparateur hébergement podcast</span> pour déterminer vos priorités.</p>

@@ -35,7 +35,7 @@ const Latest = (props) => {
           <>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Site Internet</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de créateurs de sites de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de créateurs de sites de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
         <FaDesktop  style={{color: '#dc3545', fontSize: 100, marginTop: 40}}/>
@@ -77,7 +77,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Digital Learning</h2>
-        <p id="pFundingBlock">{"Meilleures solutions de digital learning de 2023." || ''}</p>
+        <p id="pFundingBlock">{"Meilleures solutions de digital learning de 2025." || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaRegBuilding  style={{color: '#dc3545', fontSize: 80, marginTop: 40, marginLeft: 20}}/>
@@ -96,7 +96,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Créateur Texte IA</h2>
-        <p id="pFundingBlock">{"Meilleurs offres de créateur de textes de 2023." || ''}</p>
+        <p id="pFundingBlock">{"Meilleurs offres de créateur de textes de 2025." || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaPenAlt  style={{color: '#dc3545', fontSize: 80, marginTop: 40, marginLeft: 20}}/>
@@ -116,7 +116,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Créateur Vidéo IA</h2>
-        <p id="pFundingBlock">{"Meilleurs offres de créateurs de vidéos de 2023." || ''}</p>
+        <p id="pFundingBlock">{"Meilleurs offres de créateurs de vidéos de 2025." || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaVideo  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -138,7 +138,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30,paddingBottom : 16, justifyContent: 'space-between'}} id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel CRM</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels CRM de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels CRM de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
         <FaFilter  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -157,7 +157,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel Comptable</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels comptables de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels comptables de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
         <FaFileInvoice  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -178,7 +178,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 14, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel SEO</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels SEO de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels SEO de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaSortAmountUpAlt  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -202,7 +202,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Micro Podcast</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de micros podcasts de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de micros podcasts de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaMicrophone  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -224,7 +224,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Logiciel Amazon</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels amazon de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de logiciels amazon de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140, marginRight: -20}}>
         <FaAmazon  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -240,7 +240,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Hébergement Wordpress</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement Wordpress de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement Wordpress de 2025.' || ''}</p>
         </div>
         <div >
         <FaWordpress  style={{color: '#dc3545', fontSize: 100, marginTop: 30, marginLeft: -30}}/>
@@ -262,7 +262,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Hébergement Podcast</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement podcast de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de hébergement podcast de 2025.' || ''}</p>
         </div>
         <div style={{ marginLeft: -30}}>
         <FaMicrophoneAlt  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>
@@ -281,7 +281,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 20, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id="homeboxesh2" style={{fontFamily: 'Montserrat'}}>Paiement en Ligne</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs offres de paiement en ligne de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs offres de paiement en ligne de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 140, minWidth: 140}}>
         <FaCreditCard  style={{color: '#dc3545', fontSize: 100, marginTop: 30}}/>

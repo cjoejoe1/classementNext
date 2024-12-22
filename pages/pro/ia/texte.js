@@ -45,7 +45,7 @@ const Ia = () => {
    
           <Container style={{maxWidth: 1140}}>
    
-          <h1 id='compareh1'>Créateurs de Textes Avec IA (2023)</h1>
+          <h1 id='compareh1'>Créateurs de Textes Avec IA (2025)</h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24, marginTop: -10}}>Liste des solutions d'intelligence artificielle pour les textes (mise à jour {n} {y})</p>
       
 

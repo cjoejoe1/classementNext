@@ -49,7 +49,7 @@ function Comparateur() {
           <div style={{marginTop : -20, marginBottom:40}} id='max992'>
               {/* <Disclosure/> */}
             </div>
-          <h1 id='compareh1'>Digital Learning 2023</h1>
+          <h1 id='compareh1'>Digital Learning 2025</h1>
           <p id='compareh2' style={{marginLeft: 5, marginBottom: 25, fontWeight: 300, fontSize: 24, marginTop: -10}}>Trouvez la meilleure solution de digital learning.</p>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <div id='min992'  style={{marginLeft: 10, marginTop: 0, marginBottom: 30}}>

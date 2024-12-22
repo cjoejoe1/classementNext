@@ -43,7 +43,7 @@ const LandingPage2 = () => {
  <div id='proBox'>
   <Row style={{}}>
     <Col sm={9}>
-    <h1 id='compareh1' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Les classements <span style={{textDecoration: 'underline', textDecorationColor: '#dc3545'}}>Pro</span> de 2023<span id="min992">*</span></h1>
+    <h1 id='compareh1' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Les classements <span style={{textDecoration: 'underline', textDecorationColor: '#dc3545'}}>Pro</span> de 2025<span id="min992">*</span></h1>
     <p style={{fontSize: 24, color: 'black'}} id="min992">*Recevez chaque comparatif directement par e-mail.</p>
     <div style={{maxWidth: 600, marginTop: 20}}>
     <div id='formBlock' style={{display: 'flex'}}>

@@ -32,7 +32,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}} id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2' style={{fontFamily: 'Montserrat'}}>Lave-linge</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs lave-linge de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs lave-linge de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={lavelinge} width={600} height={400}/>
@@ -52,7 +52,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Aspirateur</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs aspirateurs de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs aspirateurs de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={aspirateur} width={600} height={400}/>
@@ -71,7 +71,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Lave-vaisselle</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs lave-vaisselle de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs lave-vaisselle de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={lavevaisselle} width={600} height={400}/>
@@ -89,7 +89,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Réfrigérateur</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs réfrigérateurs de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs réfrigérateurs de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={refrigerateur} width={600} height={400}/>
@@ -107,7 +107,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Site de rencontre</h2>
-        <p id="pFundingBlock">{'Comparatif des sites de rencontre de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des sites de rencontre de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={sitederencontre} width={600} height={400}/>
@@ -125,7 +125,7 @@ const Latest = (props) => {
         <div style={{minHeight: 163, borderRadius: 5, display: 'flex', paddingLeft: 40, paddingRight: 30, paddingTop: 25, paddingBottom : 16, justifyContent: 'space-between'}}  id='cardOnHoverMarket'>
         <div style={{paddingRight: 20}}>
         <h2 id='homeboxesh2'style={{fontFamily: 'Montserrat'}}>Matelas</h2>
-        <p id="pFundingBlock">{'Comparatif des meilleurs matelas de 2023.' || ''}</p>
+        <p id="pFundingBlock">{'Comparatif des meilleurs matelas de 2025.' || ''}</p>
         </div>
         <div style={{maxWidth: 250, minWidth: 140, marginRight: -50}}>
           <Image src={matelas} width={600} height={400}/>

@@ -15,7 +15,7 @@ const Footer = (props) => {
           <Row style={{maxWidth: 1280, margin: 'auto', height: 100}}>
             <Col>
             <Link href="/"><Image src={props.target==='pro' ?logoRed : logoBlack} alt="logo" width='188px' height='38px'/></Link>
-            <p style={{fontSize: 12, color: 'black', marginTop: 20, marginLeft: 0}}>2023 Classement.com © Kohdao Ltd.<br></br> 7 Clapham Park Terrace, SW2 5EA, UK</p>
+            <p style={{fontSize: 12, color: 'black', marginTop: 20, marginLeft: 0}}>2025 Classement.com © Kohdao Ltd.<br></br> 7 Clapham Park Terrace, SW2 5EA, UK</p>
             <p style={{fontSize: 12, color: 'black', marginTop: 20, marginLeft: 0}}>Registered in England & Wales: 06261702 <br></br>Data Protection Registration No: ZA891746</p>
             </Col>
             <Col id='notMobile'>

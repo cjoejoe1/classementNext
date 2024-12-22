@@ -35,14 +35,14 @@ const [values, setValues] = useState({
   return (
     <Layout page='home' target='part'>
       
-      <Seo title="Classements 2023 par email - Classement.com" description="Comparatif et classements de tous les produits"/>
+      <Seo title="Classements 2025 par email - Classement.com" description="Comparatif et classements de tous les produits"/>
       <Container style={{maxWidth: 1140, marginTop: 110}}>
 
       <div style={{ marginTop: 140}}>
        <div id='proBox'>
         <Row style={{}}>
           <Col sm={9}>
-          <h1 id='compareh1' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2023<span id="min992">*</span></h1>
+          <h1 id='compareh1' style={{textAlign: 'left', color: 'black', marginTop: 55}}>Tous les classements de 2025<span id="min992">*</span></h1>
           <p style={{fontSize: 20, color: 'black'}} id="min992">*Recevez chaque <span style={{fontWeight: 700}}>comparatif</span> directement <span style={{fontWeight: 700}}>par e-mail</span>.</p>
           <div style={{maxWidth: 600, marginTop: 20}}>
           <div id='formBlock' style={{display: 'flex'}}>
